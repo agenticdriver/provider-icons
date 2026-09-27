@@ -4,6 +4,15 @@ One maintained catalogue for AgenticDriver and UsageStat-Bar: 155 provider and
 product marks, 262 SVG files, monochrome and original colour, with explicit
 product alternatives. No runtime dependencies, remote requests or UI framework.
 
+Install the standalone alpha from its immutable GitHub release archive:
+
+```sh
+npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.1/agenticdriver-provider-icons-0.1.0-alpha.1.tgz
+```
+
+This installs only `@agenticdriver/provider-icons`, not AgenticDriver. The package
+is currently distributed through GitHub Releases; it is not yet on npm.
+
 ```js
 import {resolveProviderIcon} from '@agenticdriver/provider-icons';
 resolveProviderIcon('codex', {style: 'color', variant: 'chatgpt'});

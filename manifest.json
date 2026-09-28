@@ -1,5 +1,6 @@
 {
   "version": 1,
+  "packageVersion": "0.1.0-alpha.2",
   "icons": {
     "abacus": {
       "name": "Abacus",
@@ -8,12 +9,109 @@
         "abacus"
       ]
     },
+    "ace": {
+      "name": "ace",
+      "monochrome": "ace.svg",
+      "alternatives": [
+        "ace"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "ace-text.svg"
+        }
+      }
+    },
+    "adobe": {
+      "name": "Adobe",
+      "monochrome": "adobe.svg",
+      "alternatives": [
+        "adobe"
+      ],
+      "color": "adobe-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "adobe-text.svg"
+        }
+      }
+    },
+    "adobefirefly": {
+      "name": "AdobeFirefly",
+      "monochrome": "adobefirefly.svg",
+      "alternatives": [
+        "adobefirefly"
+      ],
+      "color": "adobefirefly-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "adobefirefly-text.svg"
+        }
+      }
+    },
+    "agentvoice": {
+      "name": "AgentVoice",
+      "monochrome": "agentvoice.svg",
+      "alternatives": [
+        "agentvoice"
+      ],
+      "color": "agentvoice-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "agentvoice-text.svg"
+        }
+      }
+    },
+    "agnesai": {
+      "name": "Agnes AI",
+      "monochrome": "agnesai.svg",
+      "alternatives": [
+        "agnesai"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "agnesai-text.svg"
+        }
+      }
+    },
+    "agui": {
+      "name": "AG-UI",
+      "monochrome": "agui.svg",
+      "alternatives": [
+        "agui"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "agui-text.svg"
+        }
+      }
+    },
+    "ai2": {
+      "name": "Ai2",
+      "monochrome": "ai2.svg",
+      "alternatives": [
+        "ai2"
+      ],
+      "color": "ai2-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "ai2-text.svg"
+        }
+      }
+    },
     "ai21": {
       "name": "AI21",
       "monochrome": "ai21.svg",
       "alternatives": [
         "ai21"
-      ]
+      ],
+      "artworks": {
+        "brand": {
+          "color": "ai21-brand-color.svg",
+          "monochrome": "ai21-brand.svg"
+        },
+        "text": {
+          "monochrome": "ai21-text.svg"
+        }
+      }
     },
     "ai302": {
       "name": "302.AI",
@@ -21,7 +119,12 @@
       "alternatives": [
         "ai302"
       ],
-      "color": "ai302-color.svg"
+      "color": "ai302-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "ai302-text.svg"
+        }
+      }
     },
     "ai360": {
       "name": "AI360",
@@ -29,7 +132,12 @@
       "alternatives": [
         "ai360"
       ],
-      "color": "ai360-color.svg"
+      "color": "ai360-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "ai360-text.svg"
+        }
+      }
     },
     "aihubmix": {
       "name": "AiHubMix",
@@ -37,7 +145,12 @@
       "alternatives": [
         "aihubmix"
       ],
-      "color": "aihubmix-color.svg"
+      "color": "aihubmix-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "aihubmix-text.svg"
+        }
+      }
     },
     "aimass": {
       "name": "AiMass",
@@ -45,14 +158,50 @@
       "alternatives": [
         "aimass"
       ],
-      "color": "aimass-color.svg"
+      "color": "aimass-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "aimass-text.svg"
+        }
+      }
+    },
+    "aionlabs": {
+      "name": "AionLabs",
+      "monochrome": "aionlabs.svg",
+      "alternatives": [
+        "aionlabs"
+      ],
+      "color": "aionlabs-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "aionlabs-text.svg"
+        }
+      }
+    },
+    "airjelly": {
+      "name": "AirJelly",
+      "monochrome": "airjelly.svg",
+      "alternatives": [
+        "airjelly"
+      ],
+      "color": "airjelly-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "airjelly-text.svg"
+        }
+      }
     },
     "aistudio": {
       "name": "Google AI Studio",
       "monochrome": "aistudio.svg",
       "alternatives": [
         "aistudio"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "aistudio-text.svg"
+        }
+      }
     },
     "akashchat": {
       "name": "AkashChat",
@@ -60,14 +209,24 @@
       "alternatives": [
         "akashchat"
       ],
-      "color": "akashchat-color.svg"
+      "color": "akashchat-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "akashchat-text.svg"
+        }
+      }
     },
     "alephalpha": {
       "name": "AlephAlpha",
       "monochrome": "alephalpha.svg",
       "alternatives": [
         "alephalpha"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "alephalpha-text.svg"
+        }
+      }
     },
     "alibaba": {
       "name": "Alibaba",
@@ -75,7 +234,19 @@
       "alternatives": [
         "alibaba"
       ],
-      "color": "alibaba-color.svg"
+      "color": "alibaba-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "alibaba-brand-color.svg",
+          "monochrome": "alibaba-brand.svg"
+        },
+        "text": {
+          "monochrome": "alibaba-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "alibaba-text-cn.svg"
+        }
+      }
     },
     "alibabacloud": {
       "name": "AlibabaCloud",
@@ -83,7 +254,28 @@
       "alternatives": [
         "alibabacloud"
       ],
-      "color": "alibabacloud-color.svg"
+      "color": "alibabacloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "alibabacloud-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "alibabacloud-text-cn.svg"
+        }
+      }
+    },
+    "amdradeoncloud": {
+      "name": "AMD Radeon Cloud",
+      "monochrome": "amdradeoncloud.svg",
+      "alternatives": [
+        "amdradeoncloud"
+      ],
+      "color": "amdradeoncloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "amdradeoncloud-text.svg"
+        }
+      }
     },
     "amp": {
       "name": "Amp",
@@ -91,7 +283,25 @@
       "alternatives": [
         "amp"
       ],
-      "color": "amp-color.svg"
+      "color": "amp-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "amp-text.svg"
+        }
+      }
+    },
+    "anspire": {
+      "name": "Anspire",
+      "monochrome": "anspire.svg",
+      "alternatives": [
+        "anspire"
+      ],
+      "color": "anspire-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "anspire-text.svg"
+        }
+      }
     },
     "antgroup": {
       "name": "AntGroup",
@@ -99,7 +309,19 @@
       "alternatives": [
         "antgroup"
       ],
-      "color": "antgroup-color.svg"
+      "color": "antgroup-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "antgroup-brand-color.svg",
+          "monochrome": "antgroup-brand.svg"
+        },
+        "text": {
+          "monochrome": "antgroup-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "antgroup-text-cn.svg"
+        }
+      }
     },
     "anthropic": {
       "name": "Anthropic",
@@ -108,7 +330,12 @@
         "anthropic",
         "claude",
         "claudecode"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "anthropic-text.svg"
+        }
+      }
     },
     "antigravity": {
       "name": "Antigravity",
@@ -116,7 +343,12 @@
       "alternatives": [
         "antigravity"
       ],
-      "color": "antigravity-color.svg"
+      "color": "antigravity-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "antigravity-text.svg"
+        }
+      }
     },
     "anyscale": {
       "name": "Anyscale",
@@ -124,21 +356,88 @@
       "alternatives": [
         "anyscale"
       ],
-      "color": "anyscale-color.svg"
+      "color": "anyscale-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "anyscale-text.svg"
+        }
+      }
+    },
+    "apertis": {
+      "name": "Apertis",
+      "monochrome": "apertis.svg",
+      "alternatives": [
+        "apertis"
+      ],
+      "color": "apertis-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "apertis-text.svg"
+        }
+      }
     },
     "apple": {
       "name": "Apple",
       "monochrome": "apple.svg",
       "alternatives": [
         "apple"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "apple-text.svg"
+        }
+      }
+    },
+    "arcee": {
+      "name": "Arcee",
+      "monochrome": "arcee.svg",
+      "alternatives": [
+        "arcee"
+      ],
+      "color": "arcee-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "arcee-text.svg"
+        }
+      }
+    },
+    "askverdict": {
+      "name": "AskVerdict",
+      "monochrome": "askverdict.svg",
+      "alternatives": [
+        "askverdict"
+      ],
+      "color": "askverdict-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "askverdict-text.svg"
+        }
+      }
+    },
+    "assemblyai": {
+      "name": "AssemblyAI",
+      "monochrome": "assemblyai.svg",
+      "alternatives": [
+        "assemblyai"
+      ],
+      "color": "assemblyai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "assemblyai-text.svg"
+        }
+      }
     },
     "atlascloud": {
       "name": "Atlas Cloud",
       "monochrome": "atlascloud.svg",
       "alternatives": [
         "atlascloud"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "atlascloud-text.svg"
+        }
+      }
     },
     "augment": {
       "name": "Augment",
@@ -147,13 +446,48 @@
         "augment"
       ]
     },
+    "automatic": {
+      "name": "Automatic",
+      "monochrome": "automatic.svg",
+      "alternatives": [
+        "automatic"
+      ],
+      "color": "automatic-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "automatic-text.svg"
+        }
+      }
+    },
     "aws": {
       "name": "AWS",
       "monochrome": "aws.svg",
       "alternatives": [
         "aws"
       ],
-      "color": "aws-color.svg"
+      "color": "aws-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "aws-brand-color.svg",
+          "monochrome": "aws-brand.svg"
+        },
+        "text": {
+          "monochrome": "aws-text.svg"
+        }
+      }
+    },
+    "aya": {
+      "name": "Aya",
+      "monochrome": "aya.svg",
+      "alternatives": [
+        "aya"
+      ],
+      "color": "aya-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "aya-text.svg"
+        }
+      }
     },
     "azure": {
       "name": "Azure",
@@ -161,7 +495,12 @@
       "alternatives": [
         "azure"
       ],
-      "color": "azure-color.svg"
+      "color": "azure-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "azure-text.svg"
+        }
+      }
     },
     "azureai": {
       "name": "AzureAI",
@@ -169,7 +508,24 @@
       "alternatives": [
         "azureai"
       ],
-      "color": "azureai-color.svg"
+      "color": "azureai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "azureai-text.svg"
+        }
+      }
+    },
+    "baai": {
+      "name": "BAAI",
+      "monochrome": "baai.svg",
+      "alternatives": [
+        "baai"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "baai-text.svg"
+        }
+      }
     },
     "baichuan": {
       "name": "Baichuan",
@@ -177,7 +533,12 @@
       "alternatives": [
         "baichuan"
       ],
-      "color": "baichuan-color.svg"
+      "color": "baichuan-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "baichuan-text.svg"
+        }
+      }
     },
     "baidu": {
       "name": "Baidu",
@@ -185,7 +546,19 @@
       "alternatives": [
         "baidu"
       ],
-      "color": "baidu-color.svg"
+      "color": "baidu-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "baidu-brand-color.svg",
+          "monochrome": "baidu-brand.svg"
+        },
+        "text": {
+          "monochrome": "baidu-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "baidu-text-cn.svg"
+        }
+      }
     },
     "baiducloud": {
       "name": "BaiduCloud",
@@ -193,7 +566,12 @@
       "alternatives": [
         "baiducloud"
       ],
-      "color": "baiducloud-color.svg"
+      "color": "baiducloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "baiducloud-text.svg"
+        }
+      }
     },
     "bailian": {
       "name": "BaiLian",
@@ -201,14 +579,24 @@
       "alternatives": [
         "bailian"
       ],
-      "color": "bailian-color.svg"
+      "color": "bailian-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "bailian-text.svg"
+        }
+      }
     },
     "baseten": {
       "name": "Baseten",
       "monochrome": "baseten.svg",
       "alternatives": [
         "baseten"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "baseten-text.svg"
+        }
+      }
     },
     "bedrock": {
       "name": "Bedrock",
@@ -216,14 +604,24 @@
       "alternatives": [
         "bedrock"
       ],
-      "color": "bedrock-color.svg"
+      "color": "bedrock-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "bedrock-text.svg"
+        }
+      }
     },
     "bfl": {
       "name": "Black Forest Labs",
       "monochrome": "bfl.svg",
       "alternatives": [
         "bfl"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "bfl-text.svg"
+        }
+      }
     },
     "bilibili": {
       "name": "bilibili",
@@ -231,7 +629,88 @@
       "alternatives": [
         "bilibili"
       ],
-      "color": "bilibili-color.svg"
+      "color": "bilibili-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "bilibili-text.svg"
+        }
+      }
+    },
+    "bilibiliindex": {
+      "name": "bilibili index",
+      "monochrome": "bilibiliindex.svg",
+      "alternatives": [
+        "bilibiliindex"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "bilibiliindex-text.svg"
+        }
+      }
+    },
+    "bing": {
+      "name": "Bing",
+      "monochrome": "bing.svg",
+      "alternatives": [
+        "bing"
+      ],
+      "color": "bing-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "bing-text.svg"
+        }
+      }
+    },
+    "bocha": {
+      "name": "Bocha",
+      "monochrome": "bocha.svg",
+      "alternatives": [
+        "bocha"
+      ],
+      "color": "bocha-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "bocha-text.svg"
+        }
+      }
+    },
+    "brave": {
+      "name": "Brave",
+      "monochrome": "brave.svg",
+      "alternatives": [
+        "brave"
+      ],
+      "color": "brave-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "brave-text.svg"
+        }
+      }
+    },
+    "briaai": {
+      "name": "BRIA AI",
+      "monochrome": "briaai.svg",
+      "alternatives": [
+        "briaai"
+      ],
+      "color": "briaai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "briaai-text.svg"
+        }
+      }
+    },
+    "browserless": {
+      "name": "Browserless",
+      "monochrome": "browserless.svg",
+      "alternatives": [
+        "browserless"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "browserless-text.svg"
+        }
+      }
     },
     "burncloud": {
       "name": "BurnCloud",
@@ -239,7 +718,12 @@
       "alternatives": [
         "burncloud"
       ],
-      "color": "burncloud-color.svg"
+      "color": "burncloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "burncloud-text.svg"
+        }
+      }
     },
     "bytedance": {
       "name": "ByteDance",
@@ -247,7 +731,44 @@
       "alternatives": [
         "bytedance"
       ],
-      "color": "bytedance-color.svg"
+      "color": "bytedance-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "bytedance-brand-color.svg",
+          "monochrome": "bytedance-brand.svg"
+        },
+        "text": {
+          "monochrome": "bytedance-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "bytedance-text-cn.svg"
+        }
+      }
+    },
+    "capcut": {
+      "name": "CapCut",
+      "monochrome": "capcut.svg",
+      "alternatives": [
+        "capcut"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "capcut-text.svg"
+        }
+      }
+    },
+    "celestoai": {
+      "name": "CelestoAI",
+      "monochrome": "celestoai.svg",
+      "alternatives": [
+        "celestoai"
+      ],
+      "color": "celestoai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "celestoai-text.svg"
+        }
+      }
     },
     "centml": {
       "name": "CentML",
@@ -255,7 +776,16 @@
       "alternatives": [
         "centml"
       ],
-      "color": "centml-color.svg"
+      "color": "centml-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "centml-brand-color.svg",
+          "monochrome": "centml-brand.svg"
+        },
+        "text": {
+          "monochrome": "centml-text.svg"
+        }
+      }
     },
     "cerebras": {
       "name": "Cerebras",
@@ -263,7 +793,54 @@
       "alternatives": [
         "cerebras"
       ],
-      "color": "cerebras-color.svg"
+      "color": "cerebras-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "cerebras-brand-color.svg",
+          "monochrome": "cerebras-brand.svg"
+        },
+        "text": {
+          "monochrome": "cerebras-text.svg"
+        }
+      }
+    },
+    "chatglm": {
+      "name": "ChatGLM",
+      "monochrome": "chatglm.svg",
+      "alternatives": [
+        "chatglm"
+      ],
+      "color": "chatglm-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "chatglm-text.svg"
+        }
+      }
+    },
+    "cherrystudio": {
+      "name": "CherryStudio",
+      "monochrome": "cherrystudio.svg",
+      "alternatives": [
+        "cherrystudio"
+      ],
+      "color": "cherrystudio-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "cherrystudio-text.svg"
+        }
+      }
+    },
+    "chutes": {
+      "name": "Chutes",
+      "monochrome": "chutes.svg",
+      "alternatives": [
+        "chutes"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "chutes-text.svg"
+        }
+      }
     },
     "civitai": {
       "name": "Civitai",
@@ -271,7 +848,13 @@
       "alternatives": [
         "civitai"
       ],
-      "color": "civitai-color.svg"
+      "color": "civitai-color.svg",
+      "artworks": {
+        "text": {
+          "color": "civitai-text-color.svg",
+          "monochrome": "civitai-text.svg"
+        }
+      }
     },
     "claude": {
       "name": "Claude",
@@ -281,7 +864,12 @@
         "claude",
         "claudecode"
       ],
-      "color": "claude-color.svg"
+      "color": "claude-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "claude-text.svg"
+        }
+      }
     },
     "claudecode": {
       "name": "Claude Code",
@@ -291,7 +879,36 @@
         "claude",
         "claudecode"
       ],
-      "color": "claudecode-color.svg"
+      "color": "claudecode-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "claudecode-text.svg"
+        }
+      }
+    },
+    "cline": {
+      "name": "Cline",
+      "monochrome": "cline.svg",
+      "alternatives": [
+        "cline"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "cline-text.svg"
+        }
+      }
+    },
+    "clipdrop": {
+      "name": "Clipdrop",
+      "monochrome": "clipdrop.svg",
+      "alternatives": [
+        "clipdrop"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "clipdrop-text.svg"
+        }
+      }
     },
     "cloudflare": {
       "name": "Cloudflare",
@@ -299,7 +916,25 @@
       "alternatives": [
         "cloudflare"
       ],
-      "color": "cloudflare-color.svg"
+      "color": "cloudflare-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "cloudflare-text.svg"
+        }
+      }
+    },
+    "codebuddy": {
+      "name": "CodeBuddy",
+      "monochrome": "codebuddy.svg",
+      "alternatives": [
+        "codebuddy"
+      ],
+      "color": "codebuddy-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "codebuddy-text.svg"
+        }
+      }
     },
     "codebuff": {
       "name": "Codebuff",
@@ -308,6 +943,32 @@
         "codebuff"
       ]
     },
+    "codeflicker": {
+      "name": "CodeFlicker",
+      "monochrome": "codeflicker.svg",
+      "alternatives": [
+        "codeflicker"
+      ],
+      "color": "codeflicker-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "codeflicker-text.svg"
+        }
+      }
+    },
+    "codegeex": {
+      "name": "CodeGeeX",
+      "monochrome": "codegeex.svg",
+      "alternatives": [
+        "codegeex"
+      ],
+      "color": "codegeex-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "codegeex-text.svg"
+        }
+      }
+    },
     "codex": {
       "name": "Codex",
       "monochrome": "codex.svg",
@@ -315,7 +976,38 @@
         "openai",
         "codex"
       ],
-      "color": "codex-color.svg"
+      "color": "codex-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "codex-text.svg"
+        }
+      }
+    },
+    "cogvideo": {
+      "name": "CogVideo",
+      "monochrome": "cogvideo.svg",
+      "alternatives": [
+        "cogvideo"
+      ],
+      "color": "cogvideo-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "cogvideo-text.svg"
+        }
+      }
+    },
+    "cogview": {
+      "name": "CogView",
+      "monochrome": "cogview.svg",
+      "alternatives": [
+        "cogview"
+      ],
+      "color": "cogview-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "cogview-text.svg"
+        }
+      }
     },
     "cohere": {
       "name": "Cohere",
@@ -323,7 +1015,25 @@
       "alternatives": [
         "cohere"
       ],
-      "color": "cohere-color.svg"
+      "color": "cohere-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "cohere-text.svg"
+        }
+      }
+    },
+    "colab": {
+      "name": "Colab",
+      "monochrome": "colab.svg",
+      "alternatives": [
+        "colab"
+      ],
+      "color": "colab-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "colab-text.svg"
+        }
+      }
     },
     "cometapi": {
       "name": "CometAPI",
@@ -331,7 +1041,12 @@
       "alternatives": [
         "cometapi"
       ],
-      "color": "cometapi-color.svg"
+      "color": "cometapi-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "cometapi-text.svg"
+        }
+      }
     },
     "comfyui": {
       "name": "ComfyUI",
@@ -339,14 +1054,37 @@
       "alternatives": [
         "comfyui"
       ],
-      "color": "comfyui-color.svg"
+      "color": "comfyui-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "comfyui-text.svg"
+        }
+      }
+    },
+    "commanda": {
+      "name": "CommandA",
+      "monochrome": "commanda.svg",
+      "alternatives": [
+        "commanda"
+      ],
+      "color": "commanda-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "commanda-text.svg"
+        }
+      }
     },
     "commandcode": {
-      "name": "Commandcode",
+      "name": "Command Code",
       "monochrome": "commandcode.svg",
       "alternatives": [
         "commandcode"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "commandcode-text.svg"
+        }
+      }
     },
     "copilot": {
       "name": "Copilot",
@@ -355,7 +1093,67 @@
         "copilot",
         "githubcopilot"
       ],
-      "color": "copilot-color.svg"
+      "color": "copilot-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "copilot-text.svg"
+        }
+      }
+    },
+    "copilotkit": {
+      "name": "CopilotKit",
+      "monochrome": "copilotkit.svg",
+      "alternatives": [
+        "copilotkit"
+      ],
+      "color": "copilotkit-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "copilotkit-text.svg"
+        }
+      }
+    },
+    "coqui": {
+      "name": "Coqui",
+      "monochrome": "coqui.svg",
+      "alternatives": [
+        "coqui"
+      ],
+      "color": "coqui-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "coqui-text.svg"
+        }
+      }
+    },
+    "coze": {
+      "name": "Coze",
+      "monochrome": "coze.svg",
+      "alternatives": [
+        "coze"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "coze-text.svg"
+        }
+      }
+    },
+    "crewai": {
+      "name": "CrewAI",
+      "monochrome": "crewai.svg",
+      "alternatives": [
+        "crewai"
+      ],
+      "color": "crewai-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "crewai-brand-color.svg",
+          "monochrome": "crewai-brand.svg"
+        },
+        "text": {
+          "monochrome": "crewai-text.svg"
+        }
+      }
     },
     "crof": {
       "name": "Crof",
@@ -370,14 +1168,104 @@
       "alternatives": [
         "crusoe"
       ],
-      "color": "crusoe-color.svg"
+      "color": "crusoe-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "crusoe-text.svg"
+        }
+      }
     },
     "cursor": {
       "name": "Cursor",
       "monochrome": "cursor.svg",
       "alternatives": [
         "cursor"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "cursor-text.svg"
+        }
+      }
+    },
+    "cybercut": {
+      "name": "CyberCut",
+      "monochrome": "cybercut.svg",
+      "alternatives": [
+        "cybercut"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "cybercut-text.svg"
+        }
+      }
+    },
+    "dalle": {
+      "name": "DALL-E",
+      "monochrome": "dalle.svg",
+      "alternatives": [
+        "dalle"
+      ],
+      "color": "dalle-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "dalle-text.svg"
+        }
+      }
+    },
+    "dbrx": {
+      "name": "DBRX",
+      "monochrome": "dbrx.svg",
+      "alternatives": [
+        "dbrx"
+      ],
+      "color": "dbrx-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "dbrx-brand-color.svg",
+          "monochrome": "dbrx-brand.svg"
+        },
+        "text": {
+          "monochrome": "dbrx-text.svg"
+        }
+      }
+    },
+    "decart": {
+      "name": "Decart",
+      "monochrome": "decart.svg",
+      "alternatives": [
+        "decart"
+      ],
+      "color": "decart-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "decart-text.svg"
+        }
+      }
+    },
+    "deepai": {
+      "name": "DeepAI",
+      "monochrome": "deepai.svg",
+      "alternatives": [
+        "deepai"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "deepai-text.svg"
+        }
+      }
+    },
+    "deepcogito": {
+      "name": "Deep Cogito",
+      "monochrome": "deepcogito.svg",
+      "alternatives": [
+        "deepcogito"
+      ],
+      "color": "deepcogito-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "deepcogito-text.svg"
+        }
+      }
     },
     "deepinfra": {
       "name": "DeepInfra",
@@ -385,7 +1273,25 @@
       "alternatives": [
         "deepinfra"
       ],
-      "color": "deepinfra-color.svg"
+      "color": "deepinfra-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "deepinfra-text.svg"
+        }
+      }
+    },
+    "deepl": {
+      "name": "DeepL",
+      "monochrome": "deepl.svg",
+      "alternatives": [
+        "deepl"
+      ],
+      "color": "deepl-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "deepl-text.svg"
+        }
+      }
     },
     "deepmind": {
       "name": "DeepMind",
@@ -393,7 +1299,12 @@
       "alternatives": [
         "deepmind"
       ],
-      "color": "deepmind-color.svg"
+      "color": "deepmind-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "deepmind-text.svg"
+        }
+      }
     },
     "deepseek": {
       "name": "DeepSeek",
@@ -401,7 +1312,100 @@
       "alternatives": [
         "deepseek"
       ],
-      "color": "deepseek-color.svg"
+      "color": "deepseek-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "deepseek-text.svg"
+        }
+      }
+    },
+    "devin": {
+      "name": "Devin",
+      "monochrome": "devin.svg",
+      "alternatives": [
+        "devin"
+      ],
+      "color": "devin-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "devin-text.svg"
+        }
+      }
+    },
+    "dify": {
+      "name": "Dify",
+      "monochrome": "dify.svg",
+      "alternatives": [
+        "dify"
+      ],
+      "color": "dify-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "dify-text.svg"
+        }
+      }
+    },
+    "digitalocean": {
+      "name": "DigitalOcean",
+      "monochrome": "digitalocean.svg",
+      "alternatives": [
+        "digitalocean"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "digitalocean-text.svg"
+        }
+      }
+    },
+    "doc2x": {
+      "name": "Doc2X",
+      "monochrome": "doc2x.svg",
+      "alternatives": [
+        "doc2x"
+      ],
+      "color": "doc2x-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "doc2x-text.svg"
+        }
+      }
+    },
+    "docsearch": {
+      "name": "DocSearch",
+      "monochrome": "docsearch.svg",
+      "alternatives": [
+        "docsearch"
+      ],
+      "color": "docsearch-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "docsearch-text.svg"
+        }
+      }
+    },
+    "dolphin": {
+      "name": "Dolphin",
+      "monochrome": "dolphin.svg",
+      "alternatives": [
+        "dolphin"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "dolphin-text.svg"
+        }
+      }
+    },
+    "dotsstudio": {
+      "name": "Dots Studio",
+      "monochrome": "dotsstudio.svg",
+      "alternatives": [
+        "dotsstudio"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "dotsstudio-text.svg"
+        }
+      }
     },
     "doubao": {
       "name": "Doubao",
@@ -409,14 +1413,61 @@
       "alternatives": [
         "doubao"
       ],
-      "color": "doubao-color.svg"
+      "color": "doubao-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "doubao-text.svg"
+        }
+      }
+    },
+    "dreammachine": {
+      "name": "DreamMachine",
+      "monochrome": "dreammachine.svg",
+      "alternatives": [
+        "dreammachine"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "dreammachine-text.svg"
+        }
+      }
     },
     "elevenlabs": {
-      "name": "Elevenlabs",
+      "name": "ElevenLabs",
       "monochrome": "elevenlabs.svg",
       "alternatives": [
         "elevenlabs"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "elevenlabs-text.svg"
+        }
+      }
+    },
+    "elevenx": {
+      "name": "11x",
+      "monochrome": "elevenx.svg",
+      "alternatives": [
+        "elevenx"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "elevenx-text.svg"
+        }
+      }
+    },
+    "essentialai": {
+      "name": "Essential AI",
+      "monochrome": "essentialai.svg",
+      "alternatives": [
+        "essentialai"
+      ],
+      "color": "essentialai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "essentialai-text.svg"
+        }
+      }
     },
     "exa": {
       "name": "Exa",
@@ -424,7 +1475,12 @@
       "alternatives": [
         "exa"
       ],
-      "color": "exa-color.svg"
+      "color": "exa-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "exa-text.svg"
+        }
+      }
     },
     "factory": {
       "name": "Factory",
@@ -439,7 +1495,25 @@
       "alternatives": [
         "fal"
       ],
-      "color": "fal-color.svg"
+      "color": "fal-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "fal-text.svg"
+        }
+      }
+    },
+    "fastgpt": {
+      "name": "FastGPT",
+      "monochrome": "fastgpt.svg",
+      "alternatives": [
+        "fastgpt"
+      ],
+      "color": "fastgpt-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "fastgpt-text.svg"
+        }
+      }
     },
     "featherless": {
       "name": "featherless.ai",
@@ -447,7 +1521,38 @@
       "alternatives": [
         "featherless"
       ],
-      "color": "featherless-color.svg"
+      "color": "featherless-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "featherless-text.svg"
+        }
+      }
+    },
+    "figma": {
+      "name": "Figma",
+      "monochrome": "figma.svg",
+      "alternatives": [
+        "figma"
+      ],
+      "color": "figma-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "figma-text.svg"
+        }
+      }
+    },
+    "firecrawl": {
+      "name": "Firecrawl",
+      "monochrome": "firecrawl.svg",
+      "alternatives": [
+        "firecrawl"
+      ],
+      "color": "firecrawl-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "firecrawl-text.svg"
+        }
+      }
     },
     "fireworks": {
       "name": "Fireworks",
@@ -455,14 +1560,72 @@
       "alternatives": [
         "fireworks"
       ],
-      "color": "fireworks-color.svg"
+      "color": "fireworks-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "fireworks-text.svg"
+        }
+      }
+    },
+    "fishaudio": {
+      "name": "FishAudio",
+      "monochrome": "fishaudio.svg",
+      "alternatives": [
+        "fishaudio"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "fishaudio-text.svg"
+        }
+      }
+    },
+    "flora": {
+      "name": "Flora",
+      "monochrome": "flora.svg",
+      "alternatives": [
+        "flora"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "flora-text.svg"
+        }
+      }
+    },
+    "flowith": {
+      "name": "Flowith",
+      "monochrome": "flowith.svg",
+      "alternatives": [
+        "flowith"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "flowith-text.svg"
+        }
+      }
+    },
+    "flux": {
+      "name": "Flux",
+      "monochrome": "flux.svg",
+      "alternatives": [
+        "flux"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "flux-text.svg"
+        }
+      }
     },
     "friendli": {
       "name": "Friendli",
       "monochrome": "friendli.svg",
       "alternatives": [
         "friendli"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "friendli-text.svg"
+        }
+      }
     },
     "gemini": {
       "name": "Gemini",
@@ -470,21 +1633,62 @@
       "alternatives": [
         "gemini"
       ],
-      "color": "gemini-color.svg"
+      "color": "gemini-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "gemini-text.svg"
+        }
+      }
+    },
+    "geminicli": {
+      "name": "Gemini CLI",
+      "monochrome": "geminicli.svg",
+      "alternatives": [
+        "geminicli"
+      ],
+      "color": "geminicli-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "geminicli-text.svg"
+        }
+      }
+    },
+    "gemma": {
+      "name": "Gemma",
+      "monochrome": "gemma.svg",
+      "alternatives": [
+        "gemma"
+      ],
+      "color": "gemma-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "gemma-text.svg"
+        }
+      }
     },
     "giteeai": {
       "name": "GiteeAI",
       "monochrome": "giteeai.svg",
       "alternatives": [
         "giteeai"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "giteeai-text.svg"
+        }
+      }
     },
     "github": {
       "name": "Github",
       "monochrome": "github.svg",
       "alternatives": [
         "github"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "github-text.svg"
+        }
+      }
     },
     "githubcopilot": {
       "name": "GithubCopilot",
@@ -492,7 +1696,61 @@
       "alternatives": [
         "copilot",
         "githubcopilot"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "githubcopilot-text.svg"
+        }
+      }
+    },
+    "glama": {
+      "name": "Glama",
+      "monochrome": "glama.svg",
+      "alternatives": [
+        "glama"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "glama-text.svg"
+        }
+      }
+    },
+    "glif": {
+      "name": "Glif",
+      "monochrome": "glif.svg",
+      "alternatives": [
+        "glif"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "glif-text.svg"
+        }
+      }
+    },
+    "glmv": {
+      "name": "GLM-V",
+      "monochrome": "glmv.svg",
+      "alternatives": [
+        "glmv"
+      ],
+      "color": "glmv-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "glmv-text.svg"
+        }
+      }
+    },
+    "gmicloud": {
+      "name": "GmiCloud",
+      "monochrome": "gmicloud.svg",
+      "alternatives": [
+        "gmicloud"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "gmicloud-text.svg"
+        }
+      }
     },
     "google": {
       "name": "Google",
@@ -500,7 +1758,13 @@
       "alternatives": [
         "google"
       ],
-      "color": "google-color.svg"
+      "color": "google-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "google-brand-color.svg",
+          "monochrome": "google-brand.svg"
+        }
+      }
     },
     "googlecloud": {
       "name": "GoogleCloud",
@@ -508,14 +1772,137 @@
       "alternatives": [
         "googlecloud"
       ],
-      "color": "googlecloud-color.svg"
+      "color": "googlecloud-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "googlecloud-brand-color.svg",
+          "monochrome": "googlecloud-brand.svg"
+        }
+      }
+    },
+    "goose": {
+      "name": "Goose",
+      "monochrome": "goose.svg",
+      "alternatives": [
+        "goose"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "goose-text.svg"
+        }
+      }
+    },
+    "gradio": {
+      "name": "Gradio",
+      "monochrome": "gradio.svg",
+      "alternatives": [
+        "gradio"
+      ],
+      "color": "gradio-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "gradio-text.svg"
+        }
+      }
+    },
+    "greptile": {
+      "name": "Greptile",
+      "monochrome": "greptile.svg",
+      "alternatives": [
+        "greptile"
+      ],
+      "color": "greptile-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "greptile-text.svg"
+        }
+      }
+    },
+    "grok": {
+      "name": "Grok",
+      "monochrome": "grok.svg",
+      "alternatives": [
+        "xai",
+        "grok"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "grok-text.svg"
+        }
+      }
     },
     "groq": {
       "name": "Groq",
       "monochrome": "groq.svg",
       "alternatives": [
         "groq"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "groq-text.svg"
+        }
+      }
+    },
+    "hailuo": {
+      "name": "Hailuo",
+      "monochrome": "hailuo.svg",
+      "alternatives": [
+        "hailuo"
+      ],
+      "color": "hailuo-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "hailuo-text.svg"
+        }
+      }
+    },
+    "haiper": {
+      "name": "Haiper",
+      "monochrome": "haiper.svg",
+      "alternatives": [
+        "haiper"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "haiper-text.svg"
+        }
+      }
+    },
+    "happyhorse": {
+      "name": "Hedra",
+      "monochrome": "happyhorse.svg",
+      "alternatives": [
+        "happyhorse"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "happyhorse-text.svg"
+        }
+      }
+    },
+    "hedra": {
+      "name": "Hedra",
+      "monochrome": "hedra.svg",
+      "alternatives": [
+        "hedra"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "hedra-text.svg"
+        }
+      }
+    },
+    "hermesagent": {
+      "name": "Hermes Agent",
+      "monochrome": "hermesagent.svg",
+      "alternatives": [
+        "hermesagent"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "hermesagent-text.svg"
+        }
+      }
     },
     "higress": {
       "name": "Higress",
@@ -523,7 +1910,12 @@
       "alternatives": [
         "higress"
       ],
-      "color": "higress-color.svg"
+      "color": "higress-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "higress-text.svg"
+        }
+      }
     },
     "huawei": {
       "name": "Huawei",
@@ -531,7 +1923,15 @@
       "alternatives": [
         "huawei"
       ],
-      "color": "huawei-color.svg"
+      "color": "huawei-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "huawei-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "huawei-text-cn.svg"
+        }
+      }
     },
     "huaweicloud": {
       "name": "HuaweiCloud",
@@ -539,7 +1939,15 @@
       "alternatives": [
         "huaweicloud"
       ],
-      "color": "huaweicloud-color.svg"
+      "color": "huaweicloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "huaweicloud-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "huaweicloud-text-cn.svg"
+        }
+      }
     },
     "huggingface": {
       "name": "HuggingFace",
@@ -547,7 +1955,12 @@
       "alternatives": [
         "huggingface"
       ],
-      "color": "huggingface-color.svg"
+      "color": "huggingface-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "huggingface-text.svg"
+        }
+      }
     },
     "hunyuan": {
       "name": "Hunyuan",
@@ -555,7 +1968,12 @@
       "alternatives": [
         "hunyuan"
       ],
-      "color": "hunyuan-color.svg"
+      "color": "hunyuan-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "hunyuan-text.svg"
+        }
+      }
     },
     "hyperbolic": {
       "name": "Hyperbolic",
@@ -563,14 +1981,36 @@
       "alternatives": [
         "hyperbolic"
       ],
-      "color": "hyperbolic-color.svg"
+      "color": "hyperbolic-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "hyperbolic-text.svg"
+        }
+      }
     },
     "ibm": {
       "name": "IBM",
       "monochrome": "ibm.svg",
       "alternatives": [
         "ibm"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "ibm-text.svg"
+        }
+      }
+    },
+    "ideogram": {
+      "name": "Ideogram",
+      "monochrome": "ideogram.svg",
+      "alternatives": [
+        "ideogram"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "ideogram-text.svg"
+        }
+      }
     },
     "iflytekcloud": {
       "name": "iFlyTekCloud",
@@ -578,14 +2018,49 @@
       "alternatives": [
         "iflytekcloud"
       ],
-      "color": "iflytekcloud-color.svg"
+      "color": "iflytekcloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "iflytekcloud-text.svg"
+        }
+      }
+    },
+    "inception": {
+      "name": "Inception",
+      "monochrome": "inception.svg",
+      "alternatives": [
+        "inception"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "inception-text.svg"
+        }
+      }
+    },
+    "inceptron": {
+      "name": "Inceptron",
+      "monochrome": "inceptron.svg",
+      "alternatives": [
+        "inceptron"
+      ],
+      "color": "inceptron-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "inceptron-text.svg"
+        }
+      }
     },
     "inference": {
       "name": "Inference",
       "monochrome": "inference.svg",
       "alternatives": [
         "inference"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "inference-text.svg"
+        }
+      }
     },
     "infermatic": {
       "name": "Infermatic",
@@ -593,7 +2068,12 @@
       "alternatives": [
         "infermatic"
       ],
-      "color": "infermatic-color.svg"
+      "color": "infermatic-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "infermatic-text.svg"
+        }
+      }
     },
     "infinigence": {
       "name": "Infinigence",
@@ -601,7 +2081,27 @@
       "alternatives": [
         "infinigence"
       ],
-      "color": "infinigence-color.svg"
+      "color": "infinigence-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "infinigence-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "infinigence-text-cn.svg"
+        }
+      }
+    },
+    "inflection": {
+      "name": "Inflection",
+      "monochrome": "inflection.svg",
+      "alternatives": [
+        "inflection"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "inflection-text.svg"
+        }
+      }
     },
     "internlm": {
       "name": "InternLM",
@@ -609,7 +2109,24 @@
       "alternatives": [
         "internlm"
       ],
-      "color": "internlm-color.svg"
+      "color": "internlm-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "internlm-text.svg"
+        }
+      }
+    },
+    "ionet": {
+      "name": "IoNet",
+      "monochrome": "ionet.svg",
+      "alternatives": [
+        "ionet"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "ionet-text.svg"
+        }
+      }
     },
     "jetbrains-ai-assistant": {
       "name": "Jetbrains Ai Assistant",
@@ -619,12 +2136,55 @@
       ],
       "color": "jetbrains-ai-assistant-color.svg"
     },
+    "jimeng": {
+      "name": "Jimeng",
+      "monochrome": "jimeng.svg",
+      "alternatives": [
+        "jimeng"
+      ],
+      "color": "jimeng-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "jimeng-text.svg"
+        }
+      }
+    },
     "jina": {
       "name": "Jina",
       "monochrome": "jina.svg",
       "alternatives": [
         "jina"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "jina-text.svg"
+        }
+      }
+    },
+    "junie": {
+      "name": "Junie",
+      "monochrome": "junie.svg",
+      "alternatives": [
+        "junie"
+      ],
+      "color": "junie-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "junie-text.svg"
+        }
+      }
+    },
+    "kagi": {
+      "name": "Kagi",
+      "monochrome": "kagi.svg",
+      "alternatives": [
+        "kagi"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "kagi-text.svg"
+        }
+      }
     },
     "kilo": {
       "name": "Kilo Code",
@@ -633,13 +2193,30 @@
         "kilo"
       ]
     },
+    "kilocode": {
+      "name": "Kilo Code",
+      "monochrome": "kilocode.svg",
+      "alternatives": [
+        "kilocode"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "kilocode-text.svg"
+        }
+      }
+    },
     "kimi": {
       "name": "Kimi",
       "monochrome": "kimi.svg",
       "alternatives": [
         "kimi"
       ],
-      "color": "kimi-color.svg"
+      "color": "kimi-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "kimi-text.svg"
+        }
+      }
     },
     "kiro": {
       "name": "Kiro",
@@ -647,7 +2224,25 @@
       "alternatives": [
         "kiro"
       ],
-      "color": "kiro-color.svg"
+      "color": "kiro-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "kiro-text.svg"
+        }
+      }
+    },
+    "kling": {
+      "name": "Kling",
+      "monochrome": "kling.svg",
+      "alternatives": [
+        "kling"
+      ],
+      "color": "kling-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "kling-text.svg"
+        }
+      }
     },
     "kluster": {
       "name": "Kluster",
@@ -655,14 +2250,127 @@
       "alternatives": [
         "kluster"
       ],
-      "color": "kluster-color.svg"
+      "color": "kluster-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "kluster-text.svg"
+        }
+      }
+    },
+    "kolors": {
+      "name": "Kolors",
+      "monochrome": "kolors.svg",
+      "alternatives": [
+        "kolors"
+      ],
+      "color": "kolors-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "kolors-text.svg"
+        }
+      }
+    },
+    "krea": {
+      "name": "Krea",
+      "monochrome": "krea.svg",
+      "alternatives": [
+        "krea"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "krea-text.svg"
+        }
+      }
+    },
+    "kwaikat": {
+      "name": "KwaiKAT",
+      "monochrome": "kwaikat.svg",
+      "alternatives": [
+        "kwaikat"
+      ],
+      "artworks": {
+        "text": {
+          "color": "kwaikat-text-color.svg",
+          "monochrome": "kwaikat-text.svg"
+        }
+      }
+    },
+    "kwaipilot": {
+      "name": "Kwaipilot",
+      "monochrome": "kwaipilot.svg",
+      "alternatives": [
+        "kwaipilot"
+      ],
+      "color": "kwaipilot-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "kwaipilot-text.svg"
+        }
+      }
     },
     "lambda": {
       "name": "Lambda",
       "monochrome": "lambda.svg",
       "alternatives": [
         "lambda"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "lambda-text.svg"
+        }
+      }
+    },
+    "langchain": {
+      "name": "LangChain",
+      "monochrome": "langchain.svg",
+      "alternatives": [
+        "langchain"
+      ],
+      "color": "langchain-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "langchain-text.svg"
+        }
+      }
+    },
+    "langfuse": {
+      "name": "Langfuse",
+      "monochrome": "langfuse.svg",
+      "alternatives": [
+        "langfuse"
+      ],
+      "color": "langfuse-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "langfuse-text.svg"
+        }
+      }
+    },
+    "langgraph": {
+      "name": "LangGraph",
+      "monochrome": "langgraph.svg",
+      "alternatives": [
+        "langgraph"
+      ],
+      "color": "langgraph-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "langgraph-text.svg"
+        }
+      }
+    },
+    "langsmith": {
+      "name": "LangSmith",
+      "monochrome": "langsmith.svg",
+      "alternatives": [
+        "langsmith"
+      ],
+      "color": "langsmith-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "langsmith-text.svg"
+        }
+      }
     },
     "leptonai": {
       "name": "LeptonAI",
@@ -670,7 +2378,12 @@
       "alternatives": [
         "leptonai"
       ],
-      "color": "leptonai-color.svg"
+      "color": "leptonai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "leptonai-text.svg"
+        }
+      }
     },
     "lg": {
       "name": "LG AI",
@@ -678,14 +2391,100 @@
       "alternatives": [
         "lg"
       ],
-      "color": "lg-color.svg"
+      "color": "lg-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "lg-text.svg"
+        }
+      }
+    },
+    "lightricks": {
+      "name": "Lightricks",
+      "monochrome": "lightricks.svg",
+      "alternatives": [
+        "lightricks"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "lightricks-text.svg"
+        }
+      }
+    },
+    "liquid": {
+      "name": "Liquid",
+      "monochrome": "liquid.svg",
+      "alternatives": [
+        "liquid"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "liquid-text.svg"
+        }
+      }
+    },
+    "livekit": {
+      "name": "LiveKit",
+      "monochrome": "livekit.svg",
+      "alternatives": [
+        "livekit"
+      ],
+      "color": "livekit-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "livekit-text.svg"
+        }
+      }
+    },
+    "llamaindex": {
+      "name": "LlamaIndex",
+      "monochrome": "llamaindex.svg",
+      "alternatives": [
+        "llamaindex"
+      ],
+      "color": "llamaindex-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "llamaindex-text.svg"
+        }
+      }
+    },
+    "llava": {
+      "name": "LLaVA",
+      "monochrome": "llava.svg",
+      "alternatives": [
+        "llava"
+      ],
+      "color": "llava-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "llava-text.svg"
+        }
+      }
+    },
+    "llmapi": {
+      "name": "LLM API",
+      "monochrome": "llmapi.svg",
+      "alternatives": [
+        "llmapi"
+      ],
+      "color": "llmapi-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "llmapi-text.svg"
+        }
+      }
     },
     "lmstudio": {
       "name": "LM Studio",
       "monochrome": "lmstudio.svg",
       "alternatives": [
         "lmstudio"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "lmstudio-text.svg"
+        }
+      }
     },
     "lobehub": {
       "name": "LobeHub",
@@ -693,7 +2492,12 @@
       "alternatives": [
         "lobehub"
       ],
-      "color": "lobehub-color.svg"
+      "color": "lobehub-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "lobehub-text.svg"
+        }
+      }
     },
     "longcat": {
       "name": "LongCat",
@@ -701,14 +2505,124 @@
       "alternatives": [
         "longcat"
       ],
-      "color": "longcat-color.svg"
+      "color": "longcat-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "longcat-text.svg"
+        }
+      }
+    },
+    "lovable": {
+      "name": "Lovable",
+      "monochrome": "lovable.svg",
+      "alternatives": [
+        "lovable"
+      ],
+      "color": "lovable-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "lovable-text.svg"
+        }
+      }
+    },
+    "lovart": {
+      "name": "Lovart",
+      "monochrome": "lovart.svg",
+      "alternatives": [
+        "lovart"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "lovart-text.svg"
+        }
+      }
+    },
+    "luma": {
+      "name": "Luma",
+      "monochrome": "luma.svg",
+      "alternatives": [
+        "luma"
+      ],
+      "color": "luma-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "luma-text.svg"
+        }
+      }
+    },
+    "magic": {
+      "name": "Magic",
+      "monochrome": "magic.svg",
+      "alternatives": [
+        "magic"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "magic-text.svg"
+        }
+      }
+    },
+    "make": {
+      "name": "Make",
+      "monochrome": "make.svg",
+      "alternatives": [
+        "make"
+      ],
+      "color": "make-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "make-text.svg"
+        }
+      }
     },
     "manus": {
       "name": "Manus",
       "monochrome": "manus.svg",
       "alternatives": [
         "manus"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "manus-text.svg"
+        }
+      }
+    },
+    "mastra": {
+      "name": "Mastra",
+      "monochrome": "mastra.svg",
+      "alternatives": [
+        "mastra"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "mastra-text.svg"
+        }
+      }
+    },
+    "mcp": {
+      "name": "ModelContextProtocol",
+      "monochrome": "mcp.svg",
+      "alternatives": [
+        "mcp"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "mcp-text.svg"
+        }
+      }
+    },
+    "mcpso": {
+      "name": "MCP.so",
+      "monochrome": "mcpso.svg",
+      "alternatives": [
+        "mcpso"
+      ],
+      "color": "mcpso-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "mcpso-text.svg"
+        }
+      }
     },
     "menlo": {
       "name": "MENLO",
@@ -716,7 +2630,25 @@
       "alternatives": [
         "menlo"
       ],
-      "color": "menlo-color.svg"
+      "color": "menlo-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "menlo-text.svg"
+        }
+      }
+    },
+    "meshy": {
+      "name": "Meshy",
+      "monochrome": "meshy.svg",
+      "alternatives": [
+        "meshy"
+      ],
+      "color": "meshy-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "meshy-text.svg"
+        }
+      }
     },
     "meta": {
       "name": "Meta",
@@ -724,7 +2656,41 @@
       "alternatives": [
         "meta"
       ],
-      "color": "meta-color.svg"
+      "color": "meta-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "meta-brand-color.svg",
+          "monochrome": "meta-brand.svg"
+        },
+        "text": {
+          "monochrome": "meta-text.svg"
+        }
+      }
+    },
+    "metaai": {
+      "name": "MetaAI",
+      "monochrome": "metaai.svg",
+      "alternatives": [
+        "metaai"
+      ],
+      "color": "metaai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "metaai-text.svg"
+        }
+      }
+    },
+    "metagpt": {
+      "name": "MetaGPT",
+      "monochrome": "metagpt.svg",
+      "alternatives": [
+        "metagpt"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "metagpt-text.svg"
+        }
+      }
     },
     "microsoft": {
       "name": "Azure",
@@ -732,7 +2698,24 @@
       "alternatives": [
         "microsoft"
       ],
-      "color": "microsoft-color.svg"
+      "color": "microsoft-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "microsoft-text.svg"
+        }
+      }
+    },
+    "midjourney": {
+      "name": "Midjourney",
+      "monochrome": "midjourney.svg",
+      "alternatives": [
+        "midjourney"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "midjourney-text.svg"
+        }
+      }
     },
     "mimo": {
       "name": "Mimo",
@@ -747,7 +2730,12 @@
       "alternatives": [
         "minimax"
       ],
-      "color": "minimax-color.svg"
+      "color": "minimax-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "minimax-text.svg"
+        }
+      }
     },
     "mistral": {
       "name": "Mistral",
@@ -755,7 +2743,12 @@
       "alternatives": [
         "mistral"
       ],
-      "color": "mistral-color.svg"
+      "color": "mistral-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "mistral-text.svg"
+        }
+      }
     },
     "modelscope": {
       "name": "ModelScope",
@@ -763,14 +2756,102 @@
       "alternatives": [
         "modelscope"
       ],
-      "color": "modelscope-color.svg"
+      "color": "modelscope-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "modelscope-text.svg"
+        }
+      }
+    },
+    "monica": {
+      "name": "Monica",
+      "monochrome": "monica.svg",
+      "alternatives": [
+        "monica"
+      ],
+      "color": "monica-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "monica-text.svg"
+        }
+      }
     },
     "moonshot": {
       "name": "MoonshotAI",
       "monochrome": "moonshot.svg",
       "alternatives": [
         "moonshot"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "moonshot-text.svg"
+        }
+      }
+    },
+    "morph": {
+      "name": "Morph",
+      "monochrome": "morph.svg",
+      "alternatives": [
+        "morph"
+      ],
+      "color": "morph-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "morph-text.svg"
+        }
+      }
+    },
+    "moxt": {
+      "name": "Moxt",
+      "monochrome": "moxt.svg",
+      "alternatives": [
+        "moxt"
+      ],
+      "color": "moxt-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "moxt-text.svg"
+        }
+      }
+    },
+    "myshell": {
+      "name": "MyShell",
+      "monochrome": "myshell.svg",
+      "alternatives": [
+        "myshell"
+      ],
+      "color": "myshell-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "myshell-text.svg"
+        }
+      }
+    },
+    "n8n": {
+      "name": "n8n",
+      "monochrome": "n8n.svg",
+      "alternatives": [
+        "n8n"
+      ],
+      "color": "n8n-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "n8n-text.svg"
+        }
+      }
+    },
+    "nanobanana": {
+      "name": "NanoBanana",
+      "monochrome": "nanobanana.svg",
+      "alternatives": [
+        "nanobanana"
+      ],
+      "color": "nanobanana-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "nanobanana-text.svg"
+        }
+      }
     },
     "nanogpt": {
       "name": "Nanogpt",
@@ -785,7 +2866,12 @@
       "monochrome": "nebius.svg",
       "alternatives": [
         "nebius"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "nebius-text.svg"
+        }
+      }
     },
     "newapi": {
       "name": "New API",
@@ -793,14 +2879,86 @@
       "alternatives": [
         "newapi"
       ],
-      "color": "newapi-color.svg"
+      "color": "newapi-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "newapi-text.svg"
+        }
+      }
+    },
+    "nextbit": {
+      "name": "Nextbit",
+      "monochrome": "nextbit.svg",
+      "alternatives": [
+        "nextbit"
+      ],
+      "color": "nextbit-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "nextbit-text.svg"
+        }
+      }
+    },
+    "notebooklm": {
+      "name": "NotebookLM",
+      "monochrome": "notebooklm.svg",
+      "alternatives": [
+        "notebooklm"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "notebooklm-text.svg"
+        }
+      }
+    },
+    "notion": {
+      "name": "Notion",
+      "monochrome": "notion.svg",
+      "alternatives": [
+        "notion"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "notion-text.svg"
+        }
+      }
     },
     "nousresearch": {
       "name": "NousResearch",
       "monochrome": "nousresearch.svg",
       "alternatives": [
         "nousresearch"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "nousresearch-text.svg"
+        }
+      }
+    },
+    "nova": {
+      "name": "Nova",
+      "monochrome": "nova.svg",
+      "alternatives": [
+        "nova"
+      ],
+      "color": "nova-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "nova-text.svg"
+        }
+      }
+    },
+    "novelai": {
+      "name": "NovelAI",
+      "monochrome": "novelai.svg",
+      "alternatives": [
+        "novelai"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "novelai-text.svg"
+        }
+      }
     },
     "novita": {
       "name": "Novita AI",
@@ -808,7 +2966,12 @@
       "alternatives": [
         "novita"
       ],
-      "color": "novita-color.svg"
+      "color": "novita-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "novita-text.svg"
+        }
+      }
     },
     "nplcloud": {
       "name": "NPLCloud",
@@ -816,7 +2979,12 @@
       "alternatives": [
         "nplcloud"
       ],
-      "color": "nplcloud-color.svg"
+      "color": "nplcloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "nplcloud-text.svg"
+        }
+      }
     },
     "nvidia": {
       "name": "Nvidia",
@@ -824,14 +2992,37 @@
       "alternatives": [
         "nvidia"
       ],
-      "color": "nvidia-color.svg"
+      "color": "nvidia-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "nvidia-text.svg"
+        }
+      }
+    },
+    "obsidian": {
+      "name": "Obsidian",
+      "monochrome": "obsidian.svg",
+      "alternatives": [
+        "obsidian"
+      ],
+      "color": "obsidian-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "obsidian-text.svg"
+        }
+      }
     },
     "ollama": {
       "name": "Ollama",
       "monochrome": "ollama.svg",
       "alternatives": [
         "ollama"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "ollama-text.svg"
+        }
+      }
     },
     "openai": {
       "name": "ChatGPT / OpenAI",
@@ -839,28 +3030,146 @@
       "alternatives": [
         "openai",
         "codex"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "openai-text.svg"
+        }
+      }
+    },
+    "openchat": {
+      "name": "OpenChat",
+      "monochrome": "openchat.svg",
+      "alternatives": [
+        "openchat"
+      ],
+      "color": "openchat-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "openchat-text.svg"
+        }
+      }
+    },
+    "openclaw": {
+      "name": "OpenClaw",
+      "monochrome": "openclaw.svg",
+      "alternatives": [
+        "openclaw"
+      ],
+      "color": "openclaw-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "openclaw-text.svg"
+        }
+      }
     },
     "opencode-go": {
       "name": "opencode",
       "monochrome": "opencode-go.svg",
       "alternatives": [
-        "opencode-go"
+        "opencode-go",
+        "opencode"
       ]
+    },
+    "opencode": {
+      "name": "opencode",
+      "monochrome": "opencode.svg",
+      "alternatives": [
+        "opencode-go",
+        "opencode"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "opencode-text.svg"
+        }
+      }
+    },
+    "openhands": {
+      "name": "OpenHands",
+      "monochrome": "openhands.svg",
+      "alternatives": [
+        "openhands"
+      ],
+      "color": "openhands-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "openhands-text.svg"
+        }
+      }
+    },
+    "openhuman": {
+      "name": "OpenHuman",
+      "monochrome": "openhuman.svg",
+      "alternatives": [
+        "openhuman"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "openhuman-text.svg"
+        }
+      }
     },
     "openrouter": {
       "name": "OpenRouter",
       "monochrome": "openrouter.svg",
       "alternatives": [
         "openrouter"
-      ]
+      ],
+      "color": "openrouter-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "openrouter-text.svg"
+        }
+      }
+    },
+    "openwebui": {
+      "name": "OpenWebUI",
+      "monochrome": "openwebui.svg",
+      "alternatives": [
+        "openwebui"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "openwebui-text.svg"
+        }
+      }
+    },
+    "palm": {
+      "name": "PaLM",
+      "monochrome": "palm.svg",
+      "alternatives": [
+        "palm"
+      ],
+      "color": "palm-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "palm-text.svg"
+        }
+      }
     },
     "parasail": {
       "name": "Parasail",
       "monochrome": "parasail.svg",
       "alternatives": [
         "parasail"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "parasail-text.svg"
+        }
+      }
+    },
+    "perceptron": {
+      "name": "Perceptron",
+      "monochrome": "perceptron.svg",
+      "alternatives": [
+        "perceptron"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "perceptron-text.svg"
+        }
+      }
     },
     "perplexity": {
       "name": "Perplexity",
@@ -868,7 +3177,87 @@
       "alternatives": [
         "perplexity"
       ],
-      "color": "perplexity-color.svg"
+      "color": "perplexity-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "perplexity-text.svg"
+        }
+      }
+    },
+    "phala": {
+      "name": "Phala",
+      "monochrome": "phala.svg",
+      "alternatives": [
+        "phala"
+      ],
+      "color": "phala-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "phala-text.svg"
+        }
+      }
+    },
+    "phidata": {
+      "name": "Phidata",
+      "monochrome": "phidata.svg",
+      "alternatives": [
+        "phidata"
+      ],
+      "color": "phidata-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "phidata-text.svg"
+        }
+      }
+    },
+    "phind": {
+      "name": "phind",
+      "monochrome": "phind.svg",
+      "alternatives": [
+        "phind"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "phind-text.svg"
+        }
+      }
+    },
+    "pi": {
+      "name": "Pi",
+      "monochrome": "pi.svg",
+      "alternatives": [
+        "pi"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "pi-text.svg"
+        }
+      }
+    },
+    "pika": {
+      "name": "Pika",
+      "monochrome": "pika.svg",
+      "alternatives": [
+        "pika"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "pika-text.svg"
+        }
+      }
+    },
+    "pixverse": {
+      "name": "PixVerse",
+      "monochrome": "pixverse.svg",
+      "alternatives": [
+        "pixverse"
+      ],
+      "color": "pixverse-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "pixverse-text.svg"
+        }
+      }
     },
     "player2": {
       "name": "Player2",
@@ -876,7 +3265,50 @@
       "alternatives": [
         "player2"
       ],
-      "color": "player2-color.svg"
+      "color": "player2-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "player2-text.svg"
+        }
+      }
+    },
+    "poe": {
+      "name": "Poe",
+      "monochrome": "poe.svg",
+      "alternatives": [
+        "poe"
+      ],
+      "color": "poe-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "poe-text.svg"
+        }
+      }
+    },
+    "pollinations": {
+      "name": "Pollinations",
+      "monochrome": "pollinations.svg",
+      "alternatives": [
+        "pollinations"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "pollinations-text.svg"
+        }
+      }
+    },
+    "poolside": {
+      "name": "Poolside",
+      "monochrome": "poolside.svg",
+      "alternatives": [
+        "poolside"
+      ],
+      "color": "poolside-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "poolside-text.svg"
+        }
+      }
     },
     "ppio": {
       "name": "PPIO",
@@ -884,7 +3316,54 @@
       "alternatives": [
         "ppio"
       ],
-      "color": "ppio-color.svg"
+      "color": "ppio-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "ppio-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "ppio-text-cn.svg"
+        }
+      }
+    },
+    "prunaai": {
+      "name": "PrunaAI",
+      "monochrome": "prunaai.svg",
+      "alternatives": [
+        "prunaai"
+      ],
+      "color": "prunaai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "prunaai-text.svg"
+        }
+      }
+    },
+    "pydanticai": {
+      "name": "PydanticAI",
+      "monochrome": "pydanticai.svg",
+      "alternatives": [
+        "pydanticai"
+      ],
+      "color": "pydanticai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "pydanticai-text.svg"
+        }
+      }
+    },
+    "qingyan": {
+      "name": "Qingyan",
+      "monochrome": "qingyan.svg",
+      "alternatives": [
+        "qingyan"
+      ],
+      "color": "qingyan-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "qingyan-text.svg"
+        }
+      }
     },
     "qiniu": {
       "name": "Qiniu",
@@ -892,7 +3371,25 @@
       "alternatives": [
         "qiniu"
       ],
-      "color": "qiniu-color.svg"
+      "color": "qiniu-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "qiniu-text.svg"
+        }
+      }
+    },
+    "qoder": {
+      "name": "Qoder",
+      "monochrome": "qoder.svg",
+      "alternatives": [
+        "qoder"
+      ],
+      "color": "qoder-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "qoder-text.svg"
+        }
+      }
     },
     "qwen": {
       "name": "Qwen",
@@ -900,14 +3397,163 @@
       "alternatives": [
         "qwen"
       ],
-      "color": "qwen-color.svg"
+      "color": "qwen-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "qwen-text.svg"
+        }
+      }
+    },
+    "railway": {
+      "name": "Railway",
+      "monochrome": "railway.svg",
+      "alternatives": [
+        "railway"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "railway-text.svg"
+        }
+      }
+    },
+    "recraft": {
+      "name": "Recraft",
+      "monochrome": "recraft.svg",
+      "alternatives": [
+        "recraft"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "recraft-text.svg"
+        }
+      }
+    },
+    "reka": {
+      "name": "Reka",
+      "monochrome": "reka.svg",
+      "alternatives": [
+        "reka"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "reka-text.svg"
+        }
+      }
+    },
+    "relace": {
+      "name": "Relace",
+      "monochrome": "relace.svg",
+      "alternatives": [
+        "relace"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "relace-text.svg"
+        }
+      }
     },
     "replicate": {
       "name": "Replicate",
       "monochrome": "replicate.svg",
       "alternatives": [
         "replicate"
-      ]
+      ],
+      "artworks": {
+        "brand": {
+          "monochrome": "replicate-brand.svg"
+        },
+        "text": {
+          "monochrome": "replicate-text.svg"
+        }
+      }
+    },
+    "replit": {
+      "name": "Replit",
+      "monochrome": "replit.svg",
+      "alternatives": [
+        "replit"
+      ],
+      "color": "replit-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "replit-text.svg"
+        }
+      }
+    },
+    "reve": {
+      "name": "Reve",
+      "monochrome": "reve.svg",
+      "alternatives": [
+        "reve"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "reve-text.svg"
+        }
+      }
+    },
+    "roocode": {
+      "name": "RooCode",
+      "monochrome": "roocode.svg",
+      "alternatives": [
+        "roocode"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "roocode-text.svg"
+        }
+      }
+    },
+    "rsshub": {
+      "name": "RSSHub",
+      "monochrome": "rsshub.svg",
+      "alternatives": [
+        "rsshub"
+      ],
+      "color": "rsshub-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "rsshub-text.svg"
+        }
+      }
+    },
+    "runway": {
+      "name": "Runway",
+      "monochrome": "runway.svg",
+      "alternatives": [
+        "runway"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "runway-text.svg"
+        }
+      }
+    },
+    "rwkv": {
+      "name": "RWKV",
+      "monochrome": "rwkv.svg",
+      "alternatives": [
+        "rwkv"
+      ],
+      "color": "rwkv-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "rwkv-text.svg"
+        }
+      }
+    },
+    "sakana": {
+      "name": "sakana.ai",
+      "monochrome": "sakana.svg",
+      "alternatives": [
+        "sakana"
+      ],
+      "color": "sakana-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "sakana-text.svg"
+        }
+      }
     },
     "sambanova": {
       "name": "SambaNova",
@@ -915,7 +3561,12 @@
       "alternatives": [
         "sambanova"
       ],
-      "color": "sambanova-color.svg"
+      "color": "sambanova-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "sambanova-text.svg"
+        }
+      }
     },
     "search1api": {
       "name": "Search1API",
@@ -923,14 +3574,37 @@
       "alternatives": [
         "search1api"
       ],
-      "color": "search1api-color.svg"
+      "color": "search1api-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "search1api-text.svg"
+        }
+      }
     },
     "searchapi": {
       "name": "SearchApi",
       "monochrome": "searchapi.svg",
       "alternatives": [
         "searchapi"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "searchapi-text.svg"
+        }
+      }
+    },
+    "searxng": {
+      "name": "SearXNG",
+      "monochrome": "searxng.svg",
+      "alternatives": [
+        "searxng"
+      ],
+      "color": "searxng-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "searxng-text.svg"
+        }
+      }
     },
     "sensenova": {
       "name": "SenseNova",
@@ -938,7 +3612,16 @@
       "alternatives": [
         "sensenova"
       ],
-      "color": "sensenova-color.svg"
+      "color": "sensenova-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "sensenova-brand-color.svg",
+          "monochrome": "sensenova-brand.svg"
+        },
+        "text": {
+          "monochrome": "sensenova-text.svg"
+        }
+      }
     },
     "siliconcloud": {
       "name": "SiliconCloud",
@@ -946,7 +3629,63 @@
       "alternatives": [
         "siliconcloud"
       ],
-      "color": "siliconcloud-color.svg"
+      "color": "siliconcloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "siliconcloud-text.svg"
+        }
+      }
+    },
+    "sillytavern": {
+      "name": "SillyTavern",
+      "monochrome": "sillytavern.svg",
+      "alternatives": [
+        "sillytavern"
+      ],
+      "color": "sillytavern-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "sillytavern-text.svg"
+        }
+      }
+    },
+    "skywork": {
+      "name": "Skywork",
+      "monochrome": "skywork.svg",
+      "alternatives": [
+        "skywork"
+      ],
+      "color": "skywork-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "skywork-text.svg"
+        }
+      }
+    },
+    "slock": {
+      "name": "Slock",
+      "monochrome": "slock.svg",
+      "alternatives": [
+        "slock"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "slock-text.svg"
+        }
+      }
+    },
+    "smithery": {
+      "name": "Smithery",
+      "monochrome": "smithery.svg",
+      "alternatives": [
+        "smithery"
+      ],
+      "color": "smithery-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "smithery-text.svg"
+        }
+      }
     },
     "snowflake": {
       "name": "Snowflake",
@@ -954,7 +3693,12 @@
       "alternatives": [
         "snowflake"
       ],
-      "color": "snowflake-color.svg"
+      "color": "snowflake-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "snowflake-text.svg"
+        }
+      }
     },
     "sophnet": {
       "name": "SophNet",
@@ -962,7 +3706,25 @@
       "alternatives": [
         "sophnet"
       ],
-      "color": "sophnet-color.svg"
+      "color": "sophnet-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "sophnet-text.svg"
+        }
+      }
+    },
+    "sora": {
+      "name": "Sora",
+      "monochrome": "sora.svg",
+      "alternatives": [
+        "sora"
+      ],
+      "color": "sora-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "sora-text.svg"
+        }
+      }
     },
     "spark": {
       "name": "Spark",
@@ -970,7 +3732,25 @@
       "alternatives": [
         "spark"
       ],
-      "color": "spark-color.svg"
+      "color": "spark-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "spark-text.svg"
+        }
+      }
+    },
+    "speedai": {
+      "name": "SpeedAI",
+      "monochrome": "speedai.svg",
+      "alternatives": [
+        "speedai"
+      ],
+      "color": "speedai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "speedai-text.svg"
+        }
+      }
     },
     "stability": {
       "name": "Stability",
@@ -978,7 +3758,16 @@
       "alternatives": [
         "stability"
       ],
-      "color": "stability-color.svg"
+      "color": "stability-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "stability-brand-color.svg",
+          "monochrome": "stability-brand.svg"
+        },
+        "text": {
+          "monochrome": "stability-text.svg"
+        }
+      }
     },
     "statecloud": {
       "name": "StateCloud",
@@ -986,7 +3775,12 @@
       "alternatives": [
         "statecloud"
       ],
-      "color": "statecloud-color.svg"
+      "color": "statecloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "statecloud-text.svg"
+        }
+      }
     },
     "stepfun": {
       "name": "Stepfun",
@@ -994,7 +3788,12 @@
       "alternatives": [
         "stepfun"
       ],
-      "color": "stepfun-color.svg"
+      "color": "stepfun-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "stepfun-text.svg"
+        }
+      }
     },
     "straico": {
       "name": "Straico",
@@ -1002,7 +3801,12 @@
       "alternatives": [
         "straico"
       ],
-      "color": "straico-color.svg"
+      "color": "straico-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "straico-text.svg"
+        }
+      }
     },
     "streamlake": {
       "name": "StreamLake",
@@ -1010,7 +3814,12 @@
       "alternatives": [
         "streamlake"
       ],
-      "color": "streamlake-color.svg"
+      "color": "streamlake-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "streamlake-text.svg"
+        }
+      }
     },
     "submodel": {
       "name": "SubModel",
@@ -1018,7 +3827,36 @@
       "alternatives": [
         "submodel"
       ],
-      "color": "submodel-color.svg"
+      "color": "submodel-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "submodel-text.svg"
+        }
+      }
+    },
+    "suno": {
+      "name": "Suno",
+      "monochrome": "suno.svg",
+      "alternatives": [
+        "suno"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "suno-text.svg"
+        }
+      }
+    },
+    "sync": {
+      "name": "Sync",
+      "monochrome": "sync.svg",
+      "alternatives": [
+        "sync"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "sync-text.svg"
+        }
+      }
     },
     "synthetic": {
       "name": "Synthetic",
@@ -1033,7 +3871,25 @@
       "alternatives": [
         "targon"
       ],
-      "color": "targon-color.svg"
+      "color": "targon-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "targon-text.svg"
+        }
+      }
+    },
+    "tavily": {
+      "name": "Tavily",
+      "monochrome": "tavily.svg",
+      "alternatives": [
+        "tavily"
+      ],
+      "color": "tavily-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "tavily-text.svg"
+        }
+      }
     },
     "tencent": {
       "name": "Tencent",
@@ -1041,7 +3897,19 @@
       "alternatives": [
         "tencent"
       ],
-      "color": "tencent-color.svg"
+      "color": "tencent-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "tencent-brand-color.svg",
+          "monochrome": "tencent-brand.svg"
+        },
+        "text": {
+          "monochrome": "tencent-text.svg"
+        },
+        "text-cn": {
+          "monochrome": "tencent-text-cn.svg"
+        }
+      }
     },
     "tencentcloud": {
       "name": "TencentCloud",
@@ -1049,7 +3917,25 @@
       "alternatives": [
         "tencentcloud"
       ],
-      "color": "tencentcloud-color.svg"
+      "color": "tencentcloud-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "tencentcloud-text.svg"
+        }
+      }
+    },
+    "tiangong": {
+      "name": "Tiangong",
+      "monochrome": "tiangong.svg",
+      "alternatives": [
+        "tiangong"
+      ],
+      "color": "tiangong-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "tiangong-text.svg"
+        }
+      }
     },
     "tii": {
       "name": "Technology Innovation Institute",
@@ -1057,7 +3943,131 @@
       "alternatives": [
         "tii"
       ],
-      "color": "tii-color.svg"
+      "color": "tii-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "tii-text.svg"
+        }
+      }
+    },
+    "together": {
+      "name": "together.ai",
+      "monochrome": "together.svg",
+      "alternatives": [
+        "together"
+      ],
+      "color": "together-color.svg",
+      "artworks": {
+        "brand": {
+          "color": "together-brand-color.svg",
+          "monochrome": "together-brand.svg"
+        },
+        "text": {
+          "monochrome": "together-text.svg"
+        }
+      }
+    },
+    "topazlabs": {
+      "name": "TopazLabs",
+      "monochrome": "topazlabs.svg",
+      "alternatives": [
+        "topazlabs"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "topazlabs-text.svg"
+        }
+      }
+    },
+    "trae": {
+      "name": "TRAE",
+      "monochrome": "trae.svg",
+      "alternatives": [
+        "trae"
+      ],
+      "color": "trae-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "trae-text.svg"
+        }
+      }
+    },
+    "tripo": {
+      "name": "Tripo",
+      "monochrome": "tripo.svg",
+      "alternatives": [
+        "tripo"
+      ],
+      "color": "tripo-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "tripo-text.svg"
+        }
+      }
+    },
+    "turix": {
+      "name": "TuriX",
+      "monochrome": "turix.svg",
+      "alternatives": [
+        "turix"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "turix-text.svg"
+        }
+      }
+    },
+    "udio": {
+      "name": "Udio",
+      "monochrome": "udio.svg",
+      "alternatives": [
+        "udio"
+      ],
+      "color": "udio-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "udio-text.svg"
+        }
+      }
+    },
+    "unionalpha": {
+      "name": "UnionAlpha",
+      "monochrome": "unionalpha.svg",
+      "alternatives": [
+        "unionalpha"
+      ],
+      "color": "unionalpha-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "unionalpha-text.svg"
+        }
+      }
+    },
+    "unsloth": {
+      "name": "Unsloth",
+      "monochrome": "unsloth.svg",
+      "alternatives": [
+        "unsloth"
+      ],
+      "color": "unsloth-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "unsloth-text.svg"
+        }
+      }
+    },
+    "unstructured": {
+      "name": "Unstructured",
+      "monochrome": "unstructured.svg",
+      "alternatives": [
+        "unstructured"
+      ],
+      "color": "unstructured-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "unstructured-text.svg"
+        }
+      }
     },
     "upstage": {
       "name": "Upsate",
@@ -1065,7 +4075,12 @@
       "alternatives": [
         "upstage"
       ],
-      "color": "upstage-color.svg"
+      "color": "upstage-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "upstage-text.svg"
+        }
+      }
     },
     "v0": {
       "name": "V0",
@@ -1074,20 +4089,42 @@
         "v0"
       ]
     },
+    "vectorizerai": {
+      "name": "Vectorizer.AI",
+      "monochrome": "vectorizerai.svg",
+      "alternatives": [
+        "vectorizerai"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "vectorizerai-text.svg"
+        }
+      }
+    },
     "venice": {
       "name": "Venice",
       "monochrome": "venice.svg",
       "alternatives": [
         "venice"
       ],
-      "color": "venice-color.svg"
+      "color": "venice-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "venice-text.svg"
+        }
+      }
     },
     "vercel": {
       "name": "Vercel",
       "monochrome": "vercel.svg",
       "alternatives": [
         "vercel"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "vercel-text.svg"
+        }
+      }
     },
     "vertexai": {
       "name": "VertexAI",
@@ -1095,7 +4132,37 @@
       "alternatives": [
         "vertexai"
       ],
-      "color": "vertexai-color.svg"
+      "color": "vertexai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "vertexai-text.svg"
+        }
+      }
+    },
+    "vidu": {
+      "name": "Vidu",
+      "monochrome": "vidu.svg",
+      "alternatives": [
+        "vidu"
+      ],
+      "color": "vidu-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "vidu-text.svg"
+        }
+      }
+    },
+    "viggle": {
+      "name": "Viggle",
+      "monochrome": "viggle.svg",
+      "alternatives": [
+        "viggle"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "viggle-text.svg"
+        }
+      }
     },
     "vllm": {
       "name": "vLLM",
@@ -1103,7 +4170,12 @@
       "alternatives": [
         "vllm"
       ],
-      "color": "vllm-color.svg"
+      "color": "vllm-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "vllm-text.svg"
+        }
+      }
     },
     "volcengine": {
       "name": "Volcengine",
@@ -1111,7 +4183,50 @@
       "alternatives": [
         "volcengine"
       ],
-      "color": "volcengine-color.svg"
+      "color": "volcengine-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "volcengine-text.svg"
+        }
+      }
+    },
+    "voyage": {
+      "name": "Voyage",
+      "monochrome": "voyage.svg",
+      "alternatives": [
+        "voyage"
+      ],
+      "color": "voyage-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "voyage-text.svg"
+        }
+      }
+    },
+    "wafer": {
+      "name": "Wafer",
+      "monochrome": "wafer.svg",
+      "alternatives": [
+        "wafer"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "wafer-text.svg"
+        }
+      }
+    },
+    "wandb": {
+      "name": "Weights & Biases",
+      "monochrome": "wandb.svg",
+      "alternatives": [
+        "wandb"
+      ],
+      "color": "wandb-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "wandb-text.svg"
+        }
+      }
     },
     "warp": {
       "name": "Warp",
@@ -1121,20 +4236,42 @@
       ],
       "color": "warp-color.svg"
     },
+    "wavespeed": {
+      "name": "WaveSpeed",
+      "monochrome": "wavespeed.svg",
+      "alternatives": [
+        "wavespeed"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "wavespeed-text.svg"
+        }
+      }
+    },
     "wenxin": {
       "name": "Wenxin",
       "monochrome": "wenxin.svg",
       "alternatives": [
         "wenxin"
       ],
-      "color": "wenxin-color.svg"
+      "color": "wenxin-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "wenxin-text.svg"
+        }
+      }
     },
     "windsurf": {
       "name": "Windsurf",
       "monochrome": "windsurf.svg",
       "alternatives": [
         "windsurf"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "windsurf-text.svg"
+        }
+      }
     },
     "workersai": {
       "name": "WorkersAI",
@@ -1142,21 +4279,49 @@
       "alternatives": [
         "workersai"
       ],
-      "color": "workersai-color.svg"
+      "color": "workersai-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "workersai-text.svg"
+        }
+      }
+    },
+    "worldrouter": {
+      "name": "WorldRouter",
+      "monochrome": "worldrouter.svg",
+      "alternatives": [
+        "worldrouter"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "worldrouter-text.svg"
+        }
+      }
     },
     "xai": {
       "name": "Grok",
       "monochrome": "xai.svg",
       "alternatives": [
-        "xai"
-      ]
+        "xai",
+        "grok"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "xai-text.svg"
+        }
+      }
     },
     "xiaomimimo": {
       "name": "XiaomiMiMo",
       "monochrome": "xiaomimimo.svg",
       "alternatives": [
         "xiaomimimo"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "xiaomimimo-text.svg"
+        }
+      }
     },
     "xinference": {
       "name": "Xinference",
@@ -1164,28 +4329,151 @@
       "alternatives": [
         "xinference"
       ],
-      "color": "xinference-color.svg"
+      "color": "xinference-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "xinference-text.svg"
+        }
+      }
+    },
+    "xpay": {
+      "name": "xpay",
+      "monochrome": "xpay.svg",
+      "alternatives": [
+        "xpay"
+      ],
+      "color": "xpay-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "xpay-text.svg"
+        }
+      }
+    },
+    "xuanyuan": {
+      "name": "\u8f69\u8f95",
+      "monochrome": "xuanyuan.svg",
+      "alternatives": [
+        "xuanyuan"
+      ],
+      "color": "xuanyuan-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "xuanyuan-text.svg"
+        }
+      }
     },
     "yandex": {
       "name": "Yandex",
       "monochrome": "yandex.svg",
       "alternatives": [
         "yandex"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "yandex-text.svg"
+        }
+      }
+    },
+    "yi": {
+      "name": "Yi",
+      "monochrome": "yi.svg",
+      "alternatives": [
+        "yi"
+      ],
+      "color": "yi-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "yi-text.svg"
+        }
+      }
+    },
+    "youmind": {
+      "name": "YouMind",
+      "monochrome": "youmind.svg",
+      "alternatives": [
+        "youmind"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "youmind-text.svg"
+        }
+      }
+    },
+    "yuanbao": {
+      "name": "Yuanbao",
+      "monochrome": "yuanbao.svg",
+      "alternatives": [
+        "yuanbao"
+      ],
+      "color": "yuanbao-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "yuanbao-text.svg"
+        }
+      }
     },
     "zai": {
       "name": "Z.ai",
       "monochrome": "zai.svg",
       "alternatives": [
         "zai"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "zai-text.svg"
+        }
+      }
+    },
+    "zapier": {
+      "name": "Zapier",
+      "monochrome": "zapier.svg",
+      "alternatives": [
+        "zapier"
+      ],
+      "color": "zapier-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "zapier-text.svg"
+        }
+      }
+    },
+    "zeabur": {
+      "name": "Zeabur",
+      "monochrome": "zeabur.svg",
+      "alternatives": [
+        "zeabur"
+      ],
+      "color": "zeabur-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "zeabur-text.svg"
+        }
+      }
+    },
+    "zencoder": {
+      "name": "Zencoder",
+      "monochrome": "zencoder.svg",
+      "alternatives": [
+        "zencoder"
+      ],
+      "color": "zencoder-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "zencoder-text.svg"
+        }
+      }
     },
     "zenmux": {
       "name": "ZenMux",
       "monochrome": "zenmux.svg",
       "alternatives": [
         "zenmux"
-      ]
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "zenmux-text.svg"
+        }
+      }
     },
     "zeroone": {
       "name": "01.AI",
@@ -1193,7 +4481,12 @@
       "alternatives": [
         "zeroone"
       ],
-      "color": "zeroone-color.svg"
+      "color": "zeroone-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "zeroone-text.svg"
+        }
+      }
     },
     "zhipu": {
       "name": "Zhipu",
@@ -1201,7 +4494,12 @@
       "alternatives": [
         "zhipu"
       ],
-      "color": "zhipu-color.svg"
+      "color": "zhipu-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "zhipu-text.svg"
+        }
+      }
     }
   },
   "aliases": {
@@ -1209,11 +4507,9 @@
     "openai-api": "openai",
     "claude-code": "claudecode",
     "gemini-cli": "gemini",
-    "opencode": "opencode-go",
     "opencodego": "opencode-go",
     "kimi-k2": "kimi",
     "jetbrains": "jetbrains-ai-assistant",
-    "xai-responses": "xai",
-    "grok": "xai"
+    "xai-responses": "xai"
   }
 }

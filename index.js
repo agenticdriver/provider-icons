@@ -2,6 +2,7 @@
 import {catalog} from './manifest.js';
 export const providerIcons = Object.freeze(catalog.icons);
 export const providerAliases = Object.freeze(catalog.aliases);
+export const providerIconVersion = catalog.packageVersion;
 
 export function resolveProviderIcon(provider, options = {}) {
     if (typeof provider !== 'string') return undefined;
@@ -13,10 +14,14 @@ export function resolveProviderIcon(provider, options = {}) {
     const alternative = Object.hasOwn(providerAliases, requested) ? providerAliases[requested] : requested;
     if (!base.alternatives.includes(alternative)) return undefined;
     const icon = providerIcons[alternative];
+    const artwork = options.artwork ?? 'icon';
+    const files = artwork === 'icon' ? icon :
+        (icon.artworks && Object.hasOwn(icon.artworks, artwork) ? icon.artworks[artwork] : undefined);
+    if (!files) return undefined;
     const style = options.style ?? 'monochrome';
     if (!['monochrome', 'color'].includes(style)) return undefined;
-    const actualStyle = style === 'color' && icon.color ? 'color' : 'monochrome';
-    return {id: alternative, name: icon.name, file: icon[actualStyle], style: actualStyle,
+    const actualStyle = style === 'color' && files.color ? 'color' : 'monochrome';
+    return {id: alternative, name: icon.name, file: files[actualStyle], style: actualStyle, artwork,
         requestedStyle: style, alternatives: [...base.alternatives]};
 }
 

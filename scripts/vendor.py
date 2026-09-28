@@ -21,7 +21,7 @@ with tarfile.open(fileobj=io.BytesIO(data), mode='r:gz') as archive:
         path=PurePosixPath(m.name)
         assert not path.is_absolute() and '..' not in path.parts and path.parts[0]=='package'
         if m.isdir(): continue
-        assert m.isfile() and m.size<=2_000_000, 'Only bounded regular package files are allowed'
+        assert m.isfile() and m.size<=8_000_000, 'Only bounded regular package files are allowed'
         name=str(path.relative_to('package'))
         assert name not in files, 'Duplicate package path'
         if name.startswith('assets/'): name=name.removeprefix('assets/')

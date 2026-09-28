@@ -1,6 +1,6 @@
 {
   "name": "@agenticdriver/provider-icons",
-  "version": "0.1.0-alpha.1",
+  "version": "0.1.0-alpha.2",
   "description": "Shared AI provider and product marks for web and native applications",
   "type": "module",
   "license": "MIT",
@@ -11,10 +11,11 @@
     "./manifest.json": "./manifest.json",
     "./assets/*": "./assets/*"
   },
-  "files": ["assets", "manifest.json", "manifest.js", "index.js", "index.d.ts", "svg.js", "svg.d.ts", "licenses", "LICENSE", "NOTICE", "provenance.json", "scripts/vendor.py"],
+  "files": ["assets", "manifest.json", "manifest.js", "index.js", "index.d.ts", "svg.js", "svg.d.ts", "licenses", "LICENSE", "NOTICE", "provenance.json", "sources", "scripts/vendor.py"],
   "scripts": {
+    "sync:lobehub": "python3 scripts/sync_lobehub.py",
     "build": "python3 scripts/build.py",
-    "test": "python3 scripts/build.py --check && node --test tests/*.test.mjs",
+    "test": "python3 scripts/build.py --check && python3 -m unittest discover -s tests -p 'test_*.py' && node --test tests/*.test.mjs",
     "prepack": "npm test"
   },
   "publishConfig": { "access": "public", "tag": "alpha" }

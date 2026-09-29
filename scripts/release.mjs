@@ -159,7 +159,7 @@ async function publishGithub() {
   let release = githubRelease(value.tag);
   if (!release) {
     const notes = join(directory, 'release-notes.md');
-    writeFileSync(notes, `Standalone provider icons ${value.version}.\n\nInstall the attached archive or the matching npm version after registry publication. See the [README](https://github.com/${repository}/tree/${value.tag}) and [installation guide](https://github.com/${repository}/blob/${value.tag}/docs/installation.md).\n\nThe archive passed catalogue/source checks and isolated core, DOM, SVG and React 18/19 installation tests. SHA256SUMS verifies the attached bytes.\n`);
+    writeFileSync(notes, `Standalone provider icons ${value.version}.\n\nSee the [changelog](https://github.com/${repository}/blob/${value.tag}/CHANGELOG.md) for changes and migration guidance.\n\nInstall the attached archive or the matching npm version after registry publication. See the [README](https://github.com/${repository}/tree/${value.tag}) and [installation guide](https://github.com/${repository}/blob/${value.tag}/docs/installation.md).\n\nThe archive passed catalogue/source checks, the public API compatibility guard, isolated core, DOM, SVG and React 18/19 installation tests, and native vendoring under optimized Python. SHA256SUMS verifies the attached bytes.\n`);
     run('gh', ['release', 'create', value.tag, '--repo', repository, '--target', value.commit, '--title', `Provider icons ${value.version}`, '--notes-file', notes, '--draft', ...(value.distTag === 'alpha' ? ['--prerelease'] : [])]);
     release = githubRelease(value.tag);
   }

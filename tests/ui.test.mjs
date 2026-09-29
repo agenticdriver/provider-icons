@@ -136,7 +136,7 @@ test('copyable public API examples pass strict TypeScript', () => {
   const source = `import {PPIO, Claude, OpenAI, ProviderIcon} from '@agenticdriver/provider-icons/react';
 import {mountProviderIcon, createProviderIcon} from '@agenticdriver/provider-icons/dom';
 import {providerIconSvg} from '@agenticdriver/provider-icons/svg';
-import {providerIconTheme} from '@agenticdriver/provider-icons';
+import {providerIconTheme, providerIcons, searchProviderIcons, resolveProviderIcon} from '@agenticdriver/provider-icons';
 export const Example = () => <><PPIO.Combine size={56} mode="color" /><Claude.Color size={24} /><OpenAI.Text /><ProviderIcon provider="ppio" artwork="combine" mode="color" /></>;
 mountProviderIcon('#icon', 'ppio', {artwork: 'combine', size: 56});
 const svg: SVGSVGElement | undefined = createProviderIcon('claude', {label: 'Claude'});
@@ -145,6 +145,17 @@ const primary: string | undefined = Claude.primaryColour;
 const palette: readonly string[] = Claude.colourTheme;
 const alias: string | undefined = Claude.colorPrimary;
 const theme = providerIconTheme('claude');
+const entry = providerIcons.openai;
+const alternatives: readonly string[] = entry.alternatives;
+// @ts-expect-error catalogue alternatives are immutable
+entry.alternatives.push('claude');
+// @ts-expect-error artwork filenames are immutable
+entry.artworks!.text!.monochrome = 'missing.svg';
+// @ts-expect-error search exposes the same immutable metadata
+searchProviderIcons('openai')[0].artworks!.text!.color = 'missing.svg';
+// @ts-expect-error catalogue identity is immutable
+entry.name = 'changed';
+resolveProviderIcon('openai')!.alternatives.push('consumer-owned copy');
 // @ts-expect-error unavailable artwork must not be advertised
 export const Missing = () => <OpenAI.TextCn />;
 // @ts-expect-error React takes CSS style separately from icon mode

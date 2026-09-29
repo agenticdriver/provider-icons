@@ -3,6 +3,7 @@ import {mkdtempSync, writeFileSync, existsSync, rmSync, readFileSync} from 'node
 import {tmpdir} from 'node:os';
 import {join, resolve} from 'node:path';
 import {execFileSync} from 'node:child_process';
+import {createHash} from 'node:crypto';
 
 const archive = resolve(process.argv[2] ?? '');
 const version = JSON.parse(readFileSync(new URL('../package.json', import.meta.url))).version;
@@ -30,6 +31,20 @@ assert.match(providerIconSvg('ppio', {artwork: 'combine', size: 56}), /width="18
 assert.equal(typeof mountProviderIcon, 'function');
 console.log('PASS packed core, SVG and DOM exports without React');`);
   run(process.execPath, ['core.mjs']);
+  const vendored = join(directory, 'vendored');
+  const digest = createHash('sha256').update(readFileSync(archive)).digest('hex');
+  run('python3', ['-O', 'node_modules/@agenticdriver/provider-icons/scripts/vendor.py', archive,
+    '--sha256', digest, '--target', vendored]);
+  const manifest = JSON.parse(readFileSync(join(vendored, 'manifest.json')));
+  assert.equal(manifest.packageVersion, version);
+  for (const entry of Object.values(manifest.icons)) {
+    for (const variants of [entry, ...Object.values(entry.artworks ?? {})]) {
+      for (const style of ['monochrome', 'color']) {
+        if (variants[style]) assert.ok(existsSync(join(vendored, variants[style])), variants[style]);
+      }
+    }
+  }
+  console.log('PASS packed native vendor under optimized Python, with all manifest assets');
   for (const version of ['18.3.1', '19.3.0']) {
     run('npm', ['install', '--ignore-scripts', '--no-audit', '--no-fund', `react@${version}`, `react-dom@${version}`]);
     writeFileSync(join(directory, 'react.mjs'), `import assert from 'node:assert/strict';

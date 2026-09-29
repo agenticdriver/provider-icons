@@ -21,8 +21,11 @@ for consumers without improving access to this public library.
 
 ## Prepare a release
 
-1. Update the version in `package.json` and `package-lock.json`.
-2. Run `npm run build`; update version-pinned installation examples.
+1. Review the [stability policy](stability.md), update `CHANGELOG.md`, and set the
+   version in `package.json` and `package-lock.json`. Set `publishConfig.tag` to
+   `latest` for stable releases or `alpha` for prereleases.
+2. Run `npm run build`; update version-pinned installation examples. For new public
+   API, extend the compatibility baseline while preserving its existing entries.
 3. Commit the changes, reconcile with live `origin/main`, and push `main`.
 4. Ensure [Package checks](https://github.com/agenticdriver/provider-icons/actions/workflows/ci.yml) succeeds.
 
@@ -35,7 +38,9 @@ npm run release:prepare
 
 Preparation runs the complete test suite, packs committed files using their Git
 file modes, checks the archive's included files and installs it into isolated consumers without React and with
-React 18/19. `work/release/` contains the archive, `SHA256SUMS`, and a candidate
+React 18/19. It also runs the packed native vendor with Python optimization enabled
+and verifies every vendored asset. CI covers Node 22/24 and Python 3.10/3.12.
+`work/release/` contains the archive, `SHA256SUMS`, and a candidate
 record with the exact source commit and SHA-256/SHA-512 digests. Generated drift,
 uncommitted inputs and an archive exceeding the native vendor limit fail the check.
 Use the workflow's Node 24 and npm 11.20.0 when reproducing archive bytes locally.

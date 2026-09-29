@@ -127,6 +127,12 @@ selected artwork. `variant` still selects a related product. Enumerate
 hardcoded lists. `providerIconVersion` exports the installed package version
 for version labels and release links; `manifest.json` has `packageVersion` too.
 
+Catalogue entries are deeply immutable, including `alternatives`, `artworks`,
+search terms and palettes. Search returns a new sortable array of immutable
+entries. `resolveProviderIcon` returns an independent result and a copy of its
+alternatives. Copy catalogue metadata before customising it for your app.
+See the [1.x stability policy](stability.md) for compatibility guarantees.
+
 For inline browser SVG, import `providerIconSvg` from the `/svg` entrypoint.
 An optional unique `prefix` makes exports deterministic. This static markup
 has no scripts or external references. Only exact allowlisted rendering styles

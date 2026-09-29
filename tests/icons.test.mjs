@@ -1,8 +1,26 @@
 import test from 'node:test';
 import assert from 'node:assert/strict';
 import {readFileSync, readdirSync} from 'node:fs';
-import {providerIcons, providerAliases, providerIconVersion, PROVIDER_ICON_FILES, resolveProviderIcon} from '../index.js';
+import {providerIcons, providerAliases, providerIconVersion, PROVIDER_ICON_FILES, resolveProviderIcon, searchProviderIcons} from '../index.js';
 import {providerIconSvg} from '../svg.js';
+test('catalogue and search metadata cannot mutate later lookup or rendering', () => {
+  function assertFrozen(value) {
+    if (value && typeof value === 'object') {
+      assert.ok(Object.isFrozen(value));
+      for (const nested of Object.values(value)) assertFrozen(nested);
+    }
+  }
+  assertFrozen(providerIcons);
+  const before = providerIconSvg('openai', {artwork: 'text', prefix: 'stable'});
+  const result = searchProviderIcons('openai').find(entry => entry.id === 'openai');
+  assertFrozen(result);
+  assert.throws(() => providerIcons.openai.alternatives.push('claude'), TypeError);
+  assert.throws(() => { result.artworks.text.monochrome = 'not-an-asset.svg'; }, TypeError);
+  assert.equal(providerIconSvg('openai', {artwork: 'text', prefix: 'stable'}), before);
+  // Resolution results are independent copies that consumers may change.
+  resolveProviderIcon('openai').alternatives.length = 0;
+  assert.ok(resolveProviderIcon('openai').alternatives.includes('openai'));
+});
 test('every asset and alias resolves, with explicit colour fallback', () => {
   const upstream = JSON.parse(readFileSync(new URL('../sources/lobehub.json', import.meta.url)));
   assert.ok(Object.keys(providerIcons).length >= Object.keys(upstream.icons).length);

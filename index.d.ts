@@ -2,9 +2,9 @@ export type IconStyle = 'monochrome' | 'color';
 export type IconArtwork = 'icon' | 'brand' | 'text' | 'text-cn';
 export type IconCategory = 'model' | 'provider' | 'application';
 export interface IconOptions { style?: IconStyle; variant?: string; artwork?: IconArtwork }
-export interface IconArtworkFiles { monochrome: string; color?: string }
+export interface IconArtworkFiles { readonly monochrome: string; readonly color?: string }
 export interface ProviderIconTheme { readonly primaryColour: string | undefined; readonly colourTheme: readonly string[]; readonly colorPrimary: string | undefined; readonly colorTheme: readonly string[] }
-export interface ProviderIconEntry extends IconArtworkFiles, ProviderIconTheme { name: string; fullName?: string; category?: IconCategory; readonly searchTerms: readonly string[]; upstreamUrl?: string; alternatives: string[]; artworks?: Partial<Record<Exclude<IconArtwork, 'icon'>, IconArtworkFiles>> }
+export interface ProviderIconEntry extends IconArtworkFiles, ProviderIconTheme { readonly name: string; readonly fullName?: string; readonly category?: IconCategory; readonly searchTerms: readonly string[]; readonly upstreamUrl?: string; readonly alternatives: readonly string[]; readonly artworks?: Readonly<Partial<Record<Exclude<IconArtwork, 'icon'>, IconArtworkFiles>>> }
 export interface ResolvedIcon { id: string; name: string; file: string; style: IconStyle; requestedStyle: IconStyle; artwork: IconArtwork; alternatives: string[] }
 export const providerIconVersion: string;
 export const providerIcons: Readonly<Record<string, ProviderIconEntry>>;

@@ -2,7 +2,13 @@
 import {catalog} from './manifest.js';
 export const providerIcons = Object.freeze(Object.fromEntries(Object.entries(catalog.icons).map(([id, entry]) => {
     const palette = Object.freeze([...entry.colourTheme]);
-    return [id, Object.freeze({...entry, searchTerms: Object.freeze([...entry.searchTerms]), colourTheme: palette, colorTheme: palette, colorPrimary: entry.primaryColour})];
+    const artworks = entry.artworks && Object.freeze(Object.fromEntries(
+        Object.entries(entry.artworks).map(([artwork, files]) => [artwork, Object.freeze({...files})]),
+    ));
+    return [id, Object.freeze({...entry,
+        alternatives: Object.freeze([...entry.alternatives]),
+        ...(artworks && {artworks}),
+        searchTerms: Object.freeze([...entry.searchTerms]), colourTheme: palette, colorTheme: palette, colorPrimary: entry.primaryColour})];
 })));
 export const providerAliases = Object.freeze(catalog.aliases);
 export const providerIconVersion = catalog.packageVersion;

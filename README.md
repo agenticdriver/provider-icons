@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://agenticdriver.dev/icons"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/gallery-browse-A3C85A.svg?variant=outline&amp;mode=dark"><img alt="Browse the icon gallery" src="https://shieldcn.dev/badge/gallery-browse-A3C85A.svg?variant=outline&amp;mode=light"></picture></a>
-  <a href="https://www.npmjs.com/package/@agenticdriver/provider-icons"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/npm-alpha-CB3837.svg?logo=npm&amp;variant=outline&amp;mode=dark"><img alt="npm alpha package" src="https://shieldcn.dev/badge/npm-alpha-CB3837.svg?logo=npm&amp;variant=outline&amp;mode=light"></picture></a>
+  <a href="https://www.npmjs.com/package/@agenticdriver/provider-icons"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/npm/@agenticdriver/provider-icons.svg?logo=npm&amp;variant=outline&amp;mode=dark"><img alt="Latest npm version" src="https://shieldcn.dev/npm/@agenticdriver/provider-icons.svg?logo=npm&amp;variant=outline&amp;mode=light"></picture></a>
   <a href="docs/installation.md#cdn"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/jsDelivr-CDN-E84D3D.svg?logo=jsdelivr&amp;variant=outline&amp;mode=dark"><img alt="Use icons from jsDelivr" src="https://shieldcn.dev/badge/jsDelivr-CDN-E84D3D.svg?logo=jsdelivr&amp;variant=outline&amp;mode=light"></picture></a>
   <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/github/agenticdriver/provider-icons/license.svg?variant=outline&amp;mode=dark"><img alt="MIT license" src="https://shieldcn.dev/github/agenticdriver/provider-icons/license.svg?variant=outline&amp;mode=light"></picture></a>
 </p>
@@ -25,11 +25,12 @@ brand variants, and related product marks in one maintained catalogue.
 ## Install
 
 ```sh
-npm install @agenticdriver/provider-icons@alpha
+npm install @agenticdriver/provider-icons
 ```
 
 This installs the independent icon library. No AgenticDriver SDK is required.
-The package is currently an alpha; keep your lockfile and review updates.
+The 1.x API preserves public icon IDs, imports and asset paths.
+See the [stability and support policy](docs/stability.md) and [release notes](CHANGELOG.md).
 
 [pnpm, Yarn, Bun and Deno](docs/installation.md#package-managers) ·
 [CDN URLs](docs/installation.md#cdn) ·
@@ -85,6 +86,8 @@ Agents can read the [usage guide](https://agenticdriver.dev/icons/skill.md) or
 | --- | --- |
 | [API reference](docs/api.md) | React, DOM, SVG, search, colour metadata and fallbacks |
 | [Installation](docs/installation.md) | Package managers, CDNs, archives, updates and removal |
+| [Stability and support](docs/stability.md) | 1.x compatibility, supported runtimes and manifest schema |
+| [Changelog](CHANGELOG.md) | Release notes and migration guidance |
 | [Contributing](CONTRIBUTING.md) | Development, source updates and verification |
 | [Releasing](docs/releasing.md) | Tested archives, npm trusted publishing and distribution |
 | [Upstream contributions](docs/lobehub-pull-requests.md) | Reviewed LobeHub pull requests and artwork omissions |

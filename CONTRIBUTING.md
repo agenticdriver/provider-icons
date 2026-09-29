@@ -17,7 +17,8 @@ npm test
 Tests verify catalogue coverage, original artwork, pinned source hashes, safe
 SVG extraction, search, DOM/React APIs, TypeScript, hydration and tree shaking.
 `npm run release:prepare` additionally installs the packed artifact without
-React and with React 18/19. See [releasing](docs/releasing.md).
+React and with React 18/19, and vendors it under optimized Python. CI checks
+Node 22/Python 3.10 and Node 24/Python 3.12. See [releasing](docs/releasing.md).
 
 ## Update artwork
 
@@ -58,6 +59,15 @@ visually before including it. Run `npm run sync:lobehub-prs` for offline replay.
 Keep [the PR import notes](docs/lobehub-pull-requests.md), attribution and explicit
 omissions current. A contribution being imported here does not imply it was merged
 upstream. Retain retired artwork and public IDs when updating sources.
+
+The [1.x compatibility policy](docs/stability.md) applies to every source update.
+`tests/fixtures/public-api-v1.json` records the public contract introduced in 1.0.
+Tests permit additions but reject removed or remapped IDs, aliases, component
+names, members, asset paths, entrypoints and exports. Never regenerate this file
+to accept a breaking source change: preserve the existing contract in the importer.
+When a minor release adds public API, append its new entries to the baseline
+without deleting or changing existing ones. Keep the manifest schema and consumer
+TypeScript tests current too; automated checks complement API review.
 
 ## Metadata and documentation
 

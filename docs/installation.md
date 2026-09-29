@@ -5,7 +5,8 @@
 `@agenticdriver/provider-icons` is an ESM library containing JavaScript,
 TypeScript declarations and SVG assets. It has no platform-specific binaries.
 Use a modern ESM-capable runtime or browser; the React entrypoint requires your
-application's React 18.3.1 or 19. React is an optional peer dependency.
+application's React 18.3.1 or 19. React is an optional peer dependency. See the
+[supported environments and 1.x stability policy](stability.md).
 
 ## Package managers
 
@@ -13,14 +14,14 @@ Install it as a project dependency using one package manager:
 
 | Client | Install |
 | --- | --- |
-| npm | `npm install @agenticdriver/provider-icons@alpha` |
-| pnpm | `pnpm add @agenticdriver/provider-icons@alpha` |
-| Yarn | `yarn add @agenticdriver/provider-icons@alpha` |
-| Bun | `bun add @agenticdriver/provider-icons@alpha` |
-| Deno | `deno add npm:@agenticdriver/provider-icons@alpha` |
+| npm | `npm install @agenticdriver/provider-icons` |
+| pnpm | `pnpm add @agenticdriver/provider-icons` |
+| Yarn | `yarn add @agenticdriver/provider-icons` |
+| Bun | `bun add @agenticdriver/provider-icons` |
+| Deno | `deno add npm:@agenticdriver/provider-icons` |
 
 These clients consume the same npm package. Commit the generated lockfile.
-To pin a release explicitly, install `@agenticdriver/provider-icons@0.1.0-alpha.7`.
+To pin a release explicitly, install `@agenticdriver/provider-icons@1.0.0`.
 
 Check an npm installation:
 
@@ -33,7 +34,7 @@ Expected output: `qwen`. See the [React and JavaScript examples](../README.md).
 ### Update
 
 ```sh
-npm install @agenticdriver/provider-icons@alpha
+npm install @agenticdriver/provider-icons
 ```
 
 For another package manager, repeat its install command above. A CDN URL or
@@ -51,12 +52,12 @@ The equivalent commands are `pnpm remove`, `yarn remove`, `bun remove`, and
 ## CDN
 
 [jsDelivr](https://www.jsdelivr.com/package/npm/@agenticdriver/provider-icons)
-and [UNPKG](https://unpkg.com/@agenticdriver/provider-icons@0.1.0-alpha.7/)
+and [UNPKG](https://unpkg.com/@agenticdriver/provider-icons@1.0.0/)
 serve the public npm package. Use a full version and filename for reproducible URLs.
 
 ```html
 <img
-  src="https://cdn.jsdelivr.net/npm/@agenticdriver/provider-icons@0.1.0-alpha.7/assets/claude-color.svg"
+  src="https://cdn.jsdelivr.net/npm/@agenticdriver/provider-icons@1.0.0/assets/claude-color.svg"
   width="32" height="32" alt="Claude"
 />
 ```
@@ -64,7 +65,7 @@ serve the public npm package. Use a full version and filename for reproducible U
 The equivalent UNPKG asset is:
 
 ```text
-https://unpkg.com/@agenticdriver/provider-icons@0.1.0-alpha.7/assets/claude-color.svg
+https://unpkg.com/@agenticdriver/provider-icons@1.0.0/assets/claude-color.svg
 ```
 
 For browser JavaScript without a bundler:
@@ -72,7 +73,7 @@ For browser JavaScript without a bundler:
 ```html
 <span id="provider-icon"></span>
 <script type="module">
-  import { mountProviderIcon } from 'https://cdn.jsdelivr.net/npm/@agenticdriver/provider-icons@0.1.0-alpha.7/dom.js';
+  import { mountProviderIcon } from 'https://cdn.jsdelivr.net/npm/@agenticdriver/provider-icons@1.0.0/dom.js';
   mountProviderIcon('#provider-icon', 'claude', { style: 'color', size: 32, label: 'Claude' });
 </script>
 ```
@@ -88,17 +89,17 @@ provide the same npm-format archive with `SHA256SUMS`. JavaScript projects can
 install a specific archive directly:
 
 ```sh
-npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.7/agenticdriver-provider-icons-0.1.0-alpha.7.tgz
+npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v1.0.0/agenticdriver-provider-icons-1.0.0.tgz
 ```
 
 For Python, Go, Rust, GTK and other native applications, bundle the manifest and
 assets. No language-specific wrapper is required. Download and check a release:
 
 ```sh
-curl -fLO https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.7/agenticdriver-provider-icons-0.1.0-alpha.7.tgz
-curl -fLO https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.7/SHA256SUMS
+curl -fLO https://github.com/agenticdriver/provider-icons/releases/download/v1.0.0/agenticdriver-provider-icons-1.0.0.tgz
+curl -fLO https://github.com/agenticdriver/provider-icons/releases/download/v1.0.0/SHA256SUMS
 sha256sum -c SHA256SUMS
-tar -xzf agenticdriver-provider-icons-0.1.0-alpha.7.tgz
+tar -xzf agenticdriver-provider-icons-1.0.0.tgz
 ```
 
 Read `package/manifest.json`; its filenames refer to `package/assets/`.

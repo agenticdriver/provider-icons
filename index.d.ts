@@ -9,3 +9,4 @@ export const providerIcons: Readonly<Record<string, ProviderIconEntry>>;
 export const providerAliases: Readonly<Record<string, string>>;
 export const PROVIDER_ICON_FILES: Readonly<Record<string, string>>;
 export function resolveProviderIcon(provider: string, options?: IconOptions): ResolvedIcon | undefined;
+export const providerIconComponentNames: Readonly<Record<string, string>>;

@@ -4,16 +4,73 @@ One maintained catalogue for AgenticDriver and UsageStat-Bar: 352 provider and
 product marks, 965 SVG files, monochrome and original colour, with explicit
 product alternatives, brand marks and wordmarks. Includes all 340 icons and 950
 static SVGs from [LobeHub](https://lobehub.com/icons) at the revision recorded in
-`sources/lobehub.json`. No runtime dependencies, remote requests or UI framework.
+`sources/lobehub.json`. No remote requests. Core and DOM helpers have no runtime
+dependencies; the optional React entrypoint uses the application's React.
 
 Install the standalone alpha from its immutable GitHub release archive:
 
 ```sh
-npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.2/agenticdriver-provider-icons-0.1.0-alpha.2.tgz
+npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.3/agenticdriver-provider-icons-0.1.0-alpha.3.tgz
 ```
 
 This installs only `@agenticdriver/provider-icons`, not AgenticDriver. The package
 is currently distributed through GitHub Releases; it is not yet on npm.
+
+## React
+
+```tsx
+import { Claude } from '@agenticdriver/provider-icons/react';
+
+export default () => <Claude.Combine size={32} mode="color" />;
+```
+
+Use `<Claude />`, `<Claude.Color />`, `<Claude.Text />`, `<Claude.Combine />`
+or `<Claude.Avatar />`. Components handle sizing, layout, colour fallback and
+hydration-safe SVG IDs. No wrapper, stylesheet or `dangerouslySetInnerHTML` is
+needed in your app. `size` is the height in pixels (default 24); width follows the
+artwork. `mode="color"` selects colour for Combine/Avatar; `style` remains a normal
+React CSS object. React 18 and 19 are supported.
+
+Text, Combine, Brand/BrandColor and TextCn/TextCnColor are exported only where the
+catalogue contains that artwork. Named imports are tree-shakable: importing one
+provider does not include all the other providers' SVGs. For dynamic selection:
+
+```tsx
+import { ProviderIcon } from '@agenticdriver/provider-icons/react';
+
+export default () => <ProviderIcon provider="ppio" artwork="combine" size={32} mode="color" />;
+```
+
+Icons are decorative by default. Add `aria-label` for a standalone accessible
+image, or label the surrounding button. Standard SVG props and refs are supported.
+
+## JavaScript
+
+```js
+import { mountProviderIcon } from '@agenticdriver/provider-icons/dom';
+
+mountProviderIcon('#provider-icon', 'ppio', { artwork: 'combine', style: 'color', size: 32 });
+```
+
+Pass a container selector or element. The helper inserts a complete sized SVG and
+handles unique IDs; missing icons leave the container unchanged. Use
+`createProviderIcon(provider, options)` when you want the SVG element without
+mounting it. Add `label` for an accessible image, or `className` to customise it.
+
+## SVG and native applications
+
+```js
+import { providerIconSvg } from '@agenticdriver/provider-icons/svg';
+
+const svg = providerIconSvg('ppio', { artwork: 'combine', style: 'color', size: 32 });
+```
+
+The SVG helper also supports `combine` (logo plus actual vector wordmark) and
+`avatar` (padded logo in a circle). `size` is optional for this lower-level helper.
+IDs are generated automatically; a stable explicit `prefix` is available for
+manual hydration or deterministic exports. React components manage this for you.
+
+## Catalogue lookup
 
 ```js
 import {resolveProviderIcon} from '@agenticdriver/provider-icons';
@@ -46,7 +103,7 @@ hardcoded lists. `providerIconVersion` exports the installed package version
 for version labels and release links; `manifest.json` has `packageVersion` too.
 
 For inline browser SVG, import `providerIconSvg` from the `/svg` entrypoint.
-Give each placement a unique `prefix` to isolate gradients. This static markup
+An optional unique `prefix` makes exports deterministic. This static markup
 has no scripts or external references. Only exact allowlisted rendering styles
 (masks, blending, grayscale and stroke width) survive. It is decorative; label
 the surrounding UI. Monochrome artwork inherits `currentColor` inline; an

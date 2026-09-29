@@ -29,3 +29,5 @@ export function resolveProviderIcon(provider, options = {}) {
 export const PROVIDER_ICON_FILES = Object.freeze(Object.fromEntries(
     [...Object.keys(providerIcons), ...Object.keys(providerAliases)].map(id => [id, resolveProviderIcon(id).file]),
 ));
+
+export {providerIconComponentNames} from './react-names.js';

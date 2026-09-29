@@ -135,11 +135,14 @@ async function publishNpm() {
   await verifyPublished(value, !existing);
 }
 
-function githubRelease(tag) {
+export function githubRelease(tag) {
   try {
-    return JSON.parse(capture('gh', ['api', `repos/${repository}/releases/tags/${tag}`]));
+    // The REST by-tag endpoint omits drafts. gh also searches draft releases,
+    // which lets an interrupted upload resume before making assets public.
+    const release = JSON.parse(capture('gh', ['release', 'view', tag, '--repo', repository, '--json', 'isDraft,assets']));
+    return {draft: release.isDraft, assets: release.assets};
   } catch (error) {
-    if (String(error.stderr).includes('HTTP 404')) return null;
+    if (String(error.stderr).trim() === 'release not found') return null;
     throw error;
   }
 }

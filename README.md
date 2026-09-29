@@ -1,16 +1,17 @@
 # AgenticDriver provider icons
 
-One maintained catalogue for AgenticDriver and UsageStat-Bar: 352 provider and
-product marks, 965 SVG files, monochrome and original colour, with explicit
+One maintained catalogue for AgenticDriver and UsageStat-Bar: 380 provider and
+product marks, 1,041 SVG files, monochrome and original colour, with explicit
 product alternatives, brand marks and wordmarks. Includes all 340 icons and 950
 static SVGs from [LobeHub](https://lobehub.com/icons) at the revision recorded in
-`sources/lobehub.json`. No remote requests. Core and DOM helpers have no runtime
+`sources/lobehub.json`, plus 28 icons and 76 SVGs from reviewed upstream pull
+requests. No remote requests. Core and DOM helpers have no runtime
 dependencies; the optional React entrypoint uses the application's React.
 
 Install the standalone alpha from its immutable GitHub release archive:
 
 ```sh
-npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.4/agenticdriver-provider-icons-0.1.0-alpha.4.tgz
+npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.5/agenticdriver-provider-icons-0.1.0-alpha.5.tgz
 ```
 
 This installs only `@agenticdriver/provider-icons`, not AgenticDriver. The package
@@ -164,3 +165,19 @@ is preserved; previously imported files are refreshed only if locally unchanged.
 Unrecognized variants or unsupported SVG content stop the import for review.
 The source snapshot keeps brand/text variants out of the provider list and
 retains artwork retired upstream, so existing consumers keep working.
+
+New artwork from LobeHub pull requests is reviewed separately from the released
+catalogue at [icons.lobehub.com](https://icons.lobehub.com/). See
+[the PR import notes](docs/lobehub-pull-requests.md) for included icons and omissions.
+`sources/lobehub-prs.json` preserves each PR URL, immutable head revision, original
+source, source hashes and artwork mapping. These contributions were unmerged at
+review; their inclusion here does not imply upstream acceptance.
+
+Run `npm run sync:lobehub-prs` to replay those sources offline. To review a new PR,
+use `npm run sync:lobehub-prs -- --add-pr <number>`, inspect the diff, then build and
+test. This fetches only that PR's icon source, verifies Git blob hashes, and
+statically extracts SVG without running upstream React modules or build scripts.
+It uses the development TypeScript parser, not a consumer runtime dependency.
+Unknown expressions, unsafe SVGs, overwrites of existing artwork and collisions
+with newly merged upstream icons stop for source reconciliation. Metadata and
+React exports are generated automatically from the reviewed artwork.

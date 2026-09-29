@@ -72,6 +72,12 @@ def sync(ref, latest=False):
              if item['path'].startswith('packages/static-svg/icons/') and item['path'].endswith('.svg')}
     toc_data = download(f'{raw}/src/toc.json')
     icons = plan(json.loads(toc_data), files)
+    pr_source = ROOT / 'sources/lobehub-prs.json'
+    if pr_source.exists():
+        additions = {id for pr in json.loads(pr_source.read_text())['pullRequests']
+                     for id, entry in pr['icons'].items() if not entry.get('metadataOnly')}
+        if additions & icons.keys():
+            raise ValueError(f'PR artwork now exists upstream; reconcile its reviewed source before syncing: {sorted(additions & icons.keys())}')
 
     # The static npm archive is a fast cache only. Each SVG is verified against the
     # pinned Git tree; unreleased fixes are downloaded from that exact revision.

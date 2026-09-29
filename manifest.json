@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "packageVersion": "0.1.0-alpha.4",
+  "packageVersion": "0.1.0-alpha.5",
   "icons": {
     "abacus": {
       "name": "Abacus",
@@ -231,6 +231,24 @@
         }
       }
     },
+    "aionly": {
+      "name": "AiOnly",
+      "monochrome": "aionly.svg",
+      "alternatives": [
+        "aionly"
+      ],
+      "primaryColour": "#2272FC",
+      "colourTheme": [
+        "#2272FC",
+        "#00E5E5"
+      ],
+      "color": "aionly-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "aionly-text.svg"
+        }
+      }
+    },
     "airjelly": {
       "name": "AirJelly",
       "monochrome": "airjelly.svg",
@@ -451,6 +469,23 @@
         }
       }
     },
+    "anyapi": {
+      "name": "AnyAPI",
+      "monochrome": "anyapi.svg",
+      "alternatives": [
+        "anyapi"
+      ],
+      "primaryColour": "#009BF2",
+      "colourTheme": [
+        "#009BF2"
+      ],
+      "color": "anyapi-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "anyapi-text.svg"
+        }
+      }
+    },
     "anyscale": {
       "name": "Anyscale",
       "monochrome": "anyscale.svg",
@@ -498,6 +533,23 @@
       "artworks": {
         "text": {
           "monochrome": "apple-text.svg"
+        }
+      }
+    },
+    "appwrite": {
+      "name": "Appwrite",
+      "monochrome": "appwrite.svg",
+      "alternatives": [
+        "appwrite"
+      ],
+      "primaryColour": "#FD366E",
+      "colourTheme": [
+        "#FD366E"
+      ],
+      "color": "appwrite-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "appwrite-text.svg"
         }
       }
     },
@@ -1052,6 +1104,22 @@
       "artworks": {
         "text": {
           "monochrome": "chatglm-text.svg"
+        }
+      }
+    },
+    "cheaperinference": {
+      "name": "Cheaper Inference",
+      "monochrome": "cheaperinference.svg",
+      "alternatives": [
+        "cheaperinference"
+      ],
+      "primaryColour": "#040D10",
+      "colourTheme": [
+        "#040D10"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "cheaperinference-text.svg"
         }
       }
     },
@@ -1724,6 +1792,25 @@
         }
       }
     },
+    "deyin": {
+      "name": "Deyin",
+      "monochrome": "deyin.svg",
+      "alternatives": [
+        "deyin"
+      ],
+      "primaryColour": "#4F7CFF",
+      "colourTheme": [
+        "#4F7CFF",
+        "#8FB4FF",
+        "#9FD2FF"
+      ],
+      "color": "deyin-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "deyin-text.svg"
+        }
+      }
+    },
     "dify": {
       "name": "Dify",
       "monochrome": "dify.svg",
@@ -1888,6 +1975,23 @@
         }
       }
     },
+    "empiriolabs": {
+      "name": "EmpirioLabs AI",
+      "monochrome": "empiriolabs.svg",
+      "alternatives": [
+        "empiriolabs"
+      ],
+      "primaryColour": "#0A7CFF",
+      "colourTheme": [
+        "#0A7CFF"
+      ],
+      "color": "empiriolabs-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "empiriolabs-text.svg"
+        }
+      }
+    },
     "essentialai": {
       "name": "Essential AI",
       "monochrome": "essentialai.svg",
@@ -1902,6 +2006,40 @@
       "artworks": {
         "text": {
           "monochrome": "essentialai-text.svg"
+        }
+      }
+    },
+    "everruns": {
+      "name": "Everruns",
+      "monochrome": "everruns.svg",
+      "alternatives": [
+        "everruns"
+      ],
+      "primaryColour": "#0A1636",
+      "colourTheme": [
+        "#0A1636"
+      ],
+      "color": "everruns-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "everruns-text.svg"
+        }
+      }
+    },
+    "everyapi": {
+      "name": "EveryAPI",
+      "monochrome": "everyapi.svg",
+      "alternatives": [
+        "everyapi"
+      ],
+      "primaryColour": "#7C5CFF",
+      "colourTheme": [
+        "#7C5CFF"
+      ],
+      "color": "everyapi-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "everyapi-text.svg"
         }
       }
     },
@@ -2048,6 +2186,23 @@
         }
       }
     },
+    "fivedive": {
+      "name": "5dive",
+      "monochrome": "fivedive.svg",
+      "alternatives": [
+        "fivedive"
+      ],
+      "primaryColour": "#1A1A1F",
+      "colourTheme": [
+        "#1A1A1F"
+      ],
+      "color": "fivedive-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "fivedive-text.svg"
+        }
+      }
+    },
     "flora": {
       "name": "Flora",
       "monochrome": "flora.svg",
@@ -2160,6 +2315,23 @@
       "artworks": {
         "text": {
           "monochrome": "gemma-text.svg"
+        }
+      }
+    },
+    "ghast": {
+      "name": "Ghast",
+      "monochrome": "ghast.svg",
+      "alternatives": [
+        "ghast"
+      ],
+      "primaryColour": "#848484",
+      "colourTheme": [
+        "#848484"
+      ],
+      "color": "ghast-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "ghast-text.svg"
         }
       }
     },
@@ -2329,6 +2501,23 @@
         }
       }
     },
+    "gptzzz": {
+      "name": "GPTZZZ",
+      "monochrome": "gptzzz.svg",
+      "alternatives": [
+        "gptzzz"
+      ],
+      "primaryColour": "#7C6CFF",
+      "colourTheme": [
+        "#7C6CFF"
+      ],
+      "color": "gptzzz-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "gptzzz-text.svg"
+        }
+      }
+    },
     "gradio": {
       "name": "Gradio",
       "monochrome": "gradio.svg",
@@ -2343,6 +2532,23 @@
       "artworks": {
         "text": {
           "monochrome": "gradio-text.svg"
+        }
+      }
+    },
+    "greenpt": {
+      "name": "GreenPT",
+      "monochrome": "greenpt.svg",
+      "alternatives": [
+        "greenpt"
+      ],
+      "primaryColour": "#9BE755",
+      "colourTheme": [
+        "#9BE755"
+      ],
+      "color": "greenpt-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "greenpt-text.svg"
         }
       }
     },
@@ -2430,7 +2636,7 @@
       }
     },
     "happyhorse": {
-      "name": "Hedra",
+      "name": "HappyHorse",
       "monochrome": "happyhorse.svg",
       "alternatives": [
         "happyhorse"
@@ -2458,6 +2664,24 @@
       "artworks": {
         "text": {
           "monochrome": "hedra-text.svg"
+        }
+      }
+    },
+    "hefu": {
+      "name": "HeFu",
+      "monochrome": "hefu.svg",
+      "alternatives": [
+        "hefu"
+      ],
+      "primaryColour": "#0D9488",
+      "colourTheme": [
+        "#0D9488",
+        "#06B6D4"
+      ],
+      "color": "hefu-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "hefu-text.svg"
         }
       }
     },
@@ -2531,6 +2755,22 @@
         },
         "text-cn": {
           "monochrome": "huaweicloud-text-cn.svg"
+        }
+      }
+    },
+    "hubris": {
+      "name": "Hubris",
+      "monochrome": "hubris.svg",
+      "alternatives": [
+        "hubris"
+      ],
+      "primaryColour": "#8B6BFF",
+      "colourTheme": [
+        "#8B6BFF"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "hubris-text.svg"
         }
       }
     },
@@ -2633,6 +2873,18 @@
           "monochrome": "iflytekcloud-text.svg"
         }
       }
+    },
+    "image2": {
+      "name": "Image 2",
+      "monochrome": "image2.svg",
+      "alternatives": [
+        "image2"
+      ],
+      "primaryColour": "#94C21A",
+      "colourTheme": [
+        "#94C21A"
+      ],
+      "color": "image2-color.svg"
     },
     "inception": {
       "name": "Inception",
@@ -2811,6 +3063,23 @@
         }
       }
     },
+    "jotaid": {
+      "name": "Jotaid",
+      "monochrome": "jotaid.svg",
+      "alternatives": [
+        "jotaid"
+      ],
+      "primaryColour": "#D98E04",
+      "colourTheme": [
+        "#D98E04"
+      ],
+      "color": "jotaid-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "jotaid-text.svg"
+        }
+      }
+    },
     "junie": {
       "name": "Junie",
       "monochrome": "junie.svg",
@@ -2933,6 +3202,22 @@
       "artworks": {
         "text": {
           "monochrome": "kluster-text.svg"
+        }
+      }
+    },
+    "kollab": {
+      "name": "Kollab",
+      "monochrome": "kollab.svg",
+      "alternatives": [
+        "kollab"
+      ],
+      "primaryColour": "#E67062",
+      "colourTheme": [
+        "#E67062"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "kollab-text.svg"
         }
       }
     },
@@ -3218,6 +3503,22 @@
       "artworks": {
         "text": {
           "monochrome": "llmapi-text.svg"
+        }
+      }
+    },
+    "llmgateway": {
+      "name": "LLM Gateway",
+      "monochrome": "llmgateway.svg",
+      "alternatives": [
+        "llmgateway"
+      ],
+      "primaryColour": "#000000",
+      "colourTheme": [
+        "#000000"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "llmgateway-text.svg"
         }
       }
     },
@@ -4024,6 +4325,23 @@
         }
       }
     },
+    "openference": {
+      "name": "Openference",
+      "monochrome": "openference.svg",
+      "alternatives": [
+        "openference"
+      ],
+      "primaryColour": "#6366F1",
+      "colourTheme": [
+        "#6366F1"
+      ],
+      "color": "openference-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "openference-text.svg"
+        }
+      }
+    },
     "openhands": {
       "name": "OpenHands",
       "monochrome": "openhands.svg",
@@ -4090,6 +4408,18 @@
         }
       }
     },
+    "orcarouter": {
+      "name": "OrcaRouter",
+      "monochrome": "orcarouter.svg",
+      "alternatives": [
+        "orcarouter"
+      ],
+      "primaryColour": "#0160E6",
+      "colourTheme": [
+        "#0160E6"
+      ],
+      "color": "orcarouter-color.svg"
+    },
     "palm": {
       "name": "PaLM",
       "monochrome": "palm.svg",
@@ -4155,6 +4485,20 @@
           "monochrome": "perplexity-text.svg"
         }
       }
+    },
+    "personastack": {
+      "name": "PersonaStack",
+      "monochrome": "personastack.svg",
+      "alternatives": [
+        "personastack"
+      ],
+      "primaryColour": "#010915",
+      "colourTheme": [
+        "#010915",
+        "#000814",
+        "#2A78FD"
+      ],
+      "color": "personastack-color.svg"
     },
     "phala": {
       "name": "Phala",
@@ -4302,6 +4646,23 @@
       "artworks": {
         "text": {
           "monochrome": "pollinations-text.svg"
+        }
+      }
+    },
+    "polza": {
+      "name": "Polza",
+      "monochrome": "polza.svg",
+      "alternatives": [
+        "polza"
+      ],
+      "primaryColour": "#B2F72A",
+      "colourTheme": [
+        "#B2F72A"
+      ],
+      "color": "polza-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "polza-text.svg"
         }
       }
     },
@@ -4544,6 +4905,25 @@
         }
       }
     },
+    "respira": {
+      "name": "Respira",
+      "monochrome": "respira.svg",
+      "alternatives": [
+        "respira"
+      ],
+      "primaryColour": "#10B981",
+      "colourTheme": [
+        "#10B981",
+        "#34D399"
+      ],
+      "color": "respira-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "respira-text.svg",
+          "color": "respira-text-color.svg"
+        }
+      }
+    },
     "reve": {
       "name": "Reve",
       "monochrome": "reve.svg",
@@ -4657,6 +5037,23 @@
       "artworks": {
         "text": {
           "monochrome": "sambanova-text.svg"
+        }
+      }
+    },
+    "saygm": {
+      "name": "SayGM",
+      "monochrome": "saygm.svg",
+      "alternatives": [
+        "saygm"
+      ],
+      "primaryColour": "#FFCE3F",
+      "colourTheme": [
+        "#FFCE3F"
+      ],
+      "color": "saygm-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "saygm-text.svg"
         }
       }
     },
@@ -4989,6 +5386,23 @@
         }
       }
     },
+    "sub2api": {
+      "name": "Sub2API",
+      "monochrome": "sub2api.svg",
+      "alternatives": [
+        "sub2api"
+      ],
+      "primaryColour": "#2FD3E1",
+      "colourTheme": [
+        "#2FD3E1"
+      ],
+      "color": "sub2api-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "sub2api-text.svg"
+        }
+      }
+    },
     "submodel": {
       "name": "SubModel",
       "monochrome": "submodel.svg",
@@ -5045,6 +5459,23 @@
         "synthetic"
       ],
       "colourTheme": []
+    },
+    "tabbit": {
+      "name": "Tabbit",
+      "monochrome": "tabbit.svg",
+      "alternatives": [
+        "tabbit"
+      ],
+      "primaryColour": "#FC9832",
+      "colourTheme": [
+        "#FC9832"
+      ],
+      "color": "tabbit-color.svg",
+      "artworks": {
+        "text": {
+          "monochrome": "tabbit-text.svg"
+        }
+      }
     },
     "targon": {
       "name": "Targon",
@@ -5120,6 +5551,18 @@
           "monochrome": "tencentcloud-text.svg"
         }
       }
+    },
+    "thegrid": {
+      "name": "The Grid",
+      "monochrome": "thegrid.svg",
+      "alternatives": [
+        "thegrid"
+      ],
+      "primaryColour": "#0049E6",
+      "colourTheme": [
+        "#0049E6"
+      ],
+      "color": "thegrid-color.svg"
     },
     "tiangong": {
       "name": "Tiangong",
@@ -5239,6 +5682,22 @@
       "artworks": {
         "text": {
           "monochrome": "turix-text.svg"
+        }
+      }
+    },
+    "typesafeai": {
+      "name": "TypeSafe AI",
+      "monochrome": "typesafeai.svg",
+      "alternatives": [
+        "typesafeai"
+      ],
+      "primaryColour": "#F386A1",
+      "colourTheme": [
+        "#F386A1"
+      ],
+      "artworks": {
+        "text": {
+          "monochrome": "typesafeai-text.svg"
         }
       }
     },
@@ -5888,6 +6347,7 @@
     "opencodego": "opencode-go",
     "kimi-k2": "kimi",
     "jetbrains": "jetbrains-ai-assistant",
-    "xai-responses": "xai"
+    "xai-responses": "xai",
+    "5dive": "fivedive"
   }
 }

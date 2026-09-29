@@ -9,9 +9,9 @@ import xml.etree.ElementTree as ET
 
 ROOT = Path(__file__).resolve().parent.parent
 ET.register_namespace('', 'http://www.w3.org/2000/svg')
-TAGS = set('svg path title stop linearGradient defs g feBlend filter feFlood feGaussianBlur polygon radialGradient circle rect feColorMatrix clipPath feOffset feComposite ellipse mask'.split())
-ATTRS = set('d fill width height viewBox stop-color fill-rule offset id clip-rule x2 x1 y2 y1 gradientUnits result fill-opacity cx cy x y r in2 transform stroke stop-opacity in stroke-width filter color-interpolation-filters filterUnits flood-opacity stdDeviation gradientTransform points rx stroke-linecap values fx fy vector-effect stroke-linejoin clip-path k2 k3 operator ry maskUnits mask opacity shape-rendering'.split())
-ALIASES = {'chatgpt':'openai', 'openai-api':'openai', 'claude-code':'claudecode', 'gemini-cli':'gemini', 'opencodego':'opencode-go', 'kimi-k2':'kimi', 'jetbrains':'jetbrains-ai-assistant', 'xai-responses':'xai'}
+TAGS = set('svg path title stop linearGradient defs g feBlend filter feFlood feGaussianBlur polygon radialGradient circle rect feColorMatrix clipPath feOffset feComposite ellipse mask line'.split())
+ATTRS = set('d fill width height viewBox stop-color fill-rule offset id clip-rule x2 x1 y2 y1 gradientUnits result fill-opacity cx cy x y r in2 transform stroke stop-opacity in stroke-width stroke-opacity filter color-interpolation-filters filterUnits flood-opacity stdDeviation gradientTransform points rx stroke-linecap values fx fy vector-effect stroke-linejoin clip-path k2 k3 operator ry maskUnits mask opacity shape-rendering'.split())
+ALIASES = {'chatgpt':'openai', 'openai-api':'openai', 'claude-code':'claudecode', 'gemini-cli':'gemini', 'opencodego':'opencode-go', 'kimi-k2':'kimi', 'jetbrains':'jetbrains-ai-assistant', 'xai-responses':'xai', '5dive':'fivedive'}
 GROUPS = [('openai', 'codex'), ('anthropic', 'claude', 'claudecode'), ('copilot', 'githubcopilot'), ('xai', 'grok'), ('opencode-go', 'opencode')]
 # Exact rendering declarations only; remove React's layout styles without losing
 # masks, intentional monochrome filters or colour blending in the original art.
@@ -70,25 +70,47 @@ COMPONENT_NAMES = {
     'githubcopilot': 'GitHubCopilot',
 }
 
+def verified_content(entry):
+    data = entry['content'].encode()
+    if hashlib.sha256(data).hexdigest() != entry['sha256'] or hashlib.sha1(f'blob {len(data)}\0'.encode()+data).hexdigest() != entry['gitBlob']:
+        raise ValueError('Source digest mismatch')
+    return entry['content']
+
+def colour_theme(content):
+    values = dict(re.findall(r"export const (COLOR_[A-Z0-9_]+) = ['\"](#[0-9a-fA-F]{3,8})['\"];", content))
+    def hex(value):
+        value = value[1:]
+        if len(value) in (3, 4): value = ''.join(c*2 for c in value)
+        if len(value) not in (6, 8): raise ValueError('Invalid source colour')
+        return '#'+value.upper()
+    primary = hex(values['COLOR_PRIMARY'])
+    palette = list(dict.fromkeys([primary, *(hex(value) for value in values.values())]))
+    return {'primaryColour': primary, 'colourTheme': palette}
+
 def colour_themes():
     source = json.loads((ROOT/'sources/lobehub-colours.json').read_text())
     if source['commit'] != json.loads((ROOT/'sources/lobehub.json').read_text())['commit']:
         raise ValueError('Colour definitions must use the reviewed artwork revision; run sync:colours')
     themes = {}
     for id, entry in source['files'].items():
-        data = entry['content'].encode()
-        if hashlib.sha256(data).hexdigest() != entry['sha256'] or hashlib.sha1(f'blob {len(data)}\0'.encode()+data).hexdigest() != entry['gitBlob']:
-            raise ValueError(f'Colour source digest mismatch: {id}')
-        values = dict(re.findall(r"export const (COLOR_[A-Z0-9_]+) = ['\"](#[0-9a-fA-F]{3,8})['\"];", entry['content']))
-        def hex(value):
-            value = value[1:]
-            if len(value) in (3, 4): value = ''.join(c*2 for c in value)
-            if len(value) not in (6, 8): raise ValueError(f'Invalid colour: {id}')
-            return '#'+value.upper()
-        primary = hex(values['COLOR_PRIMARY'])
-        palette = list(dict.fromkeys([primary, *(hex(value) for value in values.values())]))
-        themes[id] = {'primaryColour': primary, 'colourTheme': palette}
+        themes[id] = colour_theme(verified_content(entry))
     return themes
+
+def pull_request_metadata(upstream, themes):
+    snapshot = json.loads((ROOT/'sources/lobehub-prs.json').read_text())
+    names = {}
+    for pr in snapshot['pullRequests']:
+        for source in pr['files'].values(): verified_content(source)
+        for id, entry in pr['icons'].items():
+            if id in names: raise ValueError(f'Duplicate PR icon: {id}')
+            if not entry.get('metadataOnly') and id in upstream:
+                raise ValueError(f'{id} now exists upstream; reconcile its reviewed PR source')
+            if entry.get('metadataOnly') and id not in upstream:
+                raise ValueError(f'Missing original icon for PR metadata: {id}')
+            upstream[id] = {**upstream.get(id, {}), **entry}
+            names[id] = entry['name']
+            themes[id] = colour_theme(pr['files'][f'src/{entry["componentName"]}/style.ts']['content'])
+    return names
 
 def react_outputs(icons, svgs, upstream):
     names, files = {}, {}
@@ -103,7 +125,7 @@ def react_outputs(icons, svgs, upstream):
              "export interface ProviderIconProps extends IconProps {provider: string; artwork?: IconLayout; variant?: string}",
              "export const ProviderIcon: ForwardRefExoticComponent<ProviderIconProps & RefAttributes<SVGSVGElement>>;"]
     for id, entry in icons.items():
-        name = COMPONENT_NAMES.get(id)
+        name = COMPONENT_NAMES.get(id) or upstream.get(id, {}).get('componentName')
         if not name:
             title = upstream.get(id, {}).get('name', entry['name'])
             name = ''.join(part[:1].upper()+part[1:] for part in re.findall(r'[A-Za-z0-9]+', title))
@@ -136,6 +158,7 @@ def outputs():
     themes = colour_themes()
     source = json.loads((ROOT/'sources/lobehub.json').read_text())
     upstream = source['icons']
+    reviewed_names = pull_request_metadata(upstream, themes)
     extras = {file for entry in upstream.values()
               for artwork, styles in entry['artworks'].items() if artwork != 'icon'
               for file in styles.values()}
@@ -145,6 +168,7 @@ def outputs():
         if file.stem.endswith('-color') or file.name in extras: continue
         title = ET.fromstring(source).find('{http://www.w3.org/2000/svg}title')
         name = title.text if title is not None else upstream.get(file.stem, {}).get('name', file.stem.replace('-', ' ').title())
+        name = reviewed_names.get(file.stem, name)
         if file.stem == 'openai': name = 'ChatGPT / OpenAI'
         entry = {'name': name, 'monochrome':file.name, 'alternatives':[file.stem],
                  **themes.get(file.stem, {'colourTheme': []})}

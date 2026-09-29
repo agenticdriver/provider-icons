@@ -9,6 +9,16 @@ upstream revision and catalogue; provenance.json's lobehub section records
 SHA-256 hashes of imported assets. Original local artwork is preserved when
 filenames overlap. LobeHub's MIT notice is retained in licenses/LobeHub-MIT.txt.
 
+Additional contributed artwork comes from reviewed LobeHub pull requests.
+sources/lobehub-prs.json records each contributor repository, PR URL, full head
+revision, original source contents and hashes. provenance.json's
+lobehubPullRequests section records the resulting SVG hashes. Static SVGs are
+copied unchanged; TSX artwork is extracted as SVG without executing upstream
+modules. Two source-pinned wordmark corrections adjust Deyin's viewBox and
+Openference's vertical orientation without changing their path geometry.
+These contributions were unmerged at review. See
+docs/lobehub-pull-requests.md for included artwork and explicit omissions.
+
 Names and logos are trademarks of their respective owners. The library does
 not imply endorsement or transfer trademark rights. Product alternatives and
 aliases select artwork only; they do not select a runtime, account or billing.

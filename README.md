@@ -19,6 +19,8 @@ is currently distributed through GitHub Releases; it is not yet on npm.
 ## React
 
 ```tsx
+'use client';
+
 import { Claude } from '@agenticdriver/provider-icons/react';
 
 export default () => <Claude.Combine size={32} mode="color" />;
@@ -29,13 +31,16 @@ or `<Claude.Avatar />`. Components handle sizing, layout, colour fallback and
 hydration-safe SVG IDs. No wrapper, stylesheet or `dangerouslySetInnerHTML` is
 needed in your app. `size` is the height in pixels (default 24); width follows the
 artwork. `mode="color"` selects colour for Combine/Avatar; `style` remains a normal
-React CSS object. React 18 and 19 are supported.
+React CSS object. React 18 and 19 are supported. The client directive makes
+these examples usable in a Next.js App Router component as well.
 
 Text, Combine, Brand/BrandColor and TextCn/TextCnColor are exported only where the
 catalogue contains that artwork. Named imports are tree-shakable: importing one
 provider does not include all the other providers' SVGs. For dynamic selection:
 
 ```tsx
+'use client';
+
 import { ProviderIcon } from '@agenticdriver/provider-icons/react';
 
 export default () => <ProviderIcon provider="ppio" artwork="combine" size={32} mode="color" />;

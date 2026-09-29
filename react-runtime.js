@@ -41,7 +41,7 @@ export function createReactIcon(render, displayName) {
   return Component;
 }
 
-export function createNamedIcon(name, artworks) {
+export function createNamedIcon(name, artworks, theme = {}) {
   const create = (artwork, style) => createReactIcon((_provider, options) =>
     renderArtwork(artworks, {...options, artwork, style: style ?? options.style}), `${name}.${artwork}${style === 'color' ? '.Color' : ''}`);
   const Icon = create('icon');
@@ -61,5 +61,12 @@ export function createNamedIcon(name, artworks) {
     Icon.TextCn = create('text-cn');
     Icon.TextCnColor = create('text-cn', 'color');
   }
+  const palette = Object.freeze([...(theme.colourTheme ?? [])]);
+  Object.defineProperties(Icon, {
+    primaryColour: {value: theme.primaryColour ?? undefined, enumerable: true},
+    colorPrimary: {value: theme.primaryColour ?? undefined, enumerable: true},
+    colourTheme: {value: palette, enumerable: true},
+    colorTheme: {value: palette, enumerable: true},
+  });
   return Icon;
 }

@@ -10,7 +10,7 @@ dependencies; the optional React entrypoint uses the application's React.
 Install the standalone alpha from its immutable GitHub release archive:
 
 ```sh
-npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.3/agenticdriver-provider-icons-0.1.0-alpha.3.tgz
+npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.4/agenticdriver-provider-icons-0.1.0-alpha.4.tgz
 ```
 
 This installs only `@agenticdriver/provider-icons`, not AgenticDriver. The package
@@ -48,6 +48,36 @@ export default () => <ProviderIcon provider="ppio" artwork="combine" size={32} m
 
 Icons are decorative by default. Add `aria-label` for a standalone accessible
 image, or label the surrounding button. Standard SVG props and refs are supported.
+
+Monochrome inherits `currentColor`, so it follows the application's light/dark
+text colour without a theme provider or a JavaScript media-query listener.
+Original colour artwork keeps its fixed brand colours. Set the surrounding
+text colour or pass a normal `style={{color: ...}}` to override monochrome ink.
+
+## Brand colours
+
+```tsx
+Claude.primaryColour; // '#D97757' — also exposed as Claude.colorPrimary
+Claude.colourTheme;   // ['#D97757'] — also exposed as Claude.colorTheme
+```
+
+Without React:
+
+```js
+import { providerIconTheme } from '@agenticdriver/provider-icons';
+const theme = providerIconTheme('claude');
+theme.primaryColour;
+theme.colourTheme;
+```
+
+These are immutable, normalised hex values from the source's `COLOR_PRIMARY`
+and additional literal `COLOR_*` definitions, at the same pinned LobeHub revision
+as the artwork. They are not sampled from pixels or a complete brand style guide.
+Where no source definition exists, the primary is `undefined` and the palette
+is empty. Unknown providers return `undefined`; existing aliases are accepted.
+The same metadata is included in `providerIcons` and the native JSON manifest.
+Update the verified snapshot with `npm run sync:colours` after an artwork-source
+update; generation rejects a mismatched revision or changed source digest.
 
 ## JavaScript
 

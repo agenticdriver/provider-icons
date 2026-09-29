@@ -1,6 +1,6 @@
 {
   "name": "@agenticdriver/provider-icons",
-  "version": "0.1.0-alpha.3",
+  "version": "0.1.0-alpha.4",
   "description": "Shared AI provider and product marks for web and native applications",
   "type": "module",
   "license": "MIT",
@@ -57,7 +57,8 @@
     "sync:lobehub": "python3 scripts/sync_lobehub.py",
     "build": "python3 scripts/build.py",
     "test": "python3 scripts/build.py --check && python3 -m unittest discover -s tests -p 'test_*.py' && node --test tests/*.test.mjs",
-    "prepack": "npm test"
+    "prepack": "npm test",
+    "sync:colours": "python3 scripts/sync_colours.py"
   },
   "publishConfig": {
     "access": "public",

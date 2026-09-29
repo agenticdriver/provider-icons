@@ -1,6 +1,9 @@
 // Browser, Node and GJS compatible. Generated catalogue; no network or filesystem access.
 import {catalog} from './manifest.js';
-export const providerIcons = Object.freeze(catalog.icons);
+export const providerIcons = Object.freeze(Object.fromEntries(Object.entries(catalog.icons).map(([id, entry]) => {
+    const palette = Object.freeze([...entry.colourTheme]);
+    return [id, Object.freeze({...entry, colourTheme: palette, colorTheme: palette, colorPrimary: entry.primaryColour})];
+})));
 export const providerAliases = Object.freeze(catalog.aliases);
 export const providerIconVersion = catalog.packageVersion;
 
@@ -31,3 +34,11 @@ export const PROVIDER_ICON_FILES = Object.freeze(Object.fromEntries(
 ));
 
 export {providerIconComponentNames} from './react-names.js';
+
+/** Source-defined colour values; no artwork sampling or runtime requests. */
+export function providerIconTheme(provider) {
+    const resolved = resolveProviderIcon(provider);
+    if (!resolved) return undefined;
+    const {primaryColour, colorPrimary, colourTheme, colorTheme} = providerIcons[resolved.id];
+    return Object.freeze({primaryColour, colorPrimary, colourTheme, colorTheme});
+}

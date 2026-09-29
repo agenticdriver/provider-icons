@@ -7,7 +7,7 @@ import * as React from 'react';
 import {renderToString, renderToStaticMarkup} from 'react-dom/server';
 import {build} from 'esbuild';
 import ts from 'typescript';
-import {providerIcons, providerIconComponentNames} from '../index.js';
+import {providerIcons, providerIconComponentNames, providerIconTheme} from '../index.js';
 import {providerIconSvg} from '../svg.js';
 import {createProviderIcon, mountProviderIcon} from '../dom.js';
 import * as components from '../react.js';
@@ -15,6 +15,28 @@ import * as components from '../react.js';
 const root = fileURLToPath(new URL('../', import.meta.url));
 const document = new JSDOM('<div id="icon">Placeholder</div>').window.document;
 const parse = svg => new JSDOM(svg, {contentType: 'image/svg+xml'}).window.document;
+
+test('source-defined colour themes are immutable and available without React', () => {
+  const claude = providerIconTheme('claude');
+  assert.equal(claude.primaryColour, '#D97757');
+  assert.equal(claude.colorPrimary, '#D97757');
+  assert.deepEqual(claude.colourTheme, ['#D97757']);
+  assert.equal(claude.colourTheme, claude.colorTheme);
+  assert.equal(providerIconTheme('CHATGPT').primaryColour, '#000000');
+  assert.equal(providerIconTheme('__proto__'), undefined);
+  assert.equal(providerIconTheme('unknown'), undefined);
+  assert.throws(() => claude.colourTheme.push('#123456'));
+  for (const [id, entry] of Object.entries(providerIcons)) {
+    const component = components[providerIconComponentNames[id]];
+    assert.deepEqual(component.colourTheme, entry.colourTheme, id);
+    assert.equal(component.primaryColour, entry.primaryColour, id);
+    assert.equal(component.colorPrimary, entry.primaryColour, id);
+    assert.equal(component.colourTheme, component.colorTheme, id);
+    assert.ok(Object.isFrozen(component.colourTheme));
+    assert.equal(new Set(entry.colourTheme).size, entry.colourTheme.length);
+    for (const colour of entry.colourTheme) assert.match(colour, /^#[0-9A-F]{6}(?:[0-9A-F]{2})?$/);
+  }
+});
 
 function assertReferences(markup) {
   const ids = [...markup.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
@@ -114,10 +136,15 @@ test('copyable public API examples pass strict TypeScript', () => {
   const source = `import {PPIO, Claude, OpenAI, ProviderIcon} from '@agenticdriver/provider-icons/react';
 import {mountProviderIcon, createProviderIcon} from '@agenticdriver/provider-icons/dom';
 import {providerIconSvg} from '@agenticdriver/provider-icons/svg';
+import {providerIconTheme} from '@agenticdriver/provider-icons';
 export const Example = () => <><PPIO.Combine size={56} mode="color" /><Claude.Color size={24} /><OpenAI.Text /><ProviderIcon provider="ppio" artwork="combine" mode="color" /></>;
 mountProviderIcon('#icon', 'ppio', {artwork: 'combine', size: 56});
 const svg: SVGSVGElement | undefined = createProviderIcon('claude', {label: 'Claude'});
 const text: string | undefined = providerIconSvg('ppio', {artwork: 'combine', size: 56});
+const primary: string | undefined = Claude.primaryColour;
+const palette: readonly string[] = Claude.colourTheme;
+const alias: string | undefined = Claude.colorPrimary;
+const theme = providerIconTheme('claude');
 // @ts-expect-error unavailable artwork must not be advertised
 export const Missing = () => <OpenAI.TextCn />;
 // @ts-expect-error React takes CSS style separately from icon mode

@@ -86,7 +86,7 @@ async function prepare() {
     const source = join(staging, 'source');
     mkdirSync(source);
     run('git', ['archive', '--format=tar', `--output=${join(staging, 'source.tar')}`, value.commit]);
-    run('tar', ['-xf', join(staging, 'source.tar'), '-C', source]);
+    run('tar', ['--no-same-owner', '--same-permissions', '-xf', join(staging, 'source.tar'), '-C', source]);
     [packed] = JSON.parse(capture('npm', ['pack', '--ignore-scripts', '--json', '--pack-destination', directory], source));
   } finally {
     rmSync(staging, {recursive: true, force: true});

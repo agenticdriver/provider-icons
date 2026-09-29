@@ -4,6 +4,7 @@ import {execFileSync} from 'node:child_process';
 import {mkdirSync, mkdtempSync, readFileSync, rmSync, writeFileSync} from 'node:fs';
 import {tmpdir} from 'node:os';
 import {dirname, join, resolve} from 'node:path';
+import {setTimeout as pause} from 'node:timers/promises';
 import {fileURLToPath} from 'node:url';
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), '..');
@@ -35,6 +36,17 @@ export async function registryMetadata(candidate, request = fetch) {
   return response.json();
 }
 
+export async function waitForRegistryMetadata(candidate, {
+  request = fetch, delay = pause, attempts = 61, interval = 10_000,
+} = {}) {
+  for (let attempt = 0; attempt < attempts; attempt++) {
+    const metadata = await registryMetadata(candidate, request);
+    if (metadata) return metadata;
+    if (attempt + 1 < attempts) await delay(interval);
+  }
+  assert.fail('npm accepted the upload but this version is still processing; retry verification later');
+}
+
 export function verifyMetadata(metadata, candidate) {
   assert.equal(metadata.name, candidate.name);
   assert.equal(metadata.version, candidate.version);
@@ -63,8 +75,8 @@ function requireMain(value) {
   run('git', ['merge-base', '--is-ancestor', value.commit, 'origin/main']);
 }
 
-async function verifyPublished(value) {
-  const metadata = await registryMetadata(value);
+async function verifyPublished(value, wait = false) {
+  const metadata = await (wait ? waitForRegistryMetadata(value) : registryMetadata(value));
   assert.ok(metadata, 'This version is not published to npm');
   verifyMetadata(metadata, value);
   const response = await fetch(metadata.dist.tarball, {redirect: 'error', signal: AbortSignal.timeout(60_000)});
@@ -118,8 +130,9 @@ async function publishNpm() {
     console.log('This exact version is already published; verifying without changing distribution tags.');
   } else {
     run('npm', ['publish', join(directory, value.filename), '--ignore-scripts', '--access', 'public', '--tag', value.distTag, '--registry', registry]);
+    console.log('Upload accepted; waiting up to 10 minutes for npm registry processing.');
   }
-  await verifyPublished(value);
+  await verifyPublished(value, !existing);
 }
 
 function githubRelease(tag) {

@@ -33,11 +33,12 @@ npm ci
 npm run release:prepare
 ```
 
-Preparation runs the complete test suite, creates the archive once, checks its
-included files and installs it into isolated consumers without React and with
+Preparation runs the complete test suite, packs committed files using their Git
+file modes, checks the archive's included files and installs it into isolated consumers without React and with
 React 18/19. `work/release/` contains the archive, `SHA256SUMS`, and a candidate
 record with the exact source commit and SHA-256/SHA-512 digests. Generated drift,
 uncommitted inputs and an archive exceeding the native vendor limit fail the check.
+Use the workflow's Node 24 and npm 11.20.0 when reproducing archive bytes locally.
 
 ## Publish
 

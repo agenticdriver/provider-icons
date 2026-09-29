@@ -13,7 +13,7 @@ const registry = 'https://registry.npmjs.org';
 const versionPattern = /^(0|[1-9]\d*)\.(0|[1-9]\d*)\.(0|[1-9]\d*)(?:-alpha\.(0|[1-9]\d*))?$/;
 const json = path => JSON.parse(readFileSync(path, 'utf8'));
 const hash = (data, algorithm = 'sha256', encoding = 'hex') => createHash(algorithm).update(data).digest(encoding);
-const capture = (command, args) => execFileSync(command, args, {cwd: root, encoding: 'utf8', maxBuffer: 8_000_000});
+const capture = (command, args, cwd = root) => execFileSync(command, args, {cwd, encoding: 'utf8', maxBuffer: 8_000_000});
 const run = (command, args) => execFileSync(command, args, {cwd: root, stdio: 'inherit'});
 
 export function releaseIdentity(pkg, commit) {
@@ -78,7 +78,19 @@ async function prepare() {
   assert.equal(json(join(root, 'manifest.json')).packageVersion, value.version);
   run('npm', ['test']);
   mkdirSync(directory, {recursive: true});
-  const [packed] = JSON.parse(capture('npm', ['pack', '--ignore-scripts', '--json', '--pack-destination', directory]));
+  // Pack tracked, committed inputs with Git's file modes. Shared filesystems may
+  // report every working-tree file as executable even when Git records 100644.
+  const staging = mkdtempSync(join(tmpdir(), 'provider-icons-pack-'));
+  let packed;
+  try {
+    const source = join(staging, 'source');
+    mkdirSync(source);
+    run('git', ['archive', '--format=tar', `--output=${join(staging, 'source.tar')}`, value.commit]);
+    run('tar', ['-xf', join(staging, 'source.tar'), '-C', source]);
+    [packed] = JSON.parse(capture('npm', ['pack', '--ignore-scripts', '--json', '--pack-destination', directory], source));
+  } finally {
+    rmSync(staging, {recursive: true, force: true});
+  }
   assert.equal(packed.filename, value.filename);
   assert.ok(packed.files.every(file => file.path.split('/').every(part =>
     !['.npmrc', '.env', '.git', 'node_modules', 'work', 'research'].includes(part) && !part.startsWith('.env.'))),

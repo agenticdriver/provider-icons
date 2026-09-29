@@ -1,6 +1,6 @@
 # Brand colour source audit
 
-Checked 2026-09-29. The [searchable dataset](2026-09-29.json) covers all **352 catalogue IDs**, with official numerical colour evidence for **90**. Every ID records attempted searches or source visits. Make also has official named-colour guidance without verified numeric values. The remaining entries are unresolved, blocked, or supported only by historical third-party metadata; they are not presented as official palettes.
+Checked 2026-09-29 against **v0.1.0-alpha.4**. The [searchable dataset](2026-09-29.json) covers that release's **352 catalogue IDs**, with official numerical colour evidence for **90**. It predates the 28 icons added in alpha.5. Every audited ID records attempted searches or source visits. Make also has official named-colour guidance without verified numeric values. The remaining entries are unresolved, blocked, or supported only by historical third-party metadata; they are not presented as official palettes.
 
 | Evidence | Entries | Meaning |
 | --- | ---: | --- |

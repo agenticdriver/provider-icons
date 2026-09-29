@@ -84,6 +84,7 @@ To add an explicitly reviewed PR:
 
 ```sh
 npm run sync:lobehub-prs -- --add-pr 425
+npm run sync:discovery
 npm run build
 npm test
 ```

@@ -1,21 +1,39 @@
-# AgenticDriver provider icons
+<h1 align="center">Provider Icons</h1>
 
-One maintained catalogue for AgenticDriver and UsageStat-Bar: 380 provider and
-product marks, 1,041 SVG files, monochrome and original colour, with explicit
-product alternatives, brand marks and wordmarks. Includes all 340 icons and 950
-static SVGs from [LobeHub](https://lobehub.com/icons) at the revision recorded in
-`sources/lobehub.json`, plus 28 icons and 76 SVGs from reviewed upstream pull
-requests. No remote requests. Core and DOM helpers have no runtime
-dependencies; the optional React entrypoint uses the application's React.
+<p align="center">AI provider and product marks for React, JavaScript, and native apps.</p>
 
-Install the standalone alpha from its immutable GitHub release archive:
+<p align="center">
+  <a href="https://agenticdriver.dev/icons"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/gallery-browse-A3C85A.svg?variant=outline&amp;mode=dark"><img alt="Browse the icon gallery" src="https://shieldcn.dev/badge/gallery-browse-A3C85A.svg?variant=outline&amp;mode=light"></picture></a>
+  <a href="https://www.npmjs.com/package/@agenticdriver/provider-icons"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/npm-alpha-CB3837.svg?logo=npm&amp;variant=outline&amp;mode=dark"><img alt="npm alpha package" src="https://shieldcn.dev/badge/npm-alpha-CB3837.svg?logo=npm&amp;variant=outline&amp;mode=light"></picture></a>
+  <a href="docs/installation.md#cdn"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/badge/jsDelivr-CDN-E84D3D.svg?logo=jsdelivr&amp;variant=outline&amp;mode=dark"><img alt="Use icons from jsDelivr" src="https://shieldcn.dev/badge/jsDelivr-CDN-E84D3D.svg?logo=jsdelivr&amp;variant=outline&amp;mode=light"></picture></a>
+  <a href="LICENSE"><picture><source media="(prefers-color-scheme: dark)" srcset="https://shieldcn.dev/github/agenticdriver/provider-icons/license.svg?variant=outline&amp;mode=dark"><img alt="MIT license" src="https://shieldcn.dev/github/agenticdriver/provider-icons/license.svg?variant=outline&amp;mode=light"></picture></a>
+</p>
+
+<p align="center"><a href="https://agenticdriver.dev/icons">Browse & download</a> · <a href="docs/api.md">API reference</a> · <a href="docs/installation.md">Installation</a> · <a href="CONTRIBUTING.md">Contributing</a></p>
+
+![A selection of provider icons in the library](docs/preview.svg)
+
+**380 marks · 1,041 SVGs.** Monochrome and colour logos, vector wordmarks,
+brand variants, and related product marks in one maintained catalogue.
+
+- **Ready to use:** React components and DOM helpers handle size, layout and unique SVG IDs.
+- **Small imports:** named React imports include only their artwork; React is optional.
+- **Easy to find:** aliases, localized names, categories and recorded colour palettes.
+- **Portable:** standard SVG files and a JSON manifest for any language or UI toolkit.
+- **Local by default:** installed icons make no network requests. The core has no runtime dependencies.
+
+## Install
 
 ```sh
-npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.6/agenticdriver-provider-icons-0.1.0-alpha.6.tgz
+npm install @agenticdriver/provider-icons@alpha
 ```
 
-This installs only `@agenticdriver/provider-icons`, not AgenticDriver. The package
-is currently distributed through GitHub Releases; it is not yet on npm.
+This installs the independent icon library. No AgenticDriver SDK is required.
+The package is currently an alpha; keep your lockfile and review updates.
+
+[pnpm, Yarn, Bun and Deno](docs/installation.md#package-managers) ·
+[CDN URLs](docs/installation.md#cdn) ·
+[GitHub archives and native apps](docs/installation.md#archives-and-native-apps)
 
 ## React
 
@@ -24,188 +42,61 @@ is currently distributed through GitHub Releases; it is not yet on npm.
 
 import { Claude } from '@agenticdriver/provider-icons/react';
 
-export default () => <Claude.Combine size={32} mode="color" />;
+export default function Example() {
+  return <Claude.Combine size={32} mode="color" aria-label="Claude" />;
+}
 ```
 
-Use `<Claude />`, `<Claude.Color />`, `<Claude.Text />`, `<Claude.Combine />`
-or `<Claude.Avatar />`. Components handle sizing, layout, colour fallback and
-hydration-safe SVG IDs. No wrapper, stylesheet or `dangerouslySetInnerHTML` is
-needed in your app. `size` is the height in pixels (default 24); width follows the
-artwork. `mode="color"` selects colour for Combine/Avatar; `style` remains a normal
-React CSS object. React 18 and 19 are supported. The client directive makes
-these examples usable in a Next.js App Router component as well.
-
-Text, Combine, Brand/BrandColor and TextCn/TextCnColor are exported only where the
-catalogue contains that artwork. Named imports are tree-shakable: importing one
-provider does not include all the other providers' SVGs. For dynamic selection:
-
-```tsx
-'use client';
-
-import { ProviderIcon } from '@agenticdriver/provider-icons/react';
-
-export default () => <ProviderIcon provider="ppio" artwork="combine" size={32} mode="color" />;
-```
-
-Icons are decorative by default. Add `aria-label` for a standalone accessible
-image, or label the surrounding button. Standard SVG props and refs are supported.
-
-Monochrome inherits `currentColor`, so it follows the application's light/dark
-text colour without a theme provider or a JavaScript media-query listener.
-Original colour artwork keeps its fixed brand colours. Set the surrounding
-text colour or pass a normal `style={{color: ...}}` to override monochrome ink.
-
-## Brand colours
-
-```tsx
-Claude.primaryColour; // '#D97757' — also exposed as Claude.colorPrimary
-Claude.colourTheme;   // ['#D97757'] — also exposed as Claude.colorTheme
-```
-
-Without React:
-
-```js
-import { providerIconTheme } from '@agenticdriver/provider-icons';
-const theme = providerIconTheme('claude');
-theme.primaryColour;
-theme.colourTheme;
-```
-
-These are immutable, normalised hex values from the source's `COLOR_PRIMARY`
-and additional literal `COLOR_*` definitions, at the same pinned LobeHub revision
-as the artwork. They are not sampled from pixels or a complete brand style guide.
-Where no source definition exists, the primary is `undefined` and the palette
-is empty. Unknown providers return `undefined`; existing aliases are accepted.
-The same metadata is included in `providerIcons` and the native JSON manifest.
-Update the verified snapshot with `npm run sync:colours` after an artwork-source
-update; generation rejects a mismatched revision or changed source digest.
-
-The [official-source colour audit](research/brand-colours/README.md) records
-brand guides, press kits, artwork colourways and unresolved entries across the
-catalogue. Its dated research data is separate from the released colour metadata.
+Use `Claude`, `Claude.Color`, `Claude.Text`, `Claude.Combine`, or `Claude.Avatar`.
+Available layouts follow the real artwork. React 18.3.1 and 19 are supported;
+monochrome icons inherit `currentColor`.
 
 ## JavaScript
 
 ```js
 import { mountProviderIcon } from '@agenticdriver/provider-icons/dom';
 
-mountProviderIcon('#provider-icon', 'ppio', { artwork: 'combine', style: 'color', size: 32 });
+mountProviderIcon('#provider-icon', 'claude', {
+  style: 'color', size: 32, label: 'Claude',
+});
 ```
 
-Pass a container selector or element. The helper inserts a complete sized SVG and
-handles unique IDs; missing icons leave the container unchanged. Use
-`createProviderIcon(provider, options)` when you want the SVG element without
-mounting it. Add `label` for an accessible image, or `className` to customise it.
+Add `<span id="provider-icon"></span>` to your page. For an SVG string, use
+`providerIconSvg` from `@agenticdriver/provider-icons/svg`.
 
-## SVG and native applications
+## Find the right mark
 
 ```js
-import { providerIconSvg } from '@agenticdriver/provider-icons/svg';
+import { searchProviderIcons } from '@agenticdriver/provider-icons';
 
-const svg = providerIconSvg('ppio', { artwork: 'combine', style: 'color', size: 32 });
-```
-
-The SVG helper also supports `combine` (logo plus actual vector wordmark) and
-`avatar` (padded logo in a circle). `size` is optional for this lower-level helper.
-IDs are generated automatically; a stable explicit `prefix` is available for
-manual hydration or deterministic exports. React components manage this for you.
-
-## Catalogue lookup
-
-```js
-import {resolveProviderIcon} from '@agenticdriver/provider-icons';
-resolveProviderIcon('codex', {style: 'color', variant: 'chatgpt'});
-// {id: 'openai', file: 'openai.svg', style: 'monochrome', ...}
-resolveProviderIcon('claude', {style: 'color', variant: 'claude-code'});
-```
-
-`style` is `monochrome` or `color`. Marks without a colour variant return the
-monochrome artwork and report the actual style. `variant` selects a related
-product's mark, never an account, model, provider runtime or billing route.
-Unknown providers or unrelated alternatives return `undefined` for an app's
-own fallback. ChatGPT/OpenAI and Codex are alternatives; Anthropic, Claude and
-Claude Code are alternatives; Copilot and GitHub Copilot are alternatives.
-Grok now has its own mark, with xAI as an alternative. OpenCode now has its own
-mark, with the existing `opencode-go` mark as an alternative. The original IDs
-and artwork remain available.
-
-`artwork` selects `icon` (default), `brand`, `text` or `text-cn` where available:
-
-```js
-resolveProviderIcon('ai21', {artwork: 'brand', style: 'color'});
-resolveProviderIcon('alibaba', {artwork: 'text-cn'});
-```
-
-Unavailable artwork returns `undefined`; colour fallback applies within the
-selected artwork. `variant` still selects a related product. Enumerate
-`providerIcons` and each entry's optional `artworks` to build galleries without
-hardcoded lists. `providerIconVersion` exports the installed package version
-for version labels and release links; `manifest.json` has `packageVersion` too.
-
-For inline browser SVG, import `providerIconSvg` from the `/svg` entrypoint.
-An optional unique `prefix` makes exports deterministic. This static markup
-has no scripts or external references. Only exact allowlisted rendering styles
-(masks, blending, grayscale and stroke width) survive. It is decorative; label
-the surrounding UI. Monochrome artwork inherits `currentColor` inline; an
-external `<img>` cannot inherit text colour. Render or use a mask for that case.
-
-For Python, Go, Rust, GTK or other applications, read `manifest.json` and serve
-or bundle `assets/*.svg`. GJS can import `index.js` directly. Non-npm apps can
-vendor an immutable npm-format release tarball using `scripts/vendor.py` with
-its required SHA-256. The copied catalogue and assets are generated dependency
-files: update the version/digest and run the vendor script, never edit copies.
-
-Maintain artwork here, then run `npm run build`, `npm test` and `npm pack`.
-Commit source and generated catalogue together. Consumers pin releases; they
-never download icons while displaying provider settings. See `NOTICE`,
-`licenses/` and `provenance.json` for original sources and trademark attribution.
-
-Refresh the complete LobeHub catalogue with `npm run sync:lobehub -- --latest`,
-refresh its metadata with `npm run sync:colours` and `npm run sync:discovery`,
-then build and test. The artwork sync resolves one immutable upstream commit and records
-it with SHA-256 provenance. To replay it, omit `--latest`; to select a revision,
-use `--ref <full-commit-sha>`. Upstream SVGs are verified against the pinned Git
-tree, including fixes newer than the static npm archive. Existing local artwork
-is preserved; previously imported files are refreshed only if locally unchanged.
-Unrecognized variants or unsupported SVG content stop the import for review.
-The source snapshot keeps brand/text variants out of the provider list and
-retains artwork retired upstream, so existing consumers keep working.
-
-New artwork from LobeHub pull requests is reviewed separately from the released
-catalogue at [icons.lobehub.com](https://icons.lobehub.com/). See
-[the PR import notes](docs/lobehub-pull-requests.md) for included icons and omissions.
-`sources/lobehub-prs.json` preserves each PR URL, immutable head revision, original
-source, source hashes and artwork mapping. These contributions were unmerged at
-review; their inclusion here does not imply upstream acceptance.
-
-Run `npm run sync:lobehub-prs` to replay those sources offline. To review a new PR,
-use `npm run sync:lobehub-prs -- --add-pr <number>`, run `npm run sync:discovery`,
-inspect the diff, then build and test. The PR importer fetches only that PR's icon source, verifies Git blob hashes, and
-statically extracts SVG without running upstream React modules or build scripts.
-It uses the development TypeScript parser, not a consumer runtime dependency.
-Unknown expressions, unsafe SVGs, overwrites of existing artwork and collisions
-with newly merged upstream icons stop for source reconciliation. Metadata and
-React exports are generated automatically from the reviewed artwork.
-
-## Search and categories
-
-```js
-import { searchProviderIcons, providerIcons } from '@agenticdriver/provider-icons';
-
-searchProviderIcons('千问'); // Qwen, using the source's localized name
+searchProviderIcons('千问'); // Qwen
 searchProviderIcons('Nemotron'); // Nvidia
-searchProviderIcons('claude code', {category: 'application'});
-providerIcons.qwen.fullName; // 'Qwen (千问)'
+searchProviderIcons('claude code', { category: 'application' });
 ```
 
-Search accepts aliases, alternate names, case differences and punctuation. Results
-contain `id` and the catalogue entry; exact names rank first. Categories are
-`model`, `provider` and `application`. Use `other` to find entries without a source
-category, or omit the filter to search everything. These categories describe the
-icon catalogue; they do not indicate SDK/provider support.
+The [gallery](https://agenticdriver.dev/icons) offers category filters, shareable
+selections, copyable components, SVG/PNG/WebP downloads, and brand colours.
+Agents can read the [usage guide](https://agenticdriver.dev/icons/skill.md) or
+[generated catalogue](https://agenticdriver.dev/icons/catalogue.json).
 
-Entries expose `fullName`, optional `category`, immutable `searchTerms` and an
-`upstreamUrl` to the corresponding LobeHub reference or reviewed PR. The same
-metadata is in `manifest.json`. `npm run sync:discovery` refreshes source snapshots
-at the already-reviewed artwork revisions; builds verify their hashes and reject
-stale revisions. Run it after adding PRs or updating the mainline artwork source.
+## Documentation
+
+| Guide | Covers |
+| --- | --- |
+| [API reference](docs/api.md) | React, DOM, SVG, search, colour metadata and fallbacks |
+| [Installation](docs/installation.md) | Package managers, CDNs, archives, updates and removal |
+| [Contributing](CONTRIBUTING.md) | Development, source updates and verification |
+| [Releasing](docs/releasing.md) | Tested archives, npm trusted publishing and distribution |
+| [Upstream contributions](docs/lobehub-pull-requests.md) | Reviewed LobeHub pull requests and artwork omissions |
+
+## Credits and license
+
+The library is [MIT licensed](LICENSE). Most artwork comes from
+[LobeHub Icons](https://github.com/lobehub/lobe-icons), with pinned source
+revisions and attribution in [NOTICE](NOTICE), [licenses](licenses/), and
+[provenance.json](provenance.json).
+
+Names and logos belong to their respective owners. Inclusion does not imply
+endorsement or AgenticDriver model/provider support. The dated
+[brand-colour research](https://github.com/agenticdriver/provider-icons/tree/main/research/brand-colours)
+is separate from the released colour metadata.

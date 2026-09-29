@@ -19,6 +19,10 @@ Openference's vertical orientation without changing their path geometry.
 These contributions were unmerged at review. See
 docs/lobehub-pull-requests.md for included artwork and explicit omissions.
 
+sources/lobehub-discovery.json records the original catalogue and contributed
+documentation used for categories and alternate/localized names. Its source
+revisions match the reviewed artwork. No undocumented categories are inferred.
+
 Names and logos are trademarks of their respective owners. The library does
 not imply endorsement or transfer trademark rights. Product alternatives and
 aliases select artwork only; they do not select a runtime, account or billing.

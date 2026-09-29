@@ -6,6 +6,7 @@ import json
 import re
 from pathlib import Path
 import xml.etree.ElementTree as ET
+from discovery import discovery_metadata
 
 ROOT = Path(__file__).resolve().parent.parent
 ET.register_namespace('', 'http://www.w3.org/2000/svg')
@@ -155,6 +156,7 @@ def react_outputs(icons, svgs, upstream):
 
 def outputs():
     icons, svgs = {}, {}
+    discovery = discovery_metadata()
     themes = colour_themes()
     source = json.loads((ROOT/'sources/lobehub.json').read_text())
     upstream = source['icons']
@@ -171,6 +173,7 @@ def outputs():
         name = reviewed_names.get(file.stem, name)
         if file.stem == 'openai': name = 'ChatGPT / OpenAI'
         entry = {'name': name, 'monochrome':file.name, 'alternatives':[file.stem],
+                 **discovery.get(file.stem, {'searchTerms': []}),
                  **themes.get(file.stem, {'colourTheme': []})}
         if (ROOT/'assets'/f'{file.stem}-color.svg').exists(): entry['color'] = f'{file.stem}-color.svg'
         artworks = {key: value for key, value in upstream.get(file.stem, {}).get('artworks', {}).items() if key != 'icon'}

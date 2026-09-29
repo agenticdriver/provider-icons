@@ -9,9 +9,22 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'scripts'))
 from build import ROOT, inline
 from sync_lobehub import plan
 from sync_lobehub_prs import sync, verified_files, adjust_geometry
+from discovery import discovery_metadata, documentation_metadata
 
 
 class CatalogueTests(unittest.TestCase):
+    def test_discovery_uses_pinned_source_categories_and_localized_names(self):
+        entries = discovery_metadata()
+        source = json.loads((ROOT / 'sources/lobehub-discovery.json').read_text())
+        self.assertEqual(len(entries), len(json.loads(source['base']['content'])) + sum(len(pr['files']) for pr in source['pullRequests'].values()))
+        self.assertEqual(entries['qwen']['category'], 'model')
+        self.assertIn('千问', entries['qwen']['fullName'])
+        self.assertEqual(entries['appwrite']['category'], 'application')
+        self.assertEqual(entries['respira']['category'], 'provider')
+        self.assertEqual(entries['happyhorse']['searchTerms'], ['HappyHorse'])
+        with self.assertRaises(ValueError):
+            documentation_metadata('---\ntitle: Bad\ncategory: NotAnIconCategory\n---', 'https://example.com')
+
     def test_complete_source_coverage_and_unchanged_originals(self):
         provenance = json.loads((ROOT / 'provenance.json').read_text())
         groups = [provenance['files'], provenance['lobehub']['files'], provenance['lobehubPullRequests']['files']]

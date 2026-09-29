@@ -14,7 +14,7 @@ try {
   run('npm', ['install', '--ignore-scripts', '--no-audit', '--no-fund', archive]);
   assert.ok(!existsSync(join(directory, 'node_modules/react')), 'Core install must not pull React');
   writeFileSync(join(directory, 'core.mjs'), `import assert from 'node:assert/strict';
-import {providerIconVersion, resolveProviderIcon, providerIconTheme} from '@agenticdriver/provider-icons';
+import {providerIconVersion, resolveProviderIcon, providerIconTheme, searchProviderIcons, providerIconCategories} from '@agenticdriver/provider-icons';
 import {providerIconSvg} from '@agenticdriver/provider-icons/svg';
 import {mountProviderIcon} from '@agenticdriver/provider-icons/dom';
 assert.equal(providerIconVersion, ${JSON.stringify(version)});
@@ -22,6 +22,9 @@ assert.equal(resolveProviderIcon('chatgpt').id, 'openai');
 assert.equal(providerIconTheme('claude').primaryColour, '#D97757');
 assert.equal(resolveProviderIcon('5dive').id, 'fivedive');
 assert.equal(providerIconTheme('greenpt').primaryColour, '#9BE755');
+assert.equal(searchProviderIcons('千问')[0].id, 'qwen');
+assert.equal(searchProviderIcons('claude code', {category: 'application'})[0].id, 'claudecode');
+assert.ok(providerIconCategories.includes('model'));
 assert.match(providerIconSvg('hubris'), /<line/);
 assert.match(providerIconSvg('ppio', {artwork: 'combine', size: 56}), /width="182" height="56"/);
 assert.equal(typeof mountProviderIcon, 'function');

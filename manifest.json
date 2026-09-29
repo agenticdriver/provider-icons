@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "packageVersion": "0.1.0-alpha.5",
+  "packageVersion": "0.1.0-alpha.6",
   "icons": {
     "abacus": {
       "name": "Abacus",
@@ -8,6 +8,7 @@
       "alternatives": [
         "abacus"
       ],
+      "searchTerms": [],
       "colourTheme": []
     },
     "ace": {
@@ -16,6 +17,13 @@
       "alternatives": [
         "ace"
       ],
+      "fullName": "ACE",
+      "category": "model",
+      "searchTerms": [
+        "ACE",
+        "ace"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ace",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -32,6 +40,12 @@
       "alternatives": [
         "adobe"
       ],
+      "fullName": "Adobe",
+      "category": "application",
+      "searchTerms": [
+        "Adobe"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/adobe",
       "primaryColour": "#EB1000",
       "colourTheme": [
         "#EB1000"
@@ -49,6 +63,13 @@
       "alternatives": [
         "adobefirefly"
       ],
+      "fullName": "Firefly (Adobe)",
+      "category": "application",
+      "searchTerms": [
+        "Firefly (Adobe)",
+        "AdobeFirefly"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/adobe-firefly",
       "primaryColour": "#EB1000",
       "colourTheme": [
         "#EB1000"
@@ -66,6 +87,12 @@
       "alternatives": [
         "agentvoice"
       ],
+      "fullName": "AgentVoice",
+      "category": "provider",
+      "searchTerms": [
+        "AgentVoice"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/agent-voice",
       "primaryColour": "#0F6FFF",
       "colourTheme": [
         "#0F6FFF"
@@ -83,6 +110,12 @@
       "alternatives": [
         "agnesai"
       ],
+      "fullName": "Agnes AI",
+      "category": "application",
+      "searchTerms": [
+        "Agnes AI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/agnes-ai",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -99,6 +132,12 @@
       "alternatives": [
         "agui"
       ],
+      "fullName": "AG-UI",
+      "category": "application",
+      "searchTerms": [
+        "AG-UI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/agui",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -115,6 +154,12 @@
       "alternatives": [
         "ai2"
       ],
+      "fullName": "Ai2",
+      "category": "model",
+      "searchTerms": [
+        "Ai2"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ai2",
       "primaryColour": "#F0529C",
       "colourTheme": [
         "#F0529C"
@@ -132,6 +177,13 @@
       "alternatives": [
         "ai21"
       ],
+      "fullName": "Ai21Labs (Jamba)",
+      "category": "model",
+      "searchTerms": [
+        "Ai21Labs (Jamba)",
+        "AI21"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ai21",
       "primaryColour": "#E91E63",
       "colourTheme": [
         "#E91E63"
@@ -152,6 +204,12 @@
       "alternatives": [
         "ai302"
       ],
+      "fullName": "302.AI",
+      "category": "provider",
+      "searchTerms": [
+        "302.AI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ai302",
       "primaryColour": "#8E47FF",
       "colourTheme": [
         "#8E47FF"
@@ -169,6 +227,13 @@
       "alternatives": [
         "ai360"
       ],
+      "fullName": "Ai360 (360\u667a\u8111)",
+      "category": "provider",
+      "searchTerms": [
+        "Ai360 (360\u667a\u8111)",
+        "AI360"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ai360",
       "primaryColour": "#006FFB",
       "colourTheme": [
         "#006FFB"
@@ -186,6 +251,13 @@
       "alternatives": [
         "aihubmix"
       ],
+      "fullName": "AiHubMix (\u63a8\u7406\u65f6\u4ee3)",
+      "category": "provider",
+      "searchTerms": [
+        "AiHubMix (\u63a8\u7406\u65f6\u4ee3)",
+        "AiHubMix"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ai-hub-mix",
       "primaryColour": "#006FFB",
       "colourTheme": [
         "#006FFB"
@@ -203,6 +275,13 @@
       "alternatives": [
         "aimass"
       ],
+      "fullName": "AiMass (\u7d2b\u4e1c\u592a\u521d)",
+      "category": "provider",
+      "searchTerms": [
+        "AiMass (\u7d2b\u4e1c\u592a\u521d)",
+        "AiMass"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ai-mass",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -220,6 +299,12 @@
       "alternatives": [
         "aionlabs"
       ],
+      "fullName": "AionLabs",
+      "category": "model",
+      "searchTerms": [
+        "AionLabs"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/aion-labs",
       "primaryColour": "#0F172A",
       "colourTheme": [
         "#0F172A"
@@ -237,6 +322,12 @@
       "alternatives": [
         "aionly"
       ],
+      "fullName": "AiOnly",
+      "category": "provider",
+      "searchTerms": [
+        "AiOnly"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/362",
       "primaryColour": "#2272FC",
       "colourTheme": [
         "#2272FC",
@@ -255,6 +346,12 @@
       "alternatives": [
         "airjelly"
       ],
+      "fullName": "AirJelly",
+      "category": "application",
+      "searchTerms": [
+        "AirJelly"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/air-jelly",
       "primaryColour": "#00C8FF",
       "colourTheme": [
         "#00C8FF"
@@ -272,6 +369,13 @@
       "alternatives": [
         "aistudio"
       ],
+      "fullName": "AI Studio (Google)",
+      "category": "provider",
+      "searchTerms": [
+        "AI Studio (Google)",
+        "Google AI Studio"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ai-studio",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -288,6 +392,12 @@
       "alternatives": [
         "akashchat"
       ],
+      "fullName": "AkashChat",
+      "category": "provider",
+      "searchTerms": [
+        "AkashChat"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/akash-chat",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -305,6 +415,12 @@
       "alternatives": [
         "alephalpha"
       ],
+      "fullName": "AlephAlpha",
+      "category": "provider",
+      "searchTerms": [
+        "AlephAlpha"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/aleph-alpha",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -321,6 +437,12 @@
       "alternatives": [
         "alibaba"
       ],
+      "fullName": "Alibaba",
+      "category": "provider",
+      "searchTerms": [
+        "Alibaba"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/alibaba",
       "primaryColour": "#FF6003",
       "colourTheme": [
         "#FF6003"
@@ -345,6 +467,13 @@
       "alternatives": [
         "alibabacloud"
       ],
+      "fullName": "AlibabaCloud (\u963f\u91cc\u4e91)",
+      "category": "provider",
+      "searchTerms": [
+        "AlibabaCloud (\u963f\u91cc\u4e91)",
+        "AlibabaCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/alibaba-cloud",
       "primaryColour": "#FF6A00",
       "colourTheme": [
         "#FF6A00"
@@ -365,6 +494,12 @@
       "alternatives": [
         "amdradeoncloud"
       ],
+      "fullName": "AMD Radeon Cloud",
+      "category": "provider",
+      "searchTerms": [
+        "AMD Radeon Cloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/amd-radeon-cloud",
       "primaryColour": "#ED1C24",
       "colourTheme": [
         "#ED1C24"
@@ -382,6 +517,12 @@
       "alternatives": [
         "amp"
       ],
+      "fullName": "Amp",
+      "category": "application",
+      "searchTerms": [
+        "Amp"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/amp",
       "primaryColour": "#F34E3F",
       "colourTheme": [
         "#F34E3F"
@@ -399,6 +540,12 @@
       "alternatives": [
         "anspire"
       ],
+      "fullName": "Anspire",
+      "category": "provider",
+      "searchTerms": [
+        "Anspire"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/anspire",
       "primaryColour": "#514BFD",
       "colourTheme": [
         "#514BFD"
@@ -416,6 +563,12 @@
       "alternatives": [
         "antgroup"
       ],
+      "fullName": "AntGroup",
+      "category": "provider",
+      "searchTerms": [
+        "AntGroup"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ant-group",
       "primaryColour": "#1677FF",
       "colourTheme": [
         "#1677FF"
@@ -442,6 +595,12 @@
         "claude",
         "claudecode"
       ],
+      "fullName": "Anthropic",
+      "category": "provider",
+      "searchTerms": [
+        "Anthropic"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/anthropic",
       "primaryColour": "#F1F0E8",
       "colourTheme": [
         "#F1F0E8"
@@ -458,6 +617,13 @@
       "alternatives": [
         "antigravity"
       ],
+      "fullName": "Antigravity (Google)",
+      "category": "application",
+      "searchTerms": [
+        "Antigravity (Google)",
+        "Antigravity"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/antigravity",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -475,6 +641,12 @@
       "alternatives": [
         "anyapi"
       ],
+      "fullName": "AnyAPI",
+      "category": "provider",
+      "searchTerms": [
+        "AnyAPI"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/316",
       "primaryColour": "#009BF2",
       "colourTheme": [
         "#009BF2"
@@ -492,6 +664,12 @@
       "alternatives": [
         "anyscale"
       ],
+      "fullName": "Anyscale",
+      "category": "provider",
+      "searchTerms": [
+        "Anyscale"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/anyscale",
       "primaryColour": "#0163FB",
       "colourTheme": [
         "#0163FB"
@@ -509,6 +687,12 @@
       "alternatives": [
         "apertis"
       ],
+      "fullName": "Apertis",
+      "category": "provider",
+      "searchTerms": [
+        "Apertis"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/apertis",
       "primaryColour": "#0D9488",
       "colourTheme": [
         "#0D9488"
@@ -526,6 +710,12 @@
       "alternatives": [
         "apple"
       ],
+      "fullName": "Apple",
+      "category": "provider",
+      "searchTerms": [
+        "Apple"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/apple",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -542,6 +732,12 @@
       "alternatives": [
         "appwrite"
       ],
+      "fullName": "Appwrite",
+      "category": "application",
+      "searchTerms": [
+        "Appwrite"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/382",
       "primaryColour": "#FD366E",
       "colourTheme": [
         "#FD366E"
@@ -559,6 +755,12 @@
       "alternatives": [
         "arcee"
       ],
+      "fullName": "Arcee",
+      "category": "model",
+      "searchTerms": [
+        "Arcee"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/arcee",
       "primaryColour": "#008C8C",
       "colourTheme": [
         "#008C8C"
@@ -576,6 +778,12 @@
       "alternatives": [
         "askverdict"
       ],
+      "fullName": "AskVerdict",
+      "category": "application",
+      "searchTerms": [
+        "AskVerdict"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ask-verdict",
       "primaryColour": "#E8A317",
       "colourTheme": [
         "#E8A317"
@@ -593,6 +801,12 @@
       "alternatives": [
         "assemblyai"
       ],
+      "fullName": "AssemblyAI",
+      "category": "model",
+      "searchTerms": [
+        "AssemblyAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/assembly-ai",
       "primaryColour": "#2545D3",
       "colourTheme": [
         "#2545D3"
@@ -610,6 +824,13 @@
       "alternatives": [
         "atlascloud"
       ],
+      "fullName": "AtlasCloud",
+      "category": "provider",
+      "searchTerms": [
+        "AtlasCloud",
+        "Atlas Cloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/atlas-cloud",
       "primaryColour": "#7036F0",
       "colourTheme": [
         "#7036F0"
@@ -626,6 +847,7 @@
       "alternatives": [
         "augment"
       ],
+      "searchTerms": [],
       "colourTheme": []
     },
     "automatic": {
@@ -634,6 +856,13 @@
       "alternatives": [
         "automatic"
       ],
+      "fullName": "Automatic1111 (SD Webui)",
+      "category": "application",
+      "searchTerms": [
+        "Automatic1111 (SD Webui)",
+        "Automatic"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/automatic",
       "primaryColour": "#E00054",
       "colourTheme": [
         "#E00054"
@@ -651,6 +880,12 @@
       "alternatives": [
         "aws"
       ],
+      "fullName": "AWS",
+      "category": "provider",
+      "searchTerms": [
+        "AWS"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/aws",
       "primaryColour": "#222F3E",
       "colourTheme": [
         "#222F3E"
@@ -672,6 +907,13 @@
       "alternatives": [
         "aya"
       ],
+      "fullName": "Aya (Cohere)",
+      "category": "model",
+      "searchTerms": [
+        "Aya (Cohere)",
+        "Aya"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/aya",
       "primaryColour": "#416FDC",
       "colourTheme": [
         "#416FDC"
@@ -689,6 +931,13 @@
       "alternatives": [
         "azure"
       ],
+      "fullName": "Microsoft Azure",
+      "category": "provider",
+      "searchTerms": [
+        "Microsoft Azure",
+        "Azure"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/azure",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -706,6 +955,12 @@
       "alternatives": [
         "azureai"
       ],
+      "fullName": "AzureAI",
+      "category": "provider",
+      "searchTerms": [
+        "AzureAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/azure-ai",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -723,6 +978,13 @@
       "alternatives": [
         "baai"
       ],
+      "fullName": "BAAI (\u667a\u6e90\u7814\u7a76\u9662)",
+      "category": "model",
+      "searchTerms": [
+        "BAAI (\u667a\u6e90\u7814\u7a76\u9662)",
+        "BAAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/baai",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -739,6 +1001,13 @@
       "alternatives": [
         "baichuan"
       ],
+      "fullName": "Baichuan (\u767e\u5ddd)",
+      "category": "model",
+      "searchTerms": [
+        "Baichuan (\u767e\u5ddd)",
+        "Baichuan"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/baichuan",
       "primaryColour": "#FF6933",
       "colourTheme": [
         "#FF6933"
@@ -756,6 +1025,12 @@
       "alternatives": [
         "baidu"
       ],
+      "fullName": "Baidu",
+      "category": "provider",
+      "searchTerms": [
+        "Baidu"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/baidu",
       "primaryColour": "#2932E1",
       "colourTheme": [
         "#2932E1"
@@ -780,6 +1055,13 @@
       "alternatives": [
         "baiducloud"
       ],
+      "fullName": "BaiduCloud (\u767e\u5ea6\u667a\u80fd\u4e91)",
+      "category": "provider",
+      "searchTerms": [
+        "BaiduCloud (\u767e\u5ea6\u667a\u80fd\u4e91)",
+        "BaiduCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/baidu-cloud",
       "primaryColour": "#2468F2",
       "colourTheme": [
         "#2468F2"
@@ -797,6 +1079,13 @@
       "alternatives": [
         "bailian"
       ],
+      "fullName": "Bailian (\u963f\u91cc\u4e91\u767e\u70bc)",
+      "category": "provider",
+      "searchTerms": [
+        "Bailian (\u963f\u91cc\u4e91\u767e\u70bc)",
+        "BaiLian"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/bailian",
       "primaryColour": "#615CED",
       "colourTheme": [
         "#615CED"
@@ -814,6 +1103,12 @@
       "alternatives": [
         "baseten"
       ],
+      "fullName": "Baseten",
+      "category": "provider",
+      "searchTerms": [
+        "Baseten"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/baseten",
       "primaryColour": "#19E76E",
       "colourTheme": [
         "#19E76E"
@@ -830,6 +1125,13 @@
       "alternatives": [
         "bedrock"
       ],
+      "fullName": "Bedrock (AWS)",
+      "category": "provider",
+      "searchTerms": [
+        "Bedrock (AWS)",
+        "Bedrock"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/bedrock",
       "primaryColour": "#222F3E",
       "colourTheme": [
         "#222F3E"
@@ -847,6 +1149,13 @@
       "alternatives": [
         "bfl"
       ],
+      "fullName": "Black Forest Labs (bfl)",
+      "category": "provider",
+      "searchTerms": [
+        "Black Forest Labs (bfl)",
+        "Black Forest Labs"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/bfl",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -863,6 +1172,13 @@
       "alternatives": [
         "bilibili"
       ],
+      "fullName": "Bilibili (\u54d4\u54e9\u54d4\u54e9)",
+      "category": "provider",
+      "searchTerms": [
+        "Bilibili (\u54d4\u54e9\u54d4\u54e9)",
+        "bilibili"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/bilibili",
       "primaryColour": "#FB7299",
       "colourTheme": [
         "#FB7299"
@@ -880,6 +1196,13 @@
       "alternatives": [
         "bilibiliindex"
       ],
+      "fullName": "Bilibili Index (Index Team)",
+      "category": "model",
+      "searchTerms": [
+        "Bilibili Index (Index Team)",
+        "bilibili index"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/bilibili-index",
       "primaryColour": "#5E19B7",
       "colourTheme": [
         "#5E19B7"
@@ -896,6 +1219,13 @@
       "alternatives": [
         "bing"
       ],
+      "fullName": "Microsoft Bing",
+      "category": "application",
+      "searchTerms": [
+        "Microsoft Bing",
+        "Bing"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/bing",
       "primaryColour": "#174AE4",
       "colourTheme": [
         "#174AE4"
@@ -913,6 +1243,13 @@
       "alternatives": [
         "bocha"
       ],
+      "fullName": "Bocha (\u535a\u67e5)",
+      "category": "provider",
+      "searchTerms": [
+        "Bocha (\u535a\u67e5)",
+        "Bocha"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/bocha",
       "primaryColour": "#006EFF",
       "colourTheme": [
         "#006EFF"
@@ -930,6 +1267,12 @@
       "alternatives": [
         "brave"
       ],
+      "fullName": "Brave",
+      "category": "provider",
+      "searchTerms": [
+        "Brave"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/brave",
       "primaryColour": "#FF4000",
       "colourTheme": [
         "#FF4000"
@@ -947,6 +1290,12 @@
       "alternatives": [
         "briaai"
       ],
+      "fullName": "BRIA AI",
+      "category": "provider",
+      "searchTerms": [
+        "BRIA AI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/bria-ai",
       "primaryColour": "#671ECC",
       "colourTheme": [
         "#671ECC"
@@ -964,6 +1313,12 @@
       "alternatives": [
         "browserless"
       ],
+      "fullName": "Browserless",
+      "category": "provider",
+      "searchTerms": [
+        "Browserless"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/browserless",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -980,6 +1335,12 @@
       "alternatives": [
         "burncloud"
       ],
+      "fullName": "BurnCloud",
+      "category": "provider",
+      "searchTerms": [
+        "BurnCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/burn-cloud",
       "primaryColour": "#E95513",
       "colourTheme": [
         "#E95513"
@@ -997,6 +1358,12 @@
       "alternatives": [
         "bytedance"
       ],
+      "fullName": "ByteDance",
+      "category": "provider",
+      "searchTerms": [
+        "ByteDance"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/byte-dance",
       "primaryColour": "#325AB4",
       "colourTheme": [
         "#325AB4"
@@ -1021,6 +1388,12 @@
       "alternatives": [
         "capcut"
       ],
+      "fullName": "CapCut",
+      "category": "application",
+      "searchTerms": [
+        "CapCut"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cap-cut",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1037,6 +1410,12 @@
       "alternatives": [
         "celestoai"
       ],
+      "fullName": "CelestoAI",
+      "category": "application",
+      "searchTerms": [
+        "CelestoAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/celesto-ai",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1054,6 +1433,12 @@
       "alternatives": [
         "centml"
       ],
+      "fullName": "CentML",
+      "category": "provider",
+      "searchTerms": [
+        "CentML"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cent-ml",
       "primaryColour": "#004331",
       "colourTheme": [
         "#004331"
@@ -1075,6 +1460,12 @@
       "alternatives": [
         "cerebras"
       ],
+      "fullName": "Cerebras",
+      "category": "provider",
+      "searchTerms": [
+        "Cerebras"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cerebras",
       "primaryColour": "#F15A29",
       "colourTheme": [
         "#F15A29"
@@ -1096,6 +1487,13 @@
       "alternatives": [
         "chatglm"
       ],
+      "fullName": "ChatGLM (\u667a\u8c31)",
+      "category": "model",
+      "searchTerms": [
+        "ChatGLM (\u667a\u8c31)",
+        "ChatGLM"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/chat-glm",
       "primaryColour": "#4268FA",
       "colourTheme": [
         "#4268FA"
@@ -1113,6 +1511,12 @@
       "alternatives": [
         "cheaperinference"
       ],
+      "fullName": "Cheaper Inference",
+      "category": "provider",
+      "searchTerms": [
+        "Cheaper Inference"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/425",
       "primaryColour": "#040D10",
       "colourTheme": [
         "#040D10"
@@ -1129,6 +1533,13 @@
       "alternatives": [
         "cherrystudio"
       ],
+      "fullName": "Cherry Studio",
+      "category": "application",
+      "searchTerms": [
+        "Cherry Studio",
+        "CherryStudio"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cherry-studio",
       "primaryColour": "#EA5E5D",
       "colourTheme": [
         "#EA5E5D"
@@ -1146,6 +1557,12 @@
       "alternatives": [
         "chutes"
       ],
+      "fullName": "Chutes",
+      "category": "provider",
+      "searchTerms": [
+        "Chutes"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/chutes",
       "primaryColour": "#0D0D0D",
       "colourTheme": [
         "#0D0D0D"
@@ -1162,6 +1579,12 @@
       "alternatives": [
         "civitai"
       ],
+      "fullName": "Civitai",
+      "category": "provider",
+      "searchTerms": [
+        "Civitai"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/civitai",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1182,6 +1605,12 @@
         "claude",
         "claudecode"
       ],
+      "fullName": "Claude",
+      "category": "model",
+      "searchTerms": [
+        "Claude"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/claude",
       "primaryColour": "#D97757",
       "colourTheme": [
         "#D97757"
@@ -1201,6 +1630,12 @@
         "claude",
         "claudecode"
       ],
+      "fullName": "Claude Code",
+      "category": "application",
+      "searchTerms": [
+        "Claude Code"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/claude-code",
       "primaryColour": "#D97757",
       "colourTheme": [
         "#D97757"
@@ -1218,6 +1653,12 @@
       "alternatives": [
         "cline"
       ],
+      "fullName": "Cline",
+      "category": "application",
+      "searchTerms": [
+        "Cline"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cline",
       "primaryColour": "#323B43",
       "colourTheme": [
         "#323B43"
@@ -1234,6 +1675,12 @@
       "alternatives": [
         "clipdrop"
       ],
+      "fullName": "Clipdrop",
+      "category": "application",
+      "searchTerms": [
+        "Clipdrop"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/clipdrop",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1250,6 +1697,12 @@
       "alternatives": [
         "cloudflare"
       ],
+      "fullName": "Cloudflare",
+      "category": "provider",
+      "searchTerms": [
+        "Cloudflare"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cloudflare",
       "primaryColour": "#F38020",
       "colourTheme": [
         "#F38020"
@@ -1267,6 +1720,12 @@
       "alternatives": [
         "codebuddy"
       ],
+      "fullName": "CodeBuddy",
+      "category": "application",
+      "searchTerms": [
+        "CodeBuddy"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/code-buddy",
       "primaryColour": "#6C4DFF",
       "colourTheme": [
         "#6C4DFF"
@@ -1284,6 +1743,7 @@
       "alternatives": [
         "codebuff"
       ],
+      "searchTerms": [],
       "colourTheme": []
     },
     "codeflicker": {
@@ -1292,6 +1752,12 @@
       "alternatives": [
         "codeflicker"
       ],
+      "fullName": "CodeFlicker",
+      "category": "application",
+      "searchTerms": [
+        "CodeFlicker"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/code-flicker",
       "primaryColour": "#32EDDA",
       "colourTheme": [
         "#32EDDA"
@@ -1309,6 +1775,12 @@
       "alternatives": [
         "codegeex"
       ],
+      "fullName": "CodeGeeX",
+      "category": "model",
+      "searchTerms": [
+        "CodeGeeX"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/code-gee-x",
       "primaryColour": "#00E7E7",
       "colourTheme": [
         "#00E7E7"
@@ -1327,6 +1799,13 @@
         "openai",
         "codex"
       ],
+      "fullName": "Codex (OpenAI)",
+      "category": "model",
+      "searchTerms": [
+        "Codex (OpenAI)",
+        "Codex"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/codex",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1344,6 +1823,12 @@
       "alternatives": [
         "cogvideo"
       ],
+      "fullName": "CogVideo",
+      "category": "model",
+      "searchTerms": [
+        "CogVideo"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cog-video",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1361,6 +1846,12 @@
       "alternatives": [
         "cogview"
       ],
+      "fullName": "CogView",
+      "category": "model",
+      "searchTerms": [
+        "CogView"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cog-view",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1378,6 +1869,12 @@
       "alternatives": [
         "cohere"
       ],
+      "fullName": "Cohere",
+      "category": "provider",
+      "searchTerms": [
+        "Cohere"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cohere",
       "primaryColour": "#39594D",
       "colourTheme": [
         "#39594D"
@@ -1395,6 +1892,13 @@
       "alternatives": [
         "colab"
       ],
+      "fullName": "Colab (Google)",
+      "category": "application",
+      "searchTerms": [
+        "Colab (Google)",
+        "Colab"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/colab",
       "primaryColour": "#F9AB00",
       "colourTheme": [
         "#F9AB00"
@@ -1412,6 +1916,13 @@
       "alternatives": [
         "cometapi"
       ],
+      "fullName": "Comet API",
+      "category": "provider",
+      "searchTerms": [
+        "Comet API",
+        "CometAPI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/comet-api",
       "primaryColour": "#00ACE2",
       "colourTheme": [
         "#00ACE2"
@@ -1429,6 +1940,12 @@
       "alternatives": [
         "comfyui"
       ],
+      "fullName": "ComfyUI",
+      "category": "application",
+      "searchTerms": [
+        "ComfyUI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/comfy-ui",
       "primaryColour": "#F0FF41",
       "colourTheme": [
         "#F0FF41"
@@ -1446,6 +1963,13 @@
       "alternatives": [
         "commanda"
       ],
+      "fullName": "CommandA (Cohere)",
+      "category": "model",
+      "searchTerms": [
+        "CommandA (Cohere)",
+        "CommandA"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/command-a",
       "primaryColour": "#39594D",
       "colourTheme": [
         "#39594D"
@@ -1463,6 +1987,12 @@
       "alternatives": [
         "commandcode"
       ],
+      "fullName": "Command Code",
+      "category": "application",
+      "searchTerms": [
+        "Command Code"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/command-code",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1480,6 +2010,13 @@
         "copilot",
         "githubcopilot"
       ],
+      "fullName": "Microsoft Copilot",
+      "category": "application",
+      "searchTerms": [
+        "Microsoft Copilot",
+        "Copilot"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/copilot",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1497,6 +2034,12 @@
       "alternatives": [
         "copilotkit"
       ],
+      "fullName": "CopilotKit",
+      "category": "application",
+      "searchTerms": [
+        "CopilotKit"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/copilot-kit",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1514,6 +2057,12 @@
       "alternatives": [
         "coqui"
       ],
+      "fullName": "Coqui",
+      "category": "application",
+      "searchTerms": [
+        "Coqui"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/coqui",
       "primaryColour": "#03363D",
       "colourTheme": [
         "#03363D"
@@ -1531,6 +2080,12 @@
       "alternatives": [
         "coze"
       ],
+      "fullName": "Coze",
+      "category": "application",
+      "searchTerms": [
+        "Coze"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/coze",
       "primaryColour": "#4D53E8",
       "colourTheme": [
         "#4D53E8"
@@ -1547,6 +2102,12 @@
       "alternatives": [
         "crewai"
       ],
+      "fullName": "CrewAI",
+      "category": "application",
+      "searchTerms": [
+        "CrewAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/crew-ai",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1568,6 +2129,7 @@
       "alternatives": [
         "crof"
       ],
+      "searchTerms": [],
       "colourTheme": []
     },
     "crusoe": {
@@ -1576,6 +2138,12 @@
       "alternatives": [
         "crusoe"
       ],
+      "fullName": "Crusoe",
+      "category": "provider",
+      "searchTerms": [
+        "Crusoe"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/crusoe",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1593,6 +2161,12 @@
       "alternatives": [
         "cursor"
       ],
+      "fullName": "Cursor",
+      "category": "application",
+      "searchTerms": [
+        "Cursor"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cursor",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1609,6 +2183,12 @@
       "alternatives": [
         "cybercut"
       ],
+      "fullName": "CyberCut",
+      "category": "application",
+      "searchTerms": [
+        "CyberCut"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/cyber-cut",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1625,6 +2205,13 @@
       "alternatives": [
         "dalle"
       ],
+      "fullName": "DALL\u00b7E (OpenAI)",
+      "category": "model",
+      "searchTerms": [
+        "DALL\u00b7E (OpenAI)",
+        "DALL-E"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/dalle",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1642,6 +2229,13 @@
       "alternatives": [
         "dbrx"
       ],
+      "fullName": "DBRX (Databricks)",
+      "category": "model",
+      "searchTerms": [
+        "DBRX (Databricks)",
+        "DBRX"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/dbrx",
       "primaryColour": "#EE3D2C",
       "colourTheme": [
         "#EE3D2C"
@@ -1663,6 +2257,12 @@
       "alternatives": [
         "decart"
       ],
+      "fullName": "Decart",
+      "category": "provider",
+      "searchTerms": [
+        "Decart"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/decart",
       "primaryColour": "#2548F6",
       "colourTheme": [
         "#2548F6"
@@ -1680,6 +2280,12 @@
       "alternatives": [
         "deepai"
       ],
+      "fullName": "DeepAI",
+      "category": "application",
+      "searchTerms": [
+        "DeepAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/deep-ai",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1696,6 +2302,12 @@
       "alternatives": [
         "deepcogito"
       ],
+      "fullName": "Deep Cogito",
+      "category": "model",
+      "searchTerms": [
+        "Deep Cogito"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/deep-cogito",
       "primaryColour": "#4E81EE",
       "colourTheme": [
         "#4E81EE"
@@ -1713,6 +2325,12 @@
       "alternatives": [
         "deepinfra"
       ],
+      "fullName": "DeepInfra",
+      "category": "provider",
+      "searchTerms": [
+        "DeepInfra"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/deep-infra",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1730,6 +2348,12 @@
       "alternatives": [
         "deepl"
       ],
+      "fullName": "DeepL",
+      "category": "application",
+      "searchTerms": [
+        "DeepL"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/deep-l",
       "primaryColour": "#0F2B46",
       "colourTheme": [
         "#0F2B46"
@@ -1747,6 +2371,13 @@
       "alternatives": [
         "deepmind"
       ],
+      "fullName": "DeepMind (Google)",
+      "category": "provider",
+      "searchTerms": [
+        "DeepMind (Google)",
+        "DeepMind"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/deep-mind",
       "primaryColour": "#4285F4",
       "colourTheme": [
         "#4285F4"
@@ -1764,6 +2395,12 @@
       "alternatives": [
         "deepseek"
       ],
+      "fullName": "DeepSeek",
+      "category": "model",
+      "searchTerms": [
+        "DeepSeek"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/deep-seek",
       "primaryColour": "#4D6BFE",
       "colourTheme": [
         "#4D6BFE"
@@ -1781,6 +2418,12 @@
       "alternatives": [
         "devin"
       ],
+      "fullName": "Devin",
+      "category": "application",
+      "searchTerms": [
+        "Devin"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/devin",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1798,6 +2441,12 @@
       "alternatives": [
         "deyin"
       ],
+      "fullName": "Deyin",
+      "category": "application",
+      "searchTerms": [
+        "Deyin"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/375",
       "primaryColour": "#4F7CFF",
       "colourTheme": [
         "#4F7CFF",
@@ -1817,6 +2466,12 @@
       "alternatives": [
         "dify"
       ],
+      "fullName": "Dify",
+      "category": "application",
+      "searchTerms": [
+        "Dify"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/dify",
       "primaryColour": "#0033FF",
       "colourTheme": [
         "#0033FF"
@@ -1834,6 +2489,12 @@
       "alternatives": [
         "digitalocean"
       ],
+      "fullName": "DigitalOcean",
+      "category": "provider",
+      "searchTerms": [
+        "DigitalOcean"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/digital-ocean",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1850,6 +2511,12 @@
       "alternatives": [
         "doc2x"
       ],
+      "fullName": "Doc2X",
+      "category": "application",
+      "searchTerms": [
+        "Doc2X"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/doc2-x",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1867,6 +2534,12 @@
       "alternatives": [
         "docsearch"
       ],
+      "fullName": "DocSearch",
+      "category": "application",
+      "searchTerms": [
+        "DocSearch"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/doc-search",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1884,6 +2557,13 @@
       "alternatives": [
         "dolphin"
       ],
+      "fullName": "Dolphin (dphnAI)",
+      "category": "model",
+      "searchTerms": [
+        "Dolphin (dphnAI)",
+        "Dolphin"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/dolphin",
       "primaryColour": "#6186DB",
       "colourTheme": [
         "#6186DB"
@@ -1900,6 +2580,12 @@
       "alternatives": [
         "dotsstudio"
       ],
+      "fullName": "Dots Studio",
+      "category": "model",
+      "searchTerms": [
+        "Dots Studio"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/dots-studio",
       "primaryColour": "#A3E6D9",
       "colourTheme": [
         "#A3E6D9"
@@ -1916,6 +2602,13 @@
       "alternatives": [
         "doubao"
       ],
+      "fullName": "Doubao (\u8c46\u5305)",
+      "category": "model",
+      "searchTerms": [
+        "Doubao (\u8c46\u5305)",
+        "Doubao"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/doubao",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1933,6 +2626,13 @@
       "alternatives": [
         "dreammachine"
       ],
+      "fullName": "DreamMachine (Luma)",
+      "category": "application",
+      "searchTerms": [
+        "DreamMachine (Luma)",
+        "DreamMachine"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/dream-machine",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -1949,6 +2649,12 @@
       "alternatives": [
         "elevenlabs"
       ],
+      "fullName": "ElevenLabs",
+      "category": "model",
+      "searchTerms": [
+        "ElevenLabs"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/eleven-labs",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1965,6 +2671,12 @@
       "alternatives": [
         "elevenx"
       ],
+      "fullName": "11x",
+      "category": "application",
+      "searchTerms": [
+        "11x"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/eleven-x",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -1981,6 +2693,12 @@
       "alternatives": [
         "empiriolabs"
       ],
+      "fullName": "EmpirioLabs AI",
+      "category": "provider",
+      "searchTerms": [
+        "EmpirioLabs AI"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/338",
       "primaryColour": "#0A7CFF",
       "colourTheme": [
         "#0A7CFF"
@@ -1998,6 +2716,12 @@
       "alternatives": [
         "essentialai"
       ],
+      "fullName": "Essential AI",
+      "category": "model",
+      "searchTerms": [
+        "Essential AI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/essential-ai",
       "primaryColour": "#111322",
       "colourTheme": [
         "#111322"
@@ -2015,6 +2739,12 @@
       "alternatives": [
         "everruns"
       ],
+      "fullName": "Everruns",
+      "category": "provider",
+      "searchTerms": [
+        "Everruns"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/340",
       "primaryColour": "#0A1636",
       "colourTheme": [
         "#0A1636"
@@ -2032,6 +2762,12 @@
       "alternatives": [
         "everyapi"
       ],
+      "fullName": "EveryAPI",
+      "category": "provider",
+      "searchTerms": [
+        "EveryAPI"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/384",
       "primaryColour": "#7C5CFF",
       "colourTheme": [
         "#7C5CFF"
@@ -2049,6 +2785,12 @@
       "alternatives": [
         "exa"
       ],
+      "fullName": "Exa",
+      "category": "provider",
+      "searchTerms": [
+        "Exa"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/exa",
       "primaryColour": "#1F40ED",
       "colourTheme": [
         "#1F40ED"
@@ -2066,6 +2808,7 @@
       "alternatives": [
         "factory"
       ],
+      "searchTerms": [],
       "colourTheme": []
     },
     "fal": {
@@ -2074,6 +2817,12 @@
       "alternatives": [
         "fal"
       ],
+      "fullName": "Fal",
+      "category": "provider",
+      "searchTerms": [
+        "Fal"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/fal",
       "primaryColour": "#EC0648",
       "colourTheme": [
         "#EC0648"
@@ -2091,6 +2840,12 @@
       "alternatives": [
         "fastgpt"
       ],
+      "fullName": "FastGPT",
+      "category": "application",
+      "searchTerms": [
+        "FastGPT"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/fast-gpt",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2108,6 +2863,13 @@
       "alternatives": [
         "featherless"
       ],
+      "fullName": "Featherless.ai",
+      "category": "provider",
+      "searchTerms": [
+        "Featherless.ai",
+        "featherless.ai"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/featherless",
       "primaryColour": "#FFE184",
       "colourTheme": [
         "#FFE184"
@@ -2125,6 +2887,12 @@
       "alternatives": [
         "figma"
       ],
+      "fullName": "Figma",
+      "category": "application",
+      "searchTerms": [
+        "Figma"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/figma",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2142,6 +2910,12 @@
       "alternatives": [
         "firecrawl"
       ],
+      "fullName": "Firecrawl",
+      "category": "application",
+      "searchTerms": [
+        "Firecrawl"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/firecrawl",
       "primaryColour": "#FF4D00",
       "colourTheme": [
         "#FF4D00"
@@ -2159,6 +2933,12 @@
       "alternatives": [
         "fireworks"
       ],
+      "fullName": "Fireworks",
+      "category": "provider",
+      "searchTerms": [
+        "Fireworks"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/fireworks",
       "primaryColour": "#5019C5",
       "colourTheme": [
         "#5019C5"
@@ -2176,6 +2956,13 @@
       "alternatives": [
         "fishaudio"
       ],
+      "fullName": "FishAudio (Bert)",
+      "category": "model",
+      "searchTerms": [
+        "FishAudio (Bert)",
+        "FishAudio"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/fish-audio",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2192,6 +2979,12 @@
       "alternatives": [
         "fivedive"
       ],
+      "fullName": "5dive",
+      "category": "provider",
+      "searchTerms": [
+        "5dive"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/350",
       "primaryColour": "#1A1A1F",
       "colourTheme": [
         "#1A1A1F"
@@ -2209,6 +3002,12 @@
       "alternatives": [
         "flora"
       ],
+      "fullName": "Flora",
+      "category": "application",
+      "searchTerms": [
+        "Flora"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/flora",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2225,6 +3024,12 @@
       "alternatives": [
         "flowith"
       ],
+      "fullName": "Flowith",
+      "category": "application",
+      "searchTerms": [
+        "Flowith"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/flowith",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2241,6 +3046,13 @@
       "alternatives": [
         "flux"
       ],
+      "fullName": "Flux (black forest labs)",
+      "category": "model",
+      "searchTerms": [
+        "Flux (black forest labs)",
+        "Flux"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/flux",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2257,6 +3069,12 @@
       "alternatives": [
         "friendli"
       ],
+      "fullName": "Friendli",
+      "category": "provider",
+      "searchTerms": [
+        "Friendli"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/friendli",
       "primaryColour": "#101723",
       "colourTheme": [
         "#101723"
@@ -2273,6 +3091,13 @@
       "alternatives": [
         "gemini"
       ],
+      "fullName": "Gemini (Google)",
+      "category": "model",
+      "searchTerms": [
+        "Gemini (Google)",
+        "Gemini"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/gemini",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2290,6 +3115,12 @@
       "alternatives": [
         "geminicli"
       ],
+      "fullName": "Gemini CLI",
+      "category": "application",
+      "searchTerms": [
+        "Gemini CLI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/gemini-cli",
       "primaryColour": "#1E1E2E",
       "colourTheme": [
         "#1E1E2E"
@@ -2307,6 +3138,13 @@
       "alternatives": [
         "gemma"
       ],
+      "fullName": "Gemma (Google)",
+      "category": "model",
+      "searchTerms": [
+        "Gemma (Google)",
+        "Gemma"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/gemma",
       "primaryColour": "#2E96FF",
       "colourTheme": [
         "#2E96FF"
@@ -2324,6 +3162,12 @@
       "alternatives": [
         "ghast"
       ],
+      "fullName": "Ghast",
+      "category": "application",
+      "searchTerms": [
+        "Ghast"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/314",
       "primaryColour": "#848484",
       "colourTheme": [
         "#848484"
@@ -2341,6 +3185,12 @@
       "alternatives": [
         "giteeai"
       ],
+      "fullName": "GiteeAI",
+      "category": "provider",
+      "searchTerms": [
+        "GiteeAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/gitee-ai",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2357,6 +3207,12 @@
       "alternatives": [
         "github"
       ],
+      "fullName": "Github",
+      "category": "provider",
+      "searchTerms": [
+        "Github"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/github",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2374,6 +3230,13 @@
         "copilot",
         "githubcopilot"
       ],
+      "fullName": "Github Copilot",
+      "category": "application",
+      "searchTerms": [
+        "Github Copilot",
+        "GithubCopilot"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/github-copilot",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2390,6 +3253,12 @@
       "alternatives": [
         "glama"
       ],
+      "fullName": "Glama",
+      "category": "application",
+      "searchTerms": [
+        "Glama"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/glama",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2406,6 +3275,12 @@
       "alternatives": [
         "glif"
       ],
+      "fullName": "Glif",
+      "category": "application",
+      "searchTerms": [
+        "Glif"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/glif",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2422,6 +3297,12 @@
       "alternatives": [
         "glmv"
       ],
+      "fullName": "GLM-V",
+      "category": "model",
+      "searchTerms": [
+        "GLM-V"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/glmv",
       "primaryColour": "#0039C6",
       "colourTheme": [
         "#0039C6"
@@ -2439,6 +3320,13 @@
       "alternatives": [
         "gmicloud"
       ],
+      "fullName": "GMI Cloud",
+      "category": "provider",
+      "searchTerms": [
+        "GMI Cloud",
+        "GmiCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/gmi-cloud",
       "primaryColour": "#0A0A0A",
       "colourTheme": [
         "#0A0A0A"
@@ -2455,6 +3343,12 @@
       "alternatives": [
         "google"
       ],
+      "fullName": "Google",
+      "category": "provider",
+      "searchTerms": [
+        "Google"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/google",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2473,6 +3367,12 @@
       "alternatives": [
         "googlecloud"
       ],
+      "fullName": "GoogleCloud",
+      "category": "provider",
+      "searchTerms": [
+        "GoogleCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/google-cloud",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2491,6 +3391,13 @@
       "alternatives": [
         "goose"
       ],
+      "fullName": "Goose (codename)",
+      "category": "application",
+      "searchTerms": [
+        "Goose (codename)",
+        "Goose"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/goose",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2507,6 +3414,12 @@
       "alternatives": [
         "gptzzz"
       ],
+      "fullName": "GPTZZZ",
+      "category": "provider",
+      "searchTerms": [
+        "GPTZZZ"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/414",
       "primaryColour": "#7C6CFF",
       "colourTheme": [
         "#7C6CFF"
@@ -2524,6 +3437,12 @@
       "alternatives": [
         "gradio"
       ],
+      "fullName": "Gradio",
+      "category": "application",
+      "searchTerms": [
+        "Gradio"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/gradio",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2541,6 +3460,12 @@
       "alternatives": [
         "greenpt"
       ],
+      "fullName": "GreenPT",
+      "category": "provider",
+      "searchTerms": [
+        "GreenPT"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/372",
       "primaryColour": "#9BE755",
       "colourTheme": [
         "#9BE755"
@@ -2558,6 +3483,12 @@
       "alternatives": [
         "greptile"
       ],
+      "fullName": "Greptile",
+      "category": "application",
+      "searchTerms": [
+        "Greptile"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/greptile",
       "primaryColour": "#44A775",
       "colourTheme": [
         "#44A775"
@@ -2576,6 +3507,13 @@
         "xai",
         "grok"
       ],
+      "fullName": "Grok (xAI)",
+      "category": "model",
+      "searchTerms": [
+        "Grok (xAI)",
+        "Grok"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/grok",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2592,6 +3530,12 @@
       "alternatives": [
         "groq"
       ],
+      "fullName": "Groq",
+      "category": "provider",
+      "searchTerms": [
+        "Groq"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/groq",
       "primaryColour": "#F55036",
       "colourTheme": [
         "#F55036"
@@ -2608,6 +3552,13 @@
       "alternatives": [
         "hailuo"
       ],
+      "fullName": "Hailuo (\u6d77\u87ba)",
+      "category": "application",
+      "searchTerms": [
+        "Hailuo (\u6d77\u87ba)",
+        "Hailuo"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/hailuo",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2625,6 +3576,12 @@
       "alternatives": [
         "haiper"
       ],
+      "fullName": "Haiper",
+      "category": "application",
+      "searchTerms": [
+        "Haiper"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/haiper",
       "primaryColour": "#9581FF",
       "colourTheme": [
         "#9581FF"
@@ -2641,6 +3598,12 @@
       "alternatives": [
         "happyhorse"
       ],
+      "fullName": "HappyHorse",
+      "category": "model",
+      "searchTerms": [
+        "HappyHorse"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/happy-horse",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2657,6 +3620,12 @@
       "alternatives": [
         "hedra"
       ],
+      "fullName": "Hedra",
+      "category": "application",
+      "searchTerms": [
+        "Hedra"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/hedra",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2673,6 +3642,12 @@
       "alternatives": [
         "hefu"
       ],
+      "fullName": "HeFu",
+      "category": "provider",
+      "searchTerms": [
+        "HeFu"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/409",
       "primaryColour": "#0D9488",
       "colourTheme": [
         "#0D9488",
@@ -2691,6 +3666,12 @@
       "alternatives": [
         "hermesagent"
       ],
+      "fullName": "Hermes Agent",
+      "category": "application",
+      "searchTerms": [
+        "Hermes Agent"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/hermes-agent",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2707,6 +3688,12 @@
       "alternatives": [
         "higress"
       ],
+      "fullName": "Higress",
+      "category": "provider",
+      "searchTerms": [
+        "Higress"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/higress",
       "primaryColour": "#3E5CF4",
       "colourTheme": [
         "#3E5CF4"
@@ -2724,6 +3711,12 @@
       "alternatives": [
         "huawei"
       ],
+      "fullName": "Huawei",
+      "category": "provider",
+      "searchTerms": [
+        "Huawei"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/huawei",
       "primaryColour": "#C7000B",
       "colourTheme": [
         "#C7000B"
@@ -2744,6 +3737,13 @@
       "alternatives": [
         "huaweicloud"
       ],
+      "fullName": "HuaweiCloud (\u534e\u4e3a\u4e91)",
+      "category": "provider",
+      "searchTerms": [
+        "HuaweiCloud (\u534e\u4e3a\u4e91)",
+        "HuaweiCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/huawei-cloud",
       "primaryColour": "#C7000B",
       "colourTheme": [
         "#C7000B"
@@ -2764,6 +3764,12 @@
       "alternatives": [
         "hubris"
       ],
+      "fullName": "Hubris",
+      "category": "provider",
+      "searchTerms": [
+        "Hubris"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/408",
       "primaryColour": "#8B6BFF",
       "colourTheme": [
         "#8B6BFF"
@@ -2780,6 +3786,12 @@
       "alternatives": [
         "huggingface"
       ],
+      "fullName": "HuggingFace",
+      "category": "provider",
+      "searchTerms": [
+        "HuggingFace"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/hugging-face",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2797,6 +3809,13 @@
       "alternatives": [
         "hunyuan"
       ],
+      "fullName": "Hunyuan (\u817e\u8baf\u6df7\u5143)",
+      "category": "model",
+      "searchTerms": [
+        "Hunyuan (\u817e\u8baf\u6df7\u5143)",
+        "Hunyuan"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/hunyuan",
       "primaryColour": "#0053E0",
       "colourTheme": [
         "#0053E0"
@@ -2814,6 +3833,12 @@
       "alternatives": [
         "hyperbolic"
       ],
+      "fullName": "Hyperbolic",
+      "category": "provider",
+      "searchTerms": [
+        "Hyperbolic"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/hyperbolic",
       "primaryColour": "#594CE9",
       "colourTheme": [
         "#594CE9"
@@ -2831,6 +3856,13 @@
       "alternatives": [
         "ibm"
       ],
+      "fullName": "IBM (Granite)",
+      "category": "provider",
+      "searchTerms": [
+        "IBM (Granite)",
+        "IBM"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ibm",
       "primaryColour": "#0F62FE",
       "colourTheme": [
         "#0F62FE"
@@ -2847,6 +3879,12 @@
       "alternatives": [
         "ideogram"
       ],
+      "fullName": "Ideogram",
+      "category": "application",
+      "searchTerms": [
+        "Ideogram"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ideogram",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2863,6 +3901,13 @@
       "alternatives": [
         "iflytekcloud"
       ],
+      "fullName": "IFlyTekCloud (\u8baf\u98de\u5f00\u653e\u5e73\u53f0)",
+      "category": "provider",
+      "searchTerms": [
+        "IFlyTekCloud (\u8baf\u98de\u5f00\u653e\u5e73\u53f0)",
+        "iFlyTekCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/i-fly-tek-cloud",
       "primaryColour": "#2A80E2",
       "colourTheme": [
         "#2A80E2"
@@ -2880,6 +3925,12 @@
       "alternatives": [
         "image2"
       ],
+      "fullName": "Image 2",
+      "category": "application",
+      "searchTerms": [
+        "Image 2"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/346",
       "primaryColour": "#94C21A",
       "colourTheme": [
         "#94C21A"
@@ -2892,6 +3943,13 @@
       "alternatives": [
         "inception"
       ],
+      "fullName": "Inception Labs",
+      "category": "model",
+      "searchTerms": [
+        "Inception Labs",
+        "Inception"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/inception",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2908,6 +3966,12 @@
       "alternatives": [
         "inceptron"
       ],
+      "fullName": "Inceptron",
+      "category": "provider",
+      "searchTerms": [
+        "Inceptron"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/inceptron",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -2925,6 +3989,12 @@
       "alternatives": [
         "inference"
       ],
+      "fullName": "Inference",
+      "category": "provider",
+      "searchTerms": [
+        "Inference"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/inference",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -2941,6 +4011,12 @@
       "alternatives": [
         "infermatic"
       ],
+      "fullName": "Infermatic",
+      "category": "provider",
+      "searchTerms": [
+        "Infermatic"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/infermatic",
       "primaryColour": "#4334F5",
       "colourTheme": [
         "#4334F5"
@@ -2958,6 +4034,13 @@
       "alternatives": [
         "infinigence"
       ],
+      "fullName": "Infinigence (\u65e0\u95ee\u82af\u7a79)",
+      "category": "provider",
+      "searchTerms": [
+        "Infinigence (\u65e0\u95ee\u82af\u7a79)",
+        "Infinigence"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/infinigence",
       "primaryColour": "#7952EA",
       "colourTheme": [
         "#7952EA"
@@ -2978,6 +4061,12 @@
       "alternatives": [
         "inflection"
       ],
+      "fullName": "Inflection",
+      "category": "model",
+      "searchTerms": [
+        "Inflection"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/inflection",
       "primaryColour": "#038247",
       "colourTheme": [
         "#038247"
@@ -2994,6 +4083,12 @@
       "alternatives": [
         "internlm"
       ],
+      "fullName": "InternLM",
+      "category": "provider",
+      "searchTerms": [
+        "InternLM"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/intern-lm",
       "primaryColour": "#1B3882",
       "colourTheme": [
         "#1B3882"
@@ -3011,6 +4106,13 @@
       "alternatives": [
         "ionet"
       ],
+      "fullName": "io.net",
+      "category": "provider",
+      "searchTerms": [
+        "io.net",
+        "IoNet"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/io-net",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3027,6 +4129,7 @@
       "alternatives": [
         "jetbrains-ai-assistant"
       ],
+      "searchTerms": [],
       "colourTheme": [],
       "color": "jetbrains-ai-assistant-color.svg"
     },
@@ -3036,6 +4139,13 @@
       "alternatives": [
         "jimeng"
       ],
+      "fullName": "Jimeng (\u5373\u68a6)",
+      "category": "application",
+      "searchTerms": [
+        "Jimeng (\u5373\u68a6)",
+        "Jimeng"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/jimeng",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3053,6 +4163,13 @@
       "alternatives": [
         "jina"
       ],
+      "fullName": "Jina AI",
+      "category": "provider",
+      "searchTerms": [
+        "Jina AI",
+        "Jina"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/jina",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3069,6 +4186,12 @@
       "alternatives": [
         "jotaid"
       ],
+      "fullName": "Jotaid",
+      "category": "application",
+      "searchTerms": [
+        "Jotaid"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/420",
       "primaryColour": "#D98E04",
       "colourTheme": [
         "#D98E04"
@@ -3086,6 +4209,12 @@
       "alternatives": [
         "junie"
       ],
+      "fullName": "Junie",
+      "category": "application",
+      "searchTerms": [
+        "Junie"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/junie",
       "primaryColour": "#47E054",
       "colourTheme": [
         "#47E054"
@@ -3103,6 +4232,12 @@
       "alternatives": [
         "kagi"
       ],
+      "fullName": "Kagi",
+      "category": "provider",
+      "searchTerms": [
+        "Kagi"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/kagi",
       "primaryColour": "#FEB219",
       "colourTheme": [
         "#FEB219"
@@ -3119,6 +4254,7 @@
       "alternatives": [
         "kilo"
       ],
+      "searchTerms": [],
       "colourTheme": []
     },
     "kilocode": {
@@ -3127,6 +4263,12 @@
       "alternatives": [
         "kilocode"
       ],
+      "fullName": "Kilo Code",
+      "category": "application",
+      "searchTerms": [
+        "Kilo Code"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/kilo-code",
       "primaryColour": "#F8F676",
       "colourTheme": [
         "#F8F676"
@@ -3143,6 +4285,12 @@
       "alternatives": [
         "kimi"
       ],
+      "fullName": "Kimi",
+      "category": "application",
+      "searchTerms": [
+        "Kimi"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/kimi",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3160,6 +4308,12 @@
       "alternatives": [
         "kiro"
       ],
+      "fullName": "Kiro",
+      "category": "application",
+      "searchTerms": [
+        "Kiro"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/kiro",
       "primaryColour": "#9046FF",
       "colourTheme": [
         "#9046FF"
@@ -3177,6 +4331,13 @@
       "alternatives": [
         "kling"
       ],
+      "fullName": "Kling (\u53ef\u7075)",
+      "category": "application",
+      "searchTerms": [
+        "Kling (\u53ef\u7075)",
+        "Kling"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/kling",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3194,6 +4355,12 @@
       "alternatives": [
         "kluster"
       ],
+      "fullName": "Kluster",
+      "category": "provider",
+      "searchTerms": [
+        "Kluster"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/kluster",
       "primaryColour": "#6525F7",
       "colourTheme": [
         "#6525F7"
@@ -3211,6 +4378,12 @@
       "alternatives": [
         "kollab"
       ],
+      "fullName": "Kollab",
+      "category": "application",
+      "searchTerms": [
+        "Kollab"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/315",
       "primaryColour": "#E67062",
       "colourTheme": [
         "#E67062"
@@ -3227,6 +4400,13 @@
       "alternatives": [
         "kolors"
       ],
+      "fullName": "Kolors (\u5feb\u624b\u53ef\u56fe)",
+      "category": "model",
+      "searchTerms": [
+        "Kolors (\u5feb\u624b\u53ef\u56fe)",
+        "Kolors"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/kolors",
       "primaryColour": "#83FF63",
       "colourTheme": [
         "#83FF63"
@@ -3244,6 +4424,12 @@
       "alternatives": [
         "krea"
       ],
+      "fullName": "Krea",
+      "category": "application",
+      "searchTerms": [
+        "Krea"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/krea",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3260,6 +4446,13 @@
       "alternatives": [
         "kwaikat"
       ],
+      "fullName": "KwaiKAT (KAT-Coder)",
+      "category": "model",
+      "searchTerms": [
+        "KwaiKAT (KAT-Coder)",
+        "KwaiKAT"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/kwai-kat",
       "primaryColour": "#0A67FF",
       "colourTheme": [
         "#0A67FF"
@@ -3277,6 +4470,12 @@
       "alternatives": [
         "kwaipilot"
       ],
+      "fullName": "Kwaipilot",
+      "category": "model",
+      "searchTerms": [
+        "Kwaipilot"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/kwaipilot",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3294,6 +4493,12 @@
       "alternatives": [
         "lambda"
       ],
+      "fullName": "Lambda",
+      "category": "provider",
+      "searchTerms": [
+        "Lambda"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lambda",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3310,6 +4515,12 @@
       "alternatives": [
         "langchain"
       ],
+      "fullName": "LangChain",
+      "category": "application",
+      "searchTerms": [
+        "LangChain"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lang-chain",
       "primaryColour": "#7FC8FF",
       "colourTheme": [
         "#7FC8FF"
@@ -3327,6 +4538,12 @@
       "alternatives": [
         "langfuse"
       ],
+      "fullName": "Langfuse",
+      "category": "application",
+      "searchTerms": [
+        "Langfuse"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/langfuse",
       "primaryColour": "#1B1917",
       "colourTheme": [
         "#1B1917"
@@ -3344,6 +4561,13 @@
       "alternatives": [
         "langgraph"
       ],
+      "fullName": "LangGraph (LangChain)",
+      "category": "application",
+      "searchTerms": [
+        "LangGraph (LangChain)",
+        "LangGraph"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lang-graph",
       "primaryColour": "#1C3C3C",
       "colourTheme": [
         "#1C3C3C"
@@ -3361,6 +4585,13 @@
       "alternatives": [
         "langsmith"
       ],
+      "fullName": "LangSmith (LangChain)",
+      "category": "application",
+      "searchTerms": [
+        "LangSmith (LangChain)",
+        "LangSmith"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lang-smith",
       "primaryColour": "#1C3C3C",
       "colourTheme": [
         "#1C3C3C"
@@ -3378,6 +4609,12 @@
       "alternatives": [
         "leptonai"
       ],
+      "fullName": "LeptonAI",
+      "category": "provider",
+      "searchTerms": [
+        "LeptonAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lepton-ai",
       "primaryColour": "#2F80ED",
       "colourTheme": [
         "#2F80ED"
@@ -3395,6 +4632,13 @@
       "alternatives": [
         "lg"
       ],
+      "fullName": "LG AI (KMMLU/EXAONE)",
+      "category": "provider",
+      "searchTerms": [
+        "LG AI (KMMLU/EXAONE)",
+        "LG AI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lg",
       "primaryColour": "#C00C3F",
       "colourTheme": [
         "#C00C3F"
@@ -3412,6 +4656,12 @@
       "alternatives": [
         "lightricks"
       ],
+      "fullName": "Lightricks",
+      "category": "application",
+      "searchTerms": [
+        "Lightricks"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lightricks",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3428,6 +4678,12 @@
       "alternatives": [
         "liquid"
       ],
+      "fullName": "Liquid",
+      "category": "model",
+      "searchTerms": [
+        "Liquid"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/liquid",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -3444,6 +4700,12 @@
       "alternatives": [
         "livekit"
       ],
+      "fullName": "LiveKit",
+      "category": "application",
+      "searchTerms": [
+        "LiveKit"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/live-kit",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3461,6 +4723,12 @@
       "alternatives": [
         "llamaindex"
       ],
+      "fullName": "LlamaIndex",
+      "category": "application",
+      "searchTerms": [
+        "LlamaIndex"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/llama-index",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3478,6 +4746,12 @@
       "alternatives": [
         "llava"
       ],
+      "fullName": "LLaVA",
+      "category": "model",
+      "searchTerms": [
+        "LLaVA"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/l-la-va",
       "primaryColour": "#CB2D30",
       "colourTheme": [
         "#CB2D30"
@@ -3495,6 +4769,12 @@
       "alternatives": [
         "llmapi"
       ],
+      "fullName": "LLM API",
+      "category": "provider",
+      "searchTerms": [
+        "LLM API"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/llm-api",
       "primaryColour": "#3F35FF",
       "colourTheme": [
         "#3F35FF"
@@ -3512,6 +4792,12 @@
       "alternatives": [
         "llmgateway"
       ],
+      "fullName": "LLM Gateway",
+      "category": "provider",
+      "searchTerms": [
+        "LLM Gateway"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/373",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3528,6 +4814,12 @@
       "alternatives": [
         "lmstudio"
       ],
+      "fullName": "LM Studio",
+      "category": "provider",
+      "searchTerms": [
+        "LM Studio"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lm-studio",
       "primaryColour": "#4338CA",
       "colourTheme": [
         "#4338CA"
@@ -3544,6 +4836,12 @@
       "alternatives": [
         "lobehub"
       ],
+      "fullName": "LobeHub",
+      "category": "provider",
+      "searchTerms": [
+        "LobeHub"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lobe-hub",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -3561,6 +4859,12 @@
       "alternatives": [
         "longcat"
       ],
+      "fullName": "LongCat",
+      "category": "model",
+      "searchTerms": [
+        "LongCat"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/long-cat",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -3578,6 +4882,12 @@
       "alternatives": [
         "lovable"
       ],
+      "fullName": "Lovable",
+      "category": "application",
+      "searchTerms": [
+        "Lovable"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lovable",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3595,6 +4905,12 @@
       "alternatives": [
         "lovart"
       ],
+      "fullName": "Lovart",
+      "category": "application",
+      "searchTerms": [
+        "Lovart"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/lovart",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3611,6 +4927,12 @@
       "alternatives": [
         "luma"
       ],
+      "fullName": "Luma",
+      "category": "application",
+      "searchTerms": [
+        "Luma"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/luma",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3628,6 +4950,12 @@
       "alternatives": [
         "magic"
       ],
+      "fullName": "Magic",
+      "category": "model",
+      "searchTerms": [
+        "Magic"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/magic",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -3644,6 +4972,12 @@
       "alternatives": [
         "make"
       ],
+      "fullName": "Make",
+      "category": "application",
+      "searchTerms": [
+        "Make"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/make",
       "primaryColour": "#FF009A",
       "colourTheme": [
         "#FF009A"
@@ -3661,6 +4995,12 @@
       "alternatives": [
         "manus"
       ],
+      "fullName": "Manus",
+      "category": "application",
+      "searchTerms": [
+        "Manus"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/manus",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -3677,6 +5017,12 @@
       "alternatives": [
         "mastra"
       ],
+      "fullName": "Mastra",
+      "category": "application",
+      "searchTerms": [
+        "Mastra"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/mastra",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3693,6 +5039,13 @@
       "alternatives": [
         "mcp"
       ],
+      "fullName": "MCP (Model Context Protocol)",
+      "category": "application",
+      "searchTerms": [
+        "MCP (Model Context Protocol)",
+        "ModelContextProtocol"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/mcp",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -3709,6 +5062,12 @@
       "alternatives": [
         "mcpso"
       ],
+      "fullName": "MCP.so",
+      "category": "application",
+      "searchTerms": [
+        "MCP.so"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/mcp-so",
       "primaryColour": "#1C3F6B",
       "colourTheme": [
         "#1C3F6B"
@@ -3726,6 +5085,13 @@
       "alternatives": [
         "menlo"
       ],
+      "fullName": "MENLO (Lucy/Jan-nano)",
+      "category": "provider",
+      "searchTerms": [
+        "MENLO (Lucy/Jan-nano)",
+        "MENLO"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/menlo",
       "primaryColour": "#FF5C00",
       "colourTheme": [
         "#FF5C00"
@@ -3743,6 +5109,12 @@
       "alternatives": [
         "meshy"
       ],
+      "fullName": "Meshy",
+      "category": "model",
+      "searchTerms": [
+        "Meshy"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/meshy",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3760,6 +5132,12 @@
       "alternatives": [
         "meta"
       ],
+      "fullName": "Meta",
+      "category": "provider",
+      "searchTerms": [
+        "Meta"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/meta",
       "primaryColour": "#1D65C1",
       "colourTheme": [
         "#1D65C1"
@@ -3781,6 +5159,12 @@
       "alternatives": [
         "metaai"
       ],
+      "fullName": "MetaAI",
+      "category": "application",
+      "searchTerms": [
+        "MetaAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/meta-ai",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3798,6 +5182,12 @@
       "alternatives": [
         "metagpt"
       ],
+      "fullName": "MetaGPT",
+      "category": "application",
+      "searchTerms": [
+        "MetaGPT"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/meta-gpt",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3814,6 +5204,13 @@
       "alternatives": [
         "microsoft"
       ],
+      "fullName": "Microsoft",
+      "category": "provider",
+      "searchTerms": [
+        "Microsoft",
+        "Azure"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/microsoft",
       "primaryColour": "#00A4EF",
       "colourTheme": [
         "#00A4EF"
@@ -3831,6 +5228,12 @@
       "alternatives": [
         "midjourney"
       ],
+      "fullName": "Midjourney",
+      "category": "application",
+      "searchTerms": [
+        "Midjourney"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/midjourney",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -3847,6 +5250,7 @@
       "alternatives": [
         "mimo"
       ],
+      "searchTerms": [],
       "colourTheme": []
     },
     "minimax": {
@@ -3855,6 +5259,12 @@
       "alternatives": [
         "minimax"
       ],
+      "fullName": "Minimax",
+      "category": "model",
+      "searchTerms": [
+        "Minimax"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/minimax",
       "primaryColour": "#F23F5D",
       "colourTheme": [
         "#F23F5D"
@@ -3872,6 +5282,12 @@
       "alternatives": [
         "mistral"
       ],
+      "fullName": "Mistral",
+      "category": "model",
+      "searchTerms": [
+        "Mistral"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/mistral",
       "primaryColour": "#FA520F",
       "colourTheme": [
         "#FA520F"
@@ -3889,6 +5305,13 @@
       "alternatives": [
         "modelscope"
       ],
+      "fullName": "ModelScope (\u9b54\u642d)",
+      "category": "provider",
+      "searchTerms": [
+        "ModelScope (\u9b54\u642d)",
+        "ModelScope"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/model-scope",
       "primaryColour": "#624AFF",
       "colourTheme": [
         "#624AFF"
@@ -3906,6 +5329,12 @@
       "alternatives": [
         "monica"
       ],
+      "fullName": "Monica",
+      "category": "application",
+      "searchTerms": [
+        "Monica"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/monica",
       "primaryColour": "#6841EA",
       "colourTheme": [
         "#6841EA"
@@ -3923,6 +5352,13 @@
       "alternatives": [
         "moonshot"
       ],
+      "fullName": "Moonshot (\u6708\u4e4b\u6697\u9762)",
+      "category": "provider",
+      "searchTerms": [
+        "Moonshot (\u6708\u4e4b\u6697\u9762)",
+        "MoonshotAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/moonshot",
       "primaryColour": "#16191E",
       "colourTheme": [
         "#16191E"
@@ -3939,6 +5375,12 @@
       "alternatives": [
         "morph"
       ],
+      "fullName": "Morph",
+      "category": "model",
+      "searchTerms": [
+        "Morph"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/morph",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -3956,6 +5398,12 @@
       "alternatives": [
         "moxt"
       ],
+      "fullName": "Moxt",
+      "category": "application",
+      "searchTerms": [
+        "Moxt"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/moxt",
       "primaryColour": "#29C16A",
       "colourTheme": [
         "#29C16A"
@@ -3973,6 +5421,12 @@
       "alternatives": [
         "myshell"
       ],
+      "fullName": "MyShell",
+      "category": "application",
+      "searchTerms": [
+        "MyShell"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/my-shell",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -3990,6 +5444,12 @@
       "alternatives": [
         "n8n"
       ],
+      "fullName": "n8n",
+      "category": "application",
+      "searchTerms": [
+        "n8n"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/n-8-n",
       "primaryColour": "#EA4B71",
       "colourTheme": [
         "#EA4B71"
@@ -4007,6 +5467,13 @@
       "alternatives": [
         "nanobanana"
       ],
+      "fullName": "Nano Banana (Google)",
+      "category": "model",
+      "searchTerms": [
+        "Nano Banana (Google)",
+        "NanoBanana"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/nano-banana",
       "primaryColour": "#FCD53F",
       "colourTheme": [
         "#FCD53F"
@@ -4024,6 +5491,7 @@
       "alternatives": [
         "nanogpt"
       ],
+      "searchTerms": [],
       "colourTheme": [],
       "color": "nanogpt-color.svg"
     },
@@ -4033,6 +5501,12 @@
       "alternatives": [
         "nebius"
       ],
+      "fullName": "Nebius",
+      "category": "provider",
+      "searchTerms": [
+        "Nebius"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/nebius",
       "primaryColour": "#DAFF33",
       "colourTheme": [
         "#DAFF33"
@@ -4049,6 +5523,12 @@
       "alternatives": [
         "newapi"
       ],
+      "fullName": "New API",
+      "category": "provider",
+      "searchTerms": [
+        "New API"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/new-api",
       "primaryColour": "#DD2E57",
       "colourTheme": [
         "#DD2E57"
@@ -4066,6 +5546,12 @@
       "alternatives": [
         "nextbit"
       ],
+      "fullName": "Nextbit",
+      "category": "provider",
+      "searchTerms": [
+        "Nextbit"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/nextbit",
       "primaryColour": "#04D98B",
       "colourTheme": [
         "#04D98B"
@@ -4083,6 +5569,12 @@
       "alternatives": [
         "notebooklm"
       ],
+      "fullName": "NotebookLM",
+      "category": "application",
+      "searchTerms": [
+        "NotebookLM"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/notebook-lm",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4099,6 +5591,12 @@
       "alternatives": [
         "notion"
       ],
+      "fullName": "Notion",
+      "category": "application",
+      "searchTerms": [
+        "Notion"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/notion",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4115,6 +5613,13 @@
       "alternatives": [
         "nousresearch"
       ],
+      "fullName": "NousResearch (Hermes)",
+      "category": "provider",
+      "searchTerms": [
+        "NousResearch (Hermes)",
+        "NousResearch"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/nous-research",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4131,6 +5636,13 @@
       "alternatives": [
         "nova"
       ],
+      "fullName": "Nova (AWS)",
+      "category": "model",
+      "searchTerms": [
+        "Nova (AWS)",
+        "Nova"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/nova",
       "primaryColour": "#222F3E",
       "colourTheme": [
         "#222F3E"
@@ -4148,6 +5660,12 @@
       "alternatives": [
         "novelai"
       ],
+      "fullName": "NovelAI",
+      "category": "application",
+      "searchTerms": [
+        "NovelAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/novel-ai",
       "primaryColour": "#E1E4FF",
       "colourTheme": [
         "#E1E4FF"
@@ -4164,6 +5682,13 @@
       "alternatives": [
         "novita"
       ],
+      "fullName": "Novita",
+      "category": "provider",
+      "searchTerms": [
+        "Novita",
+        "Novita AI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/novita",
       "primaryColour": "#23D57C",
       "colourTheme": [
         "#23D57C"
@@ -4181,6 +5706,12 @@
       "alternatives": [
         "nplcloud"
       ],
+      "fullName": "NPLCloud",
+      "category": "provider",
+      "searchTerms": [
+        "NPLCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/npl-cloud",
       "primaryColour": "#00D1B2",
       "colourTheme": [
         "#00D1B2"
@@ -4198,6 +5729,13 @@
       "alternatives": [
         "nvidia"
       ],
+      "fullName": "Nvidia (Nemotron)",
+      "category": "provider",
+      "searchTerms": [
+        "Nvidia (Nemotron)",
+        "Nvidia"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/nvidia",
       "primaryColour": "#74B71B",
       "colourTheme": [
         "#74B71B"
@@ -4215,6 +5753,12 @@
       "alternatives": [
         "obsidian"
       ],
+      "fullName": "Obsidian",
+      "category": "application",
+      "searchTerms": [
+        "Obsidian"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/obsidian",
       "primaryColour": "#A88BFA",
       "colourTheme": [
         "#A88BFA"
@@ -4232,6 +5776,12 @@
       "alternatives": [
         "ollama"
       ],
+      "fullName": "Ollama",
+      "category": "provider",
+      "searchTerms": [
+        "Ollama"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ollama",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4249,6 +5799,13 @@
         "openai",
         "codex"
       ],
+      "fullName": "OpenAI (ChatGPT)",
+      "category": "provider",
+      "searchTerms": [
+        "OpenAI (ChatGPT)",
+        "OpenAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/open-ai",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000",
@@ -4271,6 +5828,12 @@
       "alternatives": [
         "openchat"
       ],
+      "fullName": "OpenChat",
+      "category": "model",
+      "searchTerms": [
+        "OpenChat"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/open-chat",
       "primaryColour": "#4A7FE3",
       "colourTheme": [
         "#4A7FE3"
@@ -4288,6 +5851,13 @@
       "alternatives": [
         "openclaw"
       ],
+      "fullName": "OpenClaw (MoltBot/ClawdBot)",
+      "category": "application",
+      "searchTerms": [
+        "OpenClaw (MoltBot/ClawdBot)",
+        "OpenClaw"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/open-claw",
       "primaryColour": "#FF4D4D",
       "colourTheme": [
         "#FF4D4D"
@@ -4306,6 +5876,7 @@
         "opencode-go",
         "opencode"
       ],
+      "searchTerms": [],
       "colourTheme": []
     },
     "opencode": {
@@ -4315,6 +5886,12 @@
         "opencode-go",
         "opencode"
       ],
+      "fullName": "opencode",
+      "category": "application",
+      "searchTerms": [
+        "opencode"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/open-code",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4331,6 +5908,12 @@
       "alternatives": [
         "openference"
       ],
+      "fullName": "Openference",
+      "category": "application",
+      "searchTerms": [
+        "Openference"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/375",
       "primaryColour": "#6366F1",
       "colourTheme": [
         "#6366F1"
@@ -4348,6 +5931,12 @@
       "alternatives": [
         "openhands"
       ],
+      "fullName": "OpenHands",
+      "category": "application",
+      "searchTerms": [
+        "OpenHands"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/open-hands",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4365,6 +5954,12 @@
       "alternatives": [
         "openhuman"
       ],
+      "fullName": "OpenHuman",
+      "category": "application",
+      "searchTerms": [
+        "OpenHuman"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/open-human",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4381,6 +5976,12 @@
       "alternatives": [
         "openrouter"
       ],
+      "fullName": "OpenRouter",
+      "category": "provider",
+      "searchTerms": [
+        "OpenRouter"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/open-router",
       "primaryColour": "#C8FF00",
       "colourTheme": [
         "#C8FF00"
@@ -4398,6 +5999,12 @@
       "alternatives": [
         "openwebui"
       ],
+      "fullName": "OpenWebUI",
+      "category": "application",
+      "searchTerms": [
+        "OpenWebUI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/open-web-ui",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4414,6 +6021,12 @@
       "alternatives": [
         "orcarouter"
       ],
+      "fullName": "OrcaRouter",
+      "category": "provider",
+      "searchTerms": [
+        "OrcaRouter"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/397",
       "primaryColour": "#0160E6",
       "colourTheme": [
         "#0160E6"
@@ -4426,6 +6039,13 @@
       "alternatives": [
         "palm"
       ],
+      "fullName": "PaLM (Google)",
+      "category": "model",
+      "searchTerms": [
+        "PaLM (Google)",
+        "PaLM"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/pa-lm",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4443,6 +6063,12 @@
       "alternatives": [
         "parasail"
       ],
+      "fullName": "Parasail",
+      "category": "provider",
+      "searchTerms": [
+        "Parasail"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/parasail",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4459,6 +6085,12 @@
       "alternatives": [
         "perceptron"
       ],
+      "fullName": "Perceptron",
+      "category": "model",
+      "searchTerms": [
+        "Perceptron"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/perceptron",
       "primaryColour": "#F8F4EB",
       "colourTheme": [
         "#F8F4EB"
@@ -4475,6 +6107,12 @@
       "alternatives": [
         "perplexity"
       ],
+      "fullName": "Perplexity",
+      "category": "provider",
+      "searchTerms": [
+        "Perplexity"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/perplexity",
       "primaryColour": "#22B8CD",
       "colourTheme": [
         "#22B8CD"
@@ -4492,6 +6130,12 @@
       "alternatives": [
         "personastack"
       ],
+      "fullName": "PersonaStack",
+      "category": "provider",
+      "searchTerms": [
+        "PersonaStack"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/354",
       "primaryColour": "#010915",
       "colourTheme": [
         "#010915",
@@ -4506,6 +6150,12 @@
       "alternatives": [
         "phala"
       ],
+      "fullName": "Phala",
+      "category": "provider",
+      "searchTerms": [
+        "Phala"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/phala",
       "primaryColour": "#CDFA50",
       "colourTheme": [
         "#CDFA50"
@@ -4523,6 +6173,12 @@
       "alternatives": [
         "phidata"
       ],
+      "fullName": "Phidata",
+      "category": "application",
+      "searchTerms": [
+        "Phidata"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/phidata",
       "primaryColour": "#FF4017",
       "colourTheme": [
         "#FF4017"
@@ -4540,6 +6196,13 @@
       "alternatives": [
         "phind"
       ],
+      "fullName": "Phind",
+      "category": "model",
+      "searchTerms": [
+        "Phind",
+        "phind"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/phind",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4556,6 +6219,13 @@
       "alternatives": [
         "pi"
       ],
+      "fullName": "Pi Agent",
+      "category": "provider",
+      "searchTerms": [
+        "Pi Agent",
+        "Pi"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/pi",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4572,6 +6242,12 @@
       "alternatives": [
         "pika"
       ],
+      "fullName": "Pika",
+      "category": "application",
+      "searchTerms": [
+        "Pika"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/pika",
       "primaryColour": "#FDF7EF",
       "colourTheme": [
         "#FDF7EF"
@@ -4588,6 +6264,12 @@
       "alternatives": [
         "pixverse"
       ],
+      "fullName": "PixVerse",
+      "category": "application",
+      "searchTerms": [
+        "PixVerse"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/pix-verse",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4605,6 +6287,12 @@
       "alternatives": [
         "player2"
       ],
+      "fullName": "Player2",
+      "category": "application",
+      "searchTerms": [
+        "Player2"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/player2",
       "primaryColour": "#A8A6FF",
       "colourTheme": [
         "#A8A6FF"
@@ -4622,6 +6310,12 @@
       "alternatives": [
         "poe"
       ],
+      "fullName": "Poe",
+      "category": "application",
+      "searchTerms": [
+        "Poe"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/poe",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4639,6 +6333,12 @@
       "alternatives": [
         "pollinations"
       ],
+      "fullName": "Pollinations",
+      "category": "application",
+      "searchTerms": [
+        "Pollinations"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/pollinations",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4655,6 +6355,12 @@
       "alternatives": [
         "polza"
       ],
+      "fullName": "Polza",
+      "category": "provider",
+      "searchTerms": [
+        "Polza"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/344",
       "primaryColour": "#B2F72A",
       "colourTheme": [
         "#B2F72A"
@@ -4672,6 +6378,12 @@
       "alternatives": [
         "poolside"
       ],
+      "fullName": "Poolside",
+      "category": "model",
+      "searchTerms": [
+        "Poolside"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/poolside",
       "primaryColour": "#4137FF",
       "colourTheme": [
         "#4137FF"
@@ -4689,6 +6401,12 @@
       "alternatives": [
         "ppio"
       ],
+      "fullName": "PPIO",
+      "category": "provider",
+      "searchTerms": [
+        "PPIO"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/ppio",
       "primaryColour": "#2874FF",
       "colourTheme": [
         "#2874FF"
@@ -4709,6 +6427,13 @@
       "alternatives": [
         "prunaai"
       ],
+      "fullName": "Pruna AI",
+      "category": "model",
+      "searchTerms": [
+        "Pruna AI",
+        "PrunaAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/pruna-ai",
       "primaryColour": "#AC51FF",
       "colourTheme": [
         "#AC51FF"
@@ -4726,6 +6451,12 @@
       "alternatives": [
         "pydanticai"
       ],
+      "fullName": "PydanticAI",
+      "category": "application",
+      "searchTerms": [
+        "PydanticAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/pydantic-ai",
       "primaryColour": "#E92063",
       "colourTheme": [
         "#E92063"
@@ -4743,6 +6474,13 @@
       "alternatives": [
         "qingyan"
       ],
+      "fullName": "Qingyan (\u667a\u8c31\u6e05\u8a00)",
+      "category": "application",
+      "searchTerms": [
+        "Qingyan (\u667a\u8c31\u6e05\u8a00)",
+        "Qingyan"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/qingyan",
       "primaryColour": "#1041F3",
       "colourTheme": [
         "#1041F3"
@@ -4760,6 +6498,13 @@
       "alternatives": [
         "qiniu"
       ],
+      "fullName": "Qiniu (\u4e03\u725b\u4e91)",
+      "category": "provider",
+      "searchTerms": [
+        "Qiniu (\u4e03\u725b\u4e91)",
+        "Qiniu"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/qiniu",
       "primaryColour": "#06AEEF",
       "colourTheme": [
         "#06AEEF"
@@ -4777,6 +6522,12 @@
       "alternatives": [
         "qoder"
       ],
+      "fullName": "Qoder",
+      "category": "application",
+      "searchTerms": [
+        "Qoder"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/qoder",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4794,6 +6545,13 @@
       "alternatives": [
         "qwen"
       ],
+      "fullName": "Qwen (\u5343\u95ee)",
+      "category": "model",
+      "searchTerms": [
+        "Qwen (\u5343\u95ee)",
+        "Qwen"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/qwen",
       "primaryColour": "#615CED",
       "colourTheme": [
         "#615CED"
@@ -4811,6 +6569,12 @@
       "alternatives": [
         "railway"
       ],
+      "fullName": "Railway",
+      "category": "application",
+      "searchTerms": [
+        "Railway"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/railway",
       "primaryColour": "#853BCE",
       "colourTheme": [
         "#853BCE"
@@ -4827,6 +6591,12 @@
       "alternatives": [
         "recraft"
       ],
+      "fullName": "Recraft",
+      "category": "application",
+      "searchTerms": [
+        "Recraft"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/recraft",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4843,6 +6613,12 @@
       "alternatives": [
         "reka"
       ],
+      "fullName": "Reka",
+      "category": "model",
+      "searchTerms": [
+        "Reka"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/reka",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4859,6 +6635,12 @@
       "alternatives": [
         "relace"
       ],
+      "fullName": "Relace",
+      "category": "model",
+      "searchTerms": [
+        "Relace"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/relace",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4875,6 +6657,12 @@
       "alternatives": [
         "replicate"
       ],
+      "fullName": "Replicate",
+      "category": "provider",
+      "searchTerms": [
+        "Replicate"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/replicate",
       "primaryColour": "#EA2805",
       "colourTheme": [
         "#EA2805"
@@ -4894,6 +6682,12 @@
       "alternatives": [
         "replit"
       ],
+      "fullName": "Replit",
+      "category": "application",
+      "searchTerms": [
+        "Replit"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/replit",
       "primaryColour": "#FD5402",
       "colourTheme": [
         "#FD5402"
@@ -4911,6 +6705,12 @@
       "alternatives": [
         "respira"
       ],
+      "fullName": "Respira",
+      "category": "provider",
+      "searchTerms": [
+        "Respira"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/343",
       "primaryColour": "#10B981",
       "colourTheme": [
         "#10B981",
@@ -4930,6 +6730,12 @@
       "alternatives": [
         "reve"
       ],
+      "fullName": "Reve",
+      "category": "model",
+      "searchTerms": [
+        "Reve"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/reve",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4946,6 +6752,12 @@
       "alternatives": [
         "roocode"
       ],
+      "fullName": "RooCode",
+      "category": "application",
+      "searchTerms": [
+        "RooCode"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/roo-code",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -4962,6 +6774,12 @@
       "alternatives": [
         "rsshub"
       ],
+      "fullName": "RSSHub",
+      "category": "application",
+      "searchTerms": [
+        "RSSHub"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/rss-hub",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4979,6 +6797,12 @@
       "alternatives": [
         "runway"
       ],
+      "fullName": "Runway",
+      "category": "application",
+      "searchTerms": [
+        "Runway"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/runway",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -4995,6 +6819,12 @@
       "alternatives": [
         "rwkv"
       ],
+      "fullName": "RWKV",
+      "category": "model",
+      "searchTerms": [
+        "RWKV"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/rwkv",
       "primaryColour": "#3431C3",
       "colourTheme": [
         "#3431C3"
@@ -5012,6 +6842,13 @@
       "alternatives": [
         "sakana"
       ],
+      "fullName": "Sakana",
+      "category": "model",
+      "searchTerms": [
+        "Sakana",
+        "sakana.ai"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/sakana",
       "primaryColour": "#E10600",
       "colourTheme": [
         "#E10600"
@@ -5029,6 +6866,12 @@
       "alternatives": [
         "sambanova"
       ],
+      "fullName": "SambaNova",
+      "category": "provider",
+      "searchTerms": [
+        "SambaNova"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/samba-nova",
       "primaryColour": "#EE7624",
       "colourTheme": [
         "#EE7624"
@@ -5046,6 +6889,12 @@
       "alternatives": [
         "saygm"
       ],
+      "fullName": "SayGM",
+      "category": "provider",
+      "searchTerms": [
+        "SayGM"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/385",
       "primaryColour": "#FFCE3F",
       "colourTheme": [
         "#FFCE3F"
@@ -5063,6 +6912,12 @@
       "alternatives": [
         "search1api"
       ],
+      "fullName": "Search1API",
+      "category": "provider",
+      "searchTerms": [
+        "Search1API"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/search1-api",
       "primaryColour": "#0066FF",
       "colourTheme": [
         "#0066FF"
@@ -5080,6 +6935,12 @@
       "alternatives": [
         "searchapi"
       ],
+      "fullName": "SearchApi",
+      "category": "provider",
+      "searchTerms": [
+        "SearchApi"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/search-api",
       "primaryColour": "#4F46E5",
       "colourTheme": [
         "#4F46E5"
@@ -5096,6 +6957,12 @@
       "alternatives": [
         "searxng"
       ],
+      "fullName": "SearXNG",
+      "category": "provider",
+      "searchTerms": [
+        "SearXNG"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/sear-xng",
       "primaryColour": "#3050FF",
       "colourTheme": [
         "#3050FF"
@@ -5113,6 +6980,13 @@
       "alternatives": [
         "sensenova"
       ],
+      "fullName": "SenseNova (\u5546\u6c64)",
+      "category": "model",
+      "searchTerms": [
+        "SenseNova (\u5546\u6c64)",
+        "SenseNova"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/sense-nova",
       "primaryColour": "#5B2AD8",
       "colourTheme": [
         "#5B2AD8"
@@ -5134,6 +7008,13 @@
       "alternatives": [
         "siliconcloud"
       ],
+      "fullName": "SiliconCloud (SiliconFlow)",
+      "category": "provider",
+      "searchTerms": [
+        "SiliconCloud (SiliconFlow)",
+        "SiliconCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/silicon-cloud",
       "primaryColour": "#6E29F6",
       "colourTheme": [
         "#6E29F6"
@@ -5151,6 +7032,12 @@
       "alternatives": [
         "sillytavern"
       ],
+      "fullName": "SillyTavern",
+      "category": "application",
+      "searchTerms": [
+        "SillyTavern"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/silly-tavern",
       "primaryColour": "#333333",
       "colourTheme": [
         "#333333"
@@ -5168,6 +7055,13 @@
       "alternatives": [
         "skywork"
       ],
+      "fullName": "Skywork (\u5929\u5de5)",
+      "category": "model",
+      "searchTerms": [
+        "Skywork (\u5929\u5de5)",
+        "Skywork"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/skywork",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -5185,6 +7079,12 @@
       "alternatives": [
         "slock"
       ],
+      "fullName": "Slock",
+      "category": "application",
+      "searchTerms": [
+        "Slock"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/slock",
       "primaryColour": "#FFD440",
       "colourTheme": [
         "#FFD440"
@@ -5201,6 +7101,12 @@
       "alternatives": [
         "smithery"
       ],
+      "fullName": "Smithery",
+      "category": "application",
+      "searchTerms": [
+        "Smithery"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/smithery",
       "primaryColour": "#EA580C",
       "colourTheme": [
         "#EA580C"
@@ -5218,6 +7124,12 @@
       "alternatives": [
         "snowflake"
       ],
+      "fullName": "Snowflake",
+      "category": "provider",
+      "searchTerms": [
+        "Snowflake"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/snowflake",
       "primaryColour": "#249EDC",
       "colourTheme": [
         "#249EDC"
@@ -5235,6 +7147,12 @@
       "alternatives": [
         "sophnet"
       ],
+      "fullName": "SophNet",
+      "category": "provider",
+      "searchTerms": [
+        "SophNet"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/soph-net",
       "primaryColour": "#6200EE",
       "colourTheme": [
         "#6200EE"
@@ -5252,6 +7170,13 @@
       "alternatives": [
         "sora"
       ],
+      "fullName": "Sora (OpenAI)",
+      "category": "model",
+      "searchTerms": [
+        "Sora (OpenAI)",
+        "Sora"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/sora",
       "primaryColour": "#0968DA",
       "colourTheme": [
         "#0968DA"
@@ -5269,6 +7194,13 @@
       "alternatives": [
         "spark"
       ],
+      "fullName": "Spark (\u8baf\u98de\u661f\u706b)",
+      "category": "model",
+      "searchTerms": [
+        "Spark (\u8baf\u98de\u661f\u706b)",
+        "Spark"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/spark",
       "primaryColour": "#0070F0",
       "colourTheme": [
         "#0070F0"
@@ -5286,6 +7218,12 @@
       "alternatives": [
         "speedai"
       ],
+      "fullName": "SpeedAI",
+      "category": "provider",
+      "searchTerms": [
+        "SpeedAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/speed-ai",
       "primaryColour": "#6366F1",
       "colourTheme": [
         "#6366F1"
@@ -5303,6 +7241,13 @@
       "alternatives": [
         "stability"
       ],
+      "fullName": "Stability (StableDiffusion)",
+      "category": "provider",
+      "searchTerms": [
+        "Stability (StableDiffusion)",
+        "Stability"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/stability",
       "primaryColour": "#330066",
       "colourTheme": [
         "#330066"
@@ -5324,6 +7269,13 @@
       "alternatives": [
         "statecloud"
       ],
+      "fullName": "StateCloud (\u5929\u7ffc\u4e91)",
+      "category": "provider",
+      "searchTerms": [
+        "StateCloud (\u5929\u7ffc\u4e91)",
+        "StateCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/state-cloud",
       "primaryColour": "#DF0428",
       "colourTheme": [
         "#DF0428"
@@ -5341,6 +7293,13 @@
       "alternatives": [
         "stepfun"
       ],
+      "fullName": "Stepfun (\u9636\u8dc3\u661f\u8fb0)",
+      "category": "model",
+      "searchTerms": [
+        "Stepfun (\u9636\u8dc3\u661f\u8fb0)",
+        "StepFun"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/stepfun",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -5358,6 +7317,12 @@
       "alternatives": [
         "straico"
       ],
+      "fullName": "Straico",
+      "category": "provider",
+      "searchTerms": [
+        "Straico"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/straico",
       "primaryColour": "#464BBA",
       "colourTheme": [
         "#464BBA"
@@ -5375,6 +7340,12 @@
       "alternatives": [
         "streamlake"
       ],
+      "fullName": "StreamLake",
+      "category": "provider",
+      "searchTerms": [
+        "StreamLake"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/stream-lake",
       "primaryColour": "#1D70FF",
       "colourTheme": [
         "#1D70FF"
@@ -5392,6 +7363,12 @@
       "alternatives": [
         "sub2api"
       ],
+      "fullName": "Sub2API",
+      "category": "provider",
+      "searchTerms": [
+        "Sub2API"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/367",
       "primaryColour": "#2FD3E1",
       "colourTheme": [
         "#2FD3E1"
@@ -5409,6 +7386,12 @@
       "alternatives": [
         "submodel"
       ],
+      "fullName": "SubModel",
+      "category": "provider",
+      "searchTerms": [
+        "SubModel"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/sub-model",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -5426,6 +7409,12 @@
       "alternatives": [
         "suno"
       ],
+      "fullName": "Suno",
+      "category": "application",
+      "searchTerms": [
+        "Suno"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/suno",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -5442,6 +7431,12 @@
       "alternatives": [
         "sync"
       ],
+      "fullName": "Sync",
+      "category": "application",
+      "searchTerms": [
+        "Sync"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/sync",
       "primaryColour": "#0000FF",
       "colourTheme": [
         "#0000FF"
@@ -5458,6 +7453,7 @@
       "alternatives": [
         "synthetic"
       ],
+      "searchTerms": [],
       "colourTheme": []
     },
     "tabbit": {
@@ -5466,6 +7462,12 @@
       "alternatives": [
         "tabbit"
       ],
+      "fullName": "Tabbit",
+      "category": "application",
+      "searchTerms": [
+        "Tabbit"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/381",
       "primaryColour": "#FC9832",
       "colourTheme": [
         "#FC9832"
@@ -5483,6 +7485,12 @@
       "alternatives": [
         "targon"
       ],
+      "fullName": "Targon",
+      "category": "provider",
+      "searchTerms": [
+        "Targon"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/targon",
       "primaryColour": "#68C3FF",
       "colourTheme": [
         "#68C3FF"
@@ -5500,6 +7508,12 @@
       "alternatives": [
         "tavily"
       ],
+      "fullName": "Tavily",
+      "category": "application",
+      "searchTerms": [
+        "Tavily"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/tavily",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -5517,6 +7531,12 @@
       "alternatives": [
         "tencent"
       ],
+      "fullName": "Tencent",
+      "category": "provider",
+      "searchTerms": [
+        "Tencent"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/tencent",
       "primaryColour": "#0052D9",
       "colourTheme": [
         "#0052D9"
@@ -5541,6 +7561,13 @@
       "alternatives": [
         "tencentcloud"
       ],
+      "fullName": "TencentCloud (\u817e\u8baf\u4e91)",
+      "category": "provider",
+      "searchTerms": [
+        "TencentCloud (\u817e\u8baf\u4e91)",
+        "TencentCloud"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/tencent-cloud",
       "primaryColour": "#2151D1",
       "colourTheme": [
         "#2151D1"
@@ -5558,6 +7585,12 @@
       "alternatives": [
         "thegrid"
       ],
+      "fullName": "The Grid",
+      "category": "provider",
+      "searchTerms": [
+        "The Grid"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/407",
       "primaryColour": "#0049E6",
       "colourTheme": [
         "#0049E6"
@@ -5570,6 +7603,13 @@
       "alternatives": [
         "tiangong"
       ],
+      "fullName": "Tiangong (\u5929\u5de5)",
+      "category": "application",
+      "searchTerms": [
+        "Tiangong (\u5929\u5de5)",
+        "Tiangong"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/tiangong",
       "primaryColour": "#0057FF",
       "colourTheme": [
         "#0057FF"
@@ -5587,6 +7627,13 @@
       "alternatives": [
         "tii"
       ],
+      "fullName": "Technology Innovation Institute (Falcon)",
+      "category": "provider",
+      "searchTerms": [
+        "Technology Innovation Institute (Falcon)",
+        "Technology Innovation Institute"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/tii",
       "primaryColour": "#6400FF",
       "colourTheme": [
         "#6400FF"
@@ -5604,6 +7651,12 @@
       "alternatives": [
         "together"
       ],
+      "fullName": "together.ai",
+      "category": "provider",
+      "searchTerms": [
+        "together.ai"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/together",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -5625,6 +7678,12 @@
       "alternatives": [
         "topazlabs"
       ],
+      "fullName": "TopazLabs",
+      "category": "application",
+      "searchTerms": [
+        "TopazLabs"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/topaz-labs",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -5641,6 +7700,12 @@
       "alternatives": [
         "trae"
       ],
+      "fullName": "TRAE",
+      "category": "application",
+      "searchTerms": [
+        "TRAE"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/trae",
       "primaryColour": "#32F08C",
       "colourTheme": [
         "#32F08C"
@@ -5658,6 +7723,12 @@
       "alternatives": [
         "tripo"
       ],
+      "fullName": "Tripo",
+      "category": "application",
+      "searchTerms": [
+        "Tripo"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/tripo",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -5675,6 +7746,12 @@
       "alternatives": [
         "turix"
       ],
+      "fullName": "TuriX",
+      "category": "application",
+      "searchTerms": [
+        "TuriX"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/turi-x",
       "primaryColour": "#F7AD8A",
       "colourTheme": [
         "#F7AD8A"
@@ -5691,6 +7768,12 @@
       "alternatives": [
         "typesafeai"
       ],
+      "fullName": "TypeSafe AI",
+      "category": "model",
+      "searchTerms": [
+        "TypeSafe AI"
+      ],
+      "upstreamUrl": "https://github.com/lobehub/lobe-icons/pull/421",
       "primaryColour": "#F386A1",
       "colourTheme": [
         "#F386A1"
@@ -5707,6 +7790,12 @@
       "alternatives": [
         "udio"
       ],
+      "fullName": "Udio",
+      "category": "application",
+      "searchTerms": [
+        "Udio"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/udio",
       "primaryColour": "#E30A5D",
       "colourTheme": [
         "#E30A5D"
@@ -5724,6 +7813,13 @@
       "alternatives": [
         "unionalpha"
       ],
+      "fullName": "Union Alpha",
+      "category": "model",
+      "searchTerms": [
+        "Union Alpha",
+        "UnionAlpha"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/union-alpha",
       "primaryColour": "#1A1A1A",
       "colourTheme": [
         "#1A1A1A"
@@ -5741,6 +7837,12 @@
       "alternatives": [
         "unsloth"
       ],
+      "fullName": "Unsloth",
+      "category": "provider",
+      "searchTerms": [
+        "Unsloth"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/unsloth",
       "primaryColour": "#16B88A",
       "colourTheme": [
         "#16B88A"
@@ -5758,6 +7860,12 @@
       "alternatives": [
         "unstructured"
       ],
+      "fullName": "Unstructured",
+      "category": "application",
+      "searchTerms": [
+        "Unstructured"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/unstructured",
       "primaryColour": "#0ADDF8",
       "colourTheme": [
         "#0ADDF8"
@@ -5775,6 +7883,13 @@
       "alternatives": [
         "upstage"
       ],
+      "fullName": "Upstage",
+      "category": "provider",
+      "searchTerms": [
+        "Upstage",
+        "Upsate"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/upstage",
       "primaryColour": "#908AF9",
       "colourTheme": [
         "#908AF9"
@@ -5792,6 +7907,13 @@
       "alternatives": [
         "v0"
       ],
+      "fullName": "V0 (Vercel)",
+      "category": "application",
+      "searchTerms": [
+        "V0 (Vercel)",
+        "V0"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/v-0",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -5803,6 +7925,12 @@
       "alternatives": [
         "vectorizerai"
       ],
+      "fullName": "Vectorizer.AI",
+      "category": "application",
+      "searchTerms": [
+        "Vectorizer.AI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/vectorizer-ai",
       "primaryColour": "#3659FF",
       "colourTheme": [
         "#3659FF"
@@ -5819,6 +7947,12 @@
       "alternatives": [
         "venice"
       ],
+      "fullName": "Venice",
+      "category": "application",
+      "searchTerms": [
+        "Venice"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/venice",
       "primaryColour": "#E05A2D",
       "colourTheme": [
         "#E05A2D"
@@ -5836,6 +7970,12 @@
       "alternatives": [
         "vercel"
       ],
+      "fullName": "Vercel",
+      "category": "provider",
+      "searchTerms": [
+        "Vercel"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/vercel",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -5852,6 +7992,13 @@
       "alternatives": [
         "vertexai"
       ],
+      "fullName": "VertexAI (Google)",
+      "category": "provider",
+      "searchTerms": [
+        "VertexAI (Google)",
+        "VertexAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/vertex-ai",
       "primaryColour": "#4285F4",
       "colourTheme": [
         "#4285F4"
@@ -5869,6 +8016,12 @@
       "alternatives": [
         "vidu"
       ],
+      "fullName": "Vidu",
+      "category": "application",
+      "searchTerms": [
+        "Vidu"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/vidu",
       "primaryColour": "#22D5FF",
       "colourTheme": [
         "#22D5FF"
@@ -5886,6 +8039,12 @@
       "alternatives": [
         "viggle"
       ],
+      "fullName": "Viggle",
+      "category": "application",
+      "searchTerms": [
+        "Viggle"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/viggle",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -5902,6 +8061,12 @@
       "alternatives": [
         "vllm"
       ],
+      "fullName": "vLLM",
+      "category": "provider",
+      "searchTerms": [
+        "vLLM"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/vllm",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -5919,6 +8084,13 @@
       "alternatives": [
         "volcengine"
       ],
+      "fullName": "Volcengine (\u706b\u5c71\u5f15\u64ce)",
+      "category": "provider",
+      "searchTerms": [
+        "Volcengine (\u706b\u5c71\u5f15\u64ce)",
+        "Volcengine"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/volcengine",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -5936,6 +8108,12 @@
       "alternatives": [
         "voyage"
       ],
+      "fullName": "Voyage",
+      "category": "model",
+      "searchTerms": [
+        "Voyage"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/voyage",
       "primaryColour": "#012E33",
       "colourTheme": [
         "#012E33"
@@ -5953,6 +8131,12 @@
       "alternatives": [
         "wafer"
       ],
+      "fullName": "Wafer",
+      "category": "provider",
+      "searchTerms": [
+        "Wafer"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/wafer",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -5969,6 +8153,12 @@
       "alternatives": [
         "wandb"
       ],
+      "fullName": "Weights & Biases",
+      "category": "application",
+      "searchTerms": [
+        "Weights & Biases"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/wandb",
       "primaryColour": "#FFCC33",
       "colourTheme": [
         "#FFCC33"
@@ -5986,6 +8176,7 @@
       "alternatives": [
         "warp"
       ],
+      "searchTerms": [],
       "colourTheme": [],
       "color": "warp-color.svg"
     },
@@ -5995,6 +8186,12 @@
       "alternatives": [
         "wavespeed"
       ],
+      "fullName": "WaveSpeed",
+      "category": "provider",
+      "searchTerms": [
+        "WaveSpeed"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/wave-speed",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -6011,6 +8208,13 @@
       "alternatives": [
         "wenxin"
       ],
+      "fullName": "Wenxin (\u6587\u5fc3)",
+      "category": "model",
+      "searchTerms": [
+        "Wenxin (\u6587\u5fc3)",
+        "Wenxin"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/wenxin",
       "primaryColour": "#167ADF",
       "colourTheme": [
         "#167ADF"
@@ -6028,6 +8232,12 @@
       "alternatives": [
         "windsurf"
       ],
+      "fullName": "Windsurf",
+      "category": "application",
+      "searchTerms": [
+        "Windsurf"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/windsurf",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -6044,6 +8254,13 @@
       "alternatives": [
         "workersai"
       ],
+      "fullName": "WorkersAI (Cloudflare)",
+      "category": "provider",
+      "searchTerms": [
+        "WorkersAI (Cloudflare)",
+        "WorkersAI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/workers-ai",
       "primaryColour": "#F38020",
       "colourTheme": [
         "#F38020"
@@ -6061,6 +8278,12 @@
       "alternatives": [
         "worldrouter"
       ],
+      "fullName": "WorldRouter",
+      "category": "provider",
+      "searchTerms": [
+        "WorldRouter"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/world-router",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -6078,6 +8301,13 @@
         "xai",
         "grok"
       ],
+      "fullName": "xAI",
+      "category": "provider",
+      "searchTerms": [
+        "xAI",
+        "Grok"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/xai",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -6094,6 +8324,13 @@
       "alternatives": [
         "xiaomimimo"
       ],
+      "fullName": "Xiaomi MiMo",
+      "category": "model",
+      "searchTerms": [
+        "Xiaomi MiMo",
+        "XiaomiMiMo"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/xiaomi-mi-mo",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -6110,6 +8347,12 @@
       "alternatives": [
         "xinference"
       ],
+      "fullName": "Xinference",
+      "category": "provider",
+      "searchTerms": [
+        "Xinference"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/xinference",
       "primaryColour": "#781FF5",
       "colourTheme": [
         "#781FF5"
@@ -6127,6 +8370,13 @@
       "alternatives": [
         "xpay"
       ],
+      "fullName": "Xpay",
+      "category": "provider",
+      "searchTerms": [
+        "Xpay",
+        "xpay"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/xpay",
       "primaryColour": "#0F1C4D",
       "colourTheme": [
         "#0F1C4D"
@@ -6144,6 +8394,13 @@
       "alternatives": [
         "xuanyuan"
       ],
+      "fullName": "Xuanyuan (\u5ea6\u5c0f\u6ee1\u8f69\u8f95)",
+      "category": "model",
+      "searchTerms": [
+        "Xuanyuan (\u5ea6\u5c0f\u6ee1\u8f69\u8f95)",
+        "\u8f69\u8f95"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/xuanyuan",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -6161,6 +8418,12 @@
       "alternatives": [
         "yandex"
       ],
+      "fullName": "Yandex",
+      "category": "provider",
+      "searchTerms": [
+        "Yandex"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/yandex",
       "primaryColour": "#FB3E1C",
       "colourTheme": [
         "#FB3E1C"
@@ -6177,6 +8440,13 @@
       "alternatives": [
         "yi"
       ],
+      "fullName": "Yi (\u96f6\u4e00\u4e07\u7269)",
+      "category": "model",
+      "searchTerms": [
+        "Yi (\u96f6\u4e00\u4e07\u7269)",
+        "Yi"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/yi",
       "primaryColour": "#003425",
       "colourTheme": [
         "#003425"
@@ -6194,6 +8464,12 @@
       "alternatives": [
         "youmind"
       ],
+      "fullName": "YouMind",
+      "category": "application",
+      "searchTerms": [
+        "YouMind"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/you-mind",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -6210,6 +8486,13 @@
       "alternatives": [
         "yuanbao"
       ],
+      "fullName": "Yuanbao (\u817e\u8baf\u5143\u5b9d)",
+      "category": "application",
+      "searchTerms": [
+        "Yuanbao (\u817e\u8baf\u5143\u5b9d)",
+        "Yuanbao"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/yuanbao",
       "primaryColour": "#FFFFFF",
       "colourTheme": [
         "#FFFFFF"
@@ -6227,6 +8510,12 @@
       "alternatives": [
         "zai"
       ],
+      "fullName": "Z.ai",
+      "category": "application",
+      "searchTerms": [
+        "Z.ai"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/zai",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -6243,6 +8532,12 @@
       "alternatives": [
         "zapier"
       ],
+      "fullName": "Zapier",
+      "category": "application",
+      "searchTerms": [
+        "Zapier"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/zapier",
       "primaryColour": "#FF4F00",
       "colourTheme": [
         "#FF4F00"
@@ -6260,6 +8555,12 @@
       "alternatives": [
         "zeabur"
       ],
+      "fullName": "Zeabur",
+      "category": "application",
+      "searchTerms": [
+        "Zeabur"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/zeabur",
       "primaryColour": "#6300FF",
       "colourTheme": [
         "#6300FF"
@@ -6277,6 +8578,12 @@
       "alternatives": [
         "zencoder"
       ],
+      "fullName": "Zencoder",
+      "category": "application",
+      "searchTerms": [
+        "Zencoder"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/zencoder",
       "primaryColour": "#E65C2C",
       "colourTheme": [
         "#E65C2C"
@@ -6294,6 +8601,12 @@
       "alternatives": [
         "zenmux"
       ],
+      "fullName": "ZenMux",
+      "category": "provider",
+      "searchTerms": [
+        "ZenMux"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/zen-mux",
       "primaryColour": "#000000",
       "colourTheme": [
         "#000000"
@@ -6310,6 +8623,13 @@
       "alternatives": [
         "zeroone"
       ],
+      "fullName": "01.AI (\u96f6\u4e00\u4e07\u7269)",
+      "category": "provider",
+      "searchTerms": [
+        "01.AI (\u96f6\u4e00\u4e07\u7269)",
+        "01.AI"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/zero-one",
       "primaryColour": "#003425",
       "colourTheme": [
         "#003425"
@@ -6327,6 +8647,13 @@
       "alternatives": [
         "zhipu"
       ],
+      "fullName": "Zhipu (\u667a\u8c31)",
+      "category": "provider",
+      "searchTerms": [
+        "Zhipu (\u667a\u8c31)",
+        "Zhipu"
+      ],
+      "upstreamUrl": "https://icons.lobehub.com/components/zhipu",
       "primaryColour": "#3859FF",
       "colourTheme": [
         "#3859FF"

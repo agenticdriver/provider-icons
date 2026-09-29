@@ -11,7 +11,7 @@ dependencies; the optional React entrypoint uses the application's React.
 Install the standalone alpha from its immutable GitHub release archive:
 
 ```sh
-npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.5/agenticdriver-provider-icons-0.1.0-alpha.5.tgz
+npm install --save-exact https://github.com/agenticdriver/provider-icons/releases/download/v0.1.0-alpha.6/agenticdriver-provider-icons-0.1.0-alpha.6.tgz
 ```
 
 This installs only `@agenticdriver/provider-icons`, not AgenticDriver. The package
@@ -157,7 +157,8 @@ never download icons while displaying provider settings. See `NOTICE`,
 `licenses/` and `provenance.json` for original sources and trademark attribution.
 
 Refresh the complete LobeHub catalogue with `npm run sync:lobehub -- --latest`,
-then build and test. The sync resolves one immutable upstream commit and records
+refresh its metadata with `npm run sync:colours` and `npm run sync:discovery`,
+then build and test. The artwork sync resolves one immutable upstream commit and records
 it with SHA-256 provenance. To replay it, omit `--latest`; to select a revision,
 use `--ref <full-commit-sha>`. Upstream SVGs are verified against the pinned Git
 tree, including fixes newer than the static npm archive. Existing local artwork
@@ -174,10 +175,33 @@ source, source hashes and artwork mapping. These contributions were unmerged at
 review; their inclusion here does not imply upstream acceptance.
 
 Run `npm run sync:lobehub-prs` to replay those sources offline. To review a new PR,
-use `npm run sync:lobehub-prs -- --add-pr <number>`, inspect the diff, then build and
-test. This fetches only that PR's icon source, verifies Git blob hashes, and
+use `npm run sync:lobehub-prs -- --add-pr <number>`, run `npm run sync:discovery`,
+inspect the diff, then build and test. The PR importer fetches only that PR's icon source, verifies Git blob hashes, and
 statically extracts SVG without running upstream React modules or build scripts.
 It uses the development TypeScript parser, not a consumer runtime dependency.
 Unknown expressions, unsafe SVGs, overwrites of existing artwork and collisions
 with newly merged upstream icons stop for source reconciliation. Metadata and
 React exports are generated automatically from the reviewed artwork.
+
+## Search and categories
+
+```js
+import { searchProviderIcons, providerIcons } from '@agenticdriver/provider-icons';
+
+searchProviderIcons('千问'); // Qwen, using the source's localized name
+searchProviderIcons('Nemotron'); // Nvidia
+searchProviderIcons('claude code', {category: 'application'});
+providerIcons.qwen.fullName; // 'Qwen (千问)'
+```
+
+Search accepts aliases, alternate names, case differences and punctuation. Results
+contain `id` and the catalogue entry; exact names rank first. Categories are
+`model`, `provider` and `application`. Use `other` to find entries without a source
+category, or omit the filter to search everything. These categories describe the
+icon catalogue; they do not indicate SDK/provider support.
+
+Entries expose `fullName`, optional `category`, immutable `searchTerms` and an
+`upstreamUrl` to the corresponding LobeHub reference or reviewed PR. The same
+metadata is in `manifest.json`. `npm run sync:discovery` refreshes source snapshots
+at the already-reviewed artwork revisions; builds verify their hashes and reject
+stale revisions. Run it after adding PRs or updating the mainline artwork source.

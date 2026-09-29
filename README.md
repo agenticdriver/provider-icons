@@ -80,6 +80,10 @@ The same metadata is included in `providerIcons` and the native JSON manifest.
 Update the verified snapshot with `npm run sync:colours` after an artwork-source
 update; generation rejects a mismatched revision or changed source digest.
 
+The [official-source colour audit](research/brand-colours/README.md) records
+brand guides, press kits, artwork colourways and unresolved entries across the
+catalogue. Its dated research data is separate from the released colour metadata.
+
 ## JavaScript
 
 ```js

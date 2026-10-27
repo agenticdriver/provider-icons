@@ -89,6 +89,7 @@ async function prepare() {
   const value = releaseIdentity(json(join(root, 'package.json')), cleanCommit());
   assert.equal(json(join(root, 'manifest.json')).packageVersion, value.version);
   run('npm', ['test']);
+  run('python3', ['scripts/font_manifest.py']);
   mkdirSync(directory, {recursive: true});
   // Pack tracked, committed inputs with Git's file modes. Shared filesystems may
   // report every working-tree file as executable even when Git records 100644.

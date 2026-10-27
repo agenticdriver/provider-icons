@@ -111,3 +111,17 @@ dedicated generated directory using its `--sha256` and `--target` arguments.
 That helper flattens `assets/` to match manifest filenames. It removes obsolete
 SVGs from its target, so use a directory reserved for this library. GJS can
 import the supplied `index.js` directly.
+
+## Native icon font releases
+
+The package also carries a prebuilt monochrome font and a stable glyph mapping
+under `fonts/`. UsageStat Bar can download these data files with the SVG catalog,
+without updating its own package or installing font build tools. Running Polybar
+processes need a restart to reload the font. Existing codepoints stay reserved.
+
+When preparing a release after changing the catalog or monochrome artwork, run
+`npm run build:font` using a Python environment with `fonts/requirements-build.txt`,
+PyGObject/librsvg, Pillow and Potrace. Commit the generated font, mapping and source
+fingerprints together. Release preparation rejects stale font data. Normal package
+consumers do not need these development dependencies. The font builder originated
+in UsageStat Bar (MIT, Hashim Karim); artwork retains the package's attribution.

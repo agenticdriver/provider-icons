@@ -32,6 +32,6 @@ test('category filtering partitions the catalogue without inventing metadata', (
   assert.ok(!searchProviderIcons('Hedra').some(icon => icon.id === 'happyhorse'));
   assert.ok(Object.isFrozen(providerIcons.qwen.searchTerms));
   assert.throws(() => providerIcons.qwen.searchTerms.push('invented'));
-  assert.match(providerIcons.appwrite.upstreamUrl, /\/pull\/382$/);
+  assert.equal(providerIcons.appwrite.upstreamUrl, 'https://icons.lobehub.com/components/appwrite');
   assert.equal(providerIcons.warp.category, undefined);
 });

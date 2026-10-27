@@ -10,6 +10,7 @@ from build import ROOT, inline
 from sync_lobehub import plan
 from sync_lobehub_prs import sync, verified_files, adjust_geometry
 from discovery import discovery_metadata, documentation_metadata
+from sync_inspiration import sync as sync_inspiration, generate as inspiration_assets
 
 
 class CatalogueTests(unittest.TestCase):
@@ -27,7 +28,8 @@ class CatalogueTests(unittest.TestCase):
 
     def test_complete_source_coverage_and_unchanged_originals(self):
         provenance = json.loads((ROOT / 'provenance.json').read_text())
-        groups = [provenance['files'], provenance['lobehub']['files'], provenance['lobehubPullRequests']['files']]
+        groups = [provenance['files'], provenance['lobehub']['files'], provenance['lobehubPullRequests']['files'],
+                  provenance['inspiration']['files']]
         hashes = {name: digest for group in groups for name, digest in group.items()}
         self.assertEqual(len(hashes), sum(map(len, groups)), 'Artwork has exactly one provenance owner')
         self.assertEqual(set(hashes), {p.name for p in (ROOT / 'assets').glob('*.svg')})
@@ -40,6 +42,16 @@ class CatalogueTests(unittest.TestCase):
         next(iter(pr['files'].values()))['content'] += '\n'
         with self.assertRaisesRegex(ValueError, 'digest mismatch'):
             verified_files(pr)
+
+    def test_inspiration_sources_replay_offline_and_detect_tampering(self):
+        sync_inspiration(check=True)
+        snapshot = json.loads((ROOT / 'sources/inspiration.json').read_text())
+        for repository in snapshot['repositories'].values():
+            self.assertEqual(hashlib.sha256((ROOT / repository['license']).read_bytes()).hexdigest(),
+                             repository['licenseSha256'])
+        snapshot['icons']['coderabbit']['source']['content'] += '\n'
+        with self.assertRaisesRegex(ValueError, 'digest mismatch'):
+            inspiration_assets(snapshot)
 
     def test_reviewed_geometry_adjustments_preserve_paths(self):
         svg = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24"><path d="M18 5L29 9"/></svg>'

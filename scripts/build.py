@@ -11,7 +11,7 @@ from discovery import discovery_metadata
 ROOT = Path(__file__).resolve().parent.parent
 ET.register_namespace('', 'http://www.w3.org/2000/svg')
 TAGS = set('svg path title stop linearGradient defs g feBlend filter feFlood feGaussianBlur polygon radialGradient circle rect feColorMatrix clipPath feOffset feComposite ellipse mask line'.split())
-ATTRS = set('d fill width height viewBox stop-color fill-rule offset id clip-rule x2 x1 y2 y1 gradientUnits result fill-opacity cx cy x y r in2 transform stroke stop-opacity in stroke-width stroke-opacity filter color-interpolation-filters filterUnits flood-opacity stdDeviation gradientTransform points rx stroke-linecap values fx fy vector-effect stroke-linejoin clip-path k2 k3 operator ry maskUnits mask opacity shape-rendering'.split())
+ATTRS = set('d fill width height viewBox stop-color fill-rule offset id clip-rule x2 x1 y2 y1 gradientUnits result fill-opacity cx cy x y r in2 transform stroke stop-opacity in stroke-width stroke-dasharray stroke-opacity filter color-interpolation-filters filterUnits flood-opacity stdDeviation gradientTransform points rx stroke-linecap values fx fy vector-effect stroke-linejoin clip-path k2 k3 operator ry maskUnits mask opacity shape-rendering'.split())
 ALIASES = {'chatgpt':'openai', 'openai-api':'openai', 'claude-code':'claudecode', 'gemini-cli':'gemini', 'opencodego':'opencode-go', 'kimi-k2':'kimi', 'jetbrains':'jetbrains-ai-assistant', 'xai-responses':'xai', '5dive':'fivedive'}
 GROUPS = [('openai', 'codex'), ('anthropic', 'claude', 'claudecode'), ('copilot', 'githubcopilot'), ('xai', 'grok'), ('opencode-go', 'opencode')]
 # Exact rendering declarations only; remove React's layout styles without losing
@@ -46,7 +46,7 @@ def inline(source):
                 if style: node.set(attr, style)
                 else: del node.attrib[attr]
                 continue
-            if attr in ('role', 'aria-label', 'version', 'class'):
+            if attr in ('role', 'aria-label', 'aria-labelledby', 'version', 'class'):
                 del node.attrib[attr]
                 continue
             if attr not in ATTRS or re.search(r'(?:https?:|data:|javascript:|[<>])', value, re.I):
@@ -69,6 +69,8 @@ COMPONENT_NAMES = {
     'xuanyuan': 'Xuanyuan', 'jetbrains-ai-assistant': 'JetBrainsAIAssistant',
     'zeroone': 'ZeroOne', 'elevenx': 'ElevenX', 'ai302': 'Ai302',
     'githubcopilot': 'GitHubCopilot',
+    # Preserve the public exports of contributions subsequently merged upstream.
+    'empiriolabs': 'EmpirioLabs', 'llmgateway': 'LlmGateway',
 }
 
 def verified_content(entry):
@@ -161,6 +163,16 @@ def outputs():
     source = json.loads((ROOT/'sources/lobehub.json').read_text())
     upstream = source['icons']
     reviewed_names = pull_request_metadata(upstream, themes)
+    inspiration = json.loads((ROOT / 'sources/inspiration.json').read_text())
+    for id, entry in inspiration['icons'].items():
+        verified_content(entry['source'])
+        if id in upstream:
+            raise ValueError(f'Duplicate artwork source for {id}; reconcile before importing')
+        upstream[id] = {'name': entry['name'], 'componentName': entry['componentName'], 'artworks': {}}
+        reviewed_names[id] = entry['name']
+        repository = inspiration['repositories'][entry['repository']]
+        discovery[id] = {'searchTerms': [entry['name']],
+            'upstreamUrl': f'{repository["url"]}/blob/{repository["commit"]}/{entry["source"]["path"]}'}
     extras = {file for entry in upstream.values()
               for artwork, styles in entry['artworks'].items() if artwork != 'icon'
               for file in styles.values()}

@@ -1,5 +1,5 @@
 {
-  "commit": "8b7bbc433d38437fa2b0cca58ae896917162b812",
+  "commit": "9752d967494e48d8f83f2808feb2b0207bf70997",
   "icons": {
     "ace": {
       "artworks": {
@@ -3222,6 +3222,18 @@
       },
       "name": "Recraft"
     },
+    "reflection": {
+      "artworks": {
+        "icon": {
+          "color": "reflection-color.svg",
+          "monochrome": "reflection.svg"
+        },
+        "text": {
+          "monochrome": "reflection-text.svg"
+        }
+      },
+      "name": "Reflection"
+    },
     "reka": {
       "artworks": {
         "icon": {
@@ -4248,5 +4260,5 @@
     }
   },
   "repository": "https://github.com/lobehub/lobe-icons",
-  "tocSha256": "8adf5748f65c98f3bbe01d441e495c8bea166f2e05aebda202bce1f3b9a944ad"
+  "tocSha256": "49a77902c6d60987e8fcfbc96b55ce4aebeda2d8a5227a3a4432a8094ca6215a"
 }

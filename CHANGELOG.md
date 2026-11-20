@@ -1,5 +1,12 @@
 # Changelog
 
+## Unreleased
+
+- Add 14 provider and product marks from LobeHub and the UsageStat inspiration
+  repositories. The native font includes the new marks and preserves existing codepoints.
+- Refresh the Recraft logo and wordmark, and adopt reviewed updates for Jotaid,
+  GPTZZZ, The Grid AI and AnyAPI.
+
 ## 1.1.0 — 2026-10-27
 
 - Add 40 provider and product icons from reviewed UsageStat inspiration

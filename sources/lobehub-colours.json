@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/lobehub/lobe-icons",
-  "commit": "8b7bbc433d38437fa2b0cca58ae896917162b812",
+  "commit": "9752d967494e48d8f83f2808feb2b0207bf70997",
   "files": {
     "ace": {
       "path": "src/Ace/style.ts",
@@ -1618,9 +1618,15 @@
     },
     "recraft": {
       "path": "src/Recraft/style.ts",
-      "gitBlob": "978c1f8908849c4b080a0a3b41355c010555e4c9",
-      "sha256": "e478671c13be85e7ae48c6e9f8a0156f9d8aee6337ca1f83109640f14e832692",
-      "content": "export const TITLE = 'Recraft';\nexport const COMBINE_TEXT_MULTIPLE = 0.7;\nexport const COMBINE_SPACE_MULTIPLE = 0.2;\nexport const COLOR_PRIMARY = '#000';\n\n// Avatar constants\nexport const AVATAR_BACKGROUND = COLOR_PRIMARY;\nexport const AVATAR_COLOR = '#fff';\nexport const AVATAR_ICON_MULTIPLE = 0.6;\n"
+      "gitBlob": "096cb430dcca91fb1d56d177cb805817f0639711",
+      "sha256": "afbde179f1808eefcd2de3b7cd3f4b558cec50a23ce28251f4b23a7bf190e2ea",
+      "content": "export const TITLE = 'Recraft';\nexport const COMBINE_TEXT_MULTIPLE = 1;\nexport const COMBINE_SPACE_MULTIPLE = 0.2;\nexport const COLOR_PRIMARY = '#000';\n\n// Avatar constants\nexport const AVATAR_BACKGROUND = COLOR_PRIMARY;\nexport const AVATAR_COLOR = '#fff';\nexport const AVATAR_ICON_MULTIPLE = 0.57;\nexport const AVATAR_ICON_MULTIPLE_SQUARE = 0.71;\n"
+    },
+    "reflection": {
+      "path": "src/Reflection/style.ts",
+      "gitBlob": "dff0478cc5bb3b968a3289f03c0626b0f1fe6c80",
+      "sha256": "b971ad4ffc3f9898fe59eed0d813a97083ac1e1662089302dead0c8659f8000a",
+      "content": "export const TITLE = 'Reflection';\nexport const COMBINE_TEXT_MULTIPLE = 0.48;\nexport const COMBINE_SPACE_MULTIPLE = 0.14;\nexport const COLOR_PRIMARY = '#1E3207';\n\n// Official brand kit: https://reflection.ai/brand-kit\nexport const AVATAR_BACKGROUND = '#F8F6F0';\nexport const AVATAR_COLOR = '#1E3207';\nexport const AVATAR_ICON_MULTIPLE = 0.8;\n"
     },
     "reka": {
       "path": "src/Reka/style.ts",

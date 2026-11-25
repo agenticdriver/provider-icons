@@ -53,6 +53,20 @@ class CatalogueTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'digest mismatch'):
             inspiration_assets(snapshot)
 
+    def test_inspiration_artwork_extends_an_existing_mark(self):
+        snapshot = json.loads((ROOT / 'sources/inspiration.json').read_text())
+        assets = inspiration_assets(snapshot)
+        source = snapshot['artworks']['vertexai']['brand']['source']['content']
+        self.assertEqual(assets['vertexai-brand-color.svg'].decode(), source)
+        self.assertIn(b'currentColor', assets['vertexai-brand.svg'])
+        self.assertNotIn('vertexai.svg', assets, 'the standard mark keeps its LobeHub source')
+        manifest = json.loads((ROOT / 'manifest.json').read_text())
+        self.assertEqual(manifest['icons']['vertexai']['artworks']['brand'],
+                         {'color': 'vertexai-brand-color.svg', 'monochrome': 'vertexai-brand.svg'})
+        snapshot['artworks']['vertexai']['brand']['source']['content'] += '\n'
+        with self.assertRaisesRegex(ValueError, 'digest mismatch'):
+            inspiration_assets(snapshot)
+
     def test_reviewed_geometry_adjustments_preserve_paths(self):
         svg = b'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 24"><path d="M18 5L29 9"/></svg>'
         adjusted = adjust_geometry(svg, {'viewBox': '18 4.75 11.25 4.5', 'flipY': 24, 'reason': 'Fix source framing'})

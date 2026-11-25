@@ -1,6 +1,6 @@
 {
   "repository": "https://github.com/lobehub/lobe-icons",
-  "commit": "9752d967494e48d8f83f2808feb2b0207bf70997",
+  "commit": "05260484d9f4de68f90cc87a634ae68fa4043efd",
   "files": {
     "ace": {
       "path": "src/Ace/style.ts",
@@ -1184,6 +1184,12 @@
       "sha256": "2a3116c57840270737ccb88367fae9e41ddae896434d238b13dda376efdbedfa",
       "content": "export const TITLE = 'LobeHub';\nexport const COMBINE_TEXT_MULTIPLE = 0.6;\nexport const COMBINE_SPACE_MULTIPLE = 0.2;\nexport const COLOR_PRIMARY = '#fff';\n\n// Avatar constants\nexport const AVATAR_BACKGROUND = COLOR_PRIMARY;\nexport const AVATAR_COLOR = '#fff';\nexport const AVATAR_ICON_MULTIPLE = 0.8;\n"
     },
+    "lobot": {
+      "path": "src/Lobot/style.ts",
+      "gitBlob": "46c2dbeb4862f69c3a580185151e755014c5ea5b",
+      "sha256": "05a0ab03a787873cf1228e30224f599b2c5115c3aff3702b507e371dba14bb69",
+      "content": "export const TITLE = 'Lobot';\nexport const COMBINE_TEXT_MULTIPLE = 0.695;\nexport const COMBINE_SPACE_MULTIPLE = 0.154;\n// Shift the wordmark down relative to the icon size so its visual center\n// sits ~3/78 of the visible mark height below the mark center, as in the official lockup.\nexport const COMBINE_TEXT_SHIFT_MULTIPLE = 0.0345;\nexport const COLOR_PRIMARY = '#FD8B00';\n\n// Avatar constants\nexport const AVATAR_BACKGROUND = COLOR_PRIMARY;\nexport const AVATAR_COLOR = '#fff';\nexport const AVATAR_ICON_MULTIPLE = 1;\n"
+    },
     "longcat": {
       "path": "src/LongCat/style.ts",
       "gitBlob": "dbcdb68e9887c9c9c4d68272d121057a64cfdb2d",
@@ -1435,6 +1441,12 @@
       "gitBlob": "6f7d71ae9f0b129d56a374ec09573a4fed7fa1ea",
       "sha256": "443fb3e946f86d143c3a5a974c11abcb68272f49f965b393faf8d1465a30b2ab",
       "content": "export const TITLE = 'Ollama';\nexport const COMBINE_TEXT_MULTIPLE = 0.6;\nexport const COMBINE_SPACE_MULTIPLE = 0.1;\nexport const COLOR_PRIMARY = '#fff';\n\n// Avatar constants\nexport const AVATAR_BACKGROUND = COLOR_PRIMARY;\nexport const AVATAR_COLOR = '#000';\nexport const AVATAR_ICON_MULTIPLE = 0.75;\n"
+    },
+    "omlx": {
+      "path": "src/OMLX/style.ts",
+      "gitBlob": "9e89ea125a33a582774f854e05a9aaefd1461bcf",
+      "sha256": "552c51dce0f4adbe29e74ca1321e379c3a4de5d3370a7e35eaa6bec43d23faa2",
+      "content": "export const TITLE = 'oMLX';\nexport const COMBINE_TEXT_MULTIPLE = 0.6;\nexport const COMBINE_SPACE_MULTIPLE = 0.2;\nexport const COLOR_PRIMARY = '#000';\n\n// Avatar constants\nexport const AVATAR_BACKGROUND = COLOR_PRIMARY;\nexport const AVATAR_COLOR = '#fff';\nexport const AVATAR_ICON_MULTIPLE = 0.7;\n"
     },
     "openai": {
       "path": "src/OpenAI/style.ts",

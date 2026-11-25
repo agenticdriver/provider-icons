@@ -1,5 +1,5 @@
 {
-  "commit": "9752d967494e48d8f83f2808feb2b0207bf70997",
+  "commit": "05260484d9f4de68f90cc87a634ae68fa4043efd",
   "icons": {
     "ace": {
       "artworks": {
@@ -2366,6 +2366,17 @@
       },
       "name": "LobeHub"
     },
+    "lobot": {
+      "artworks": {
+        "icon": {
+          "monochrome": "lobot.svg"
+        },
+        "text": {
+          "monochrome": "lobot-text.svg"
+        }
+      },
+      "name": "Lobot"
+    },
     "longcat": {
       "artworks": {
         "icon": {
@@ -2858,6 +2869,17 @@
         }
       },
       "name": "Ollama"
+    },
+    "omlx": {
+      "artworks": {
+        "icon": {
+          "monochrome": "omlx.svg"
+        },
+        "text": {
+          "monochrome": "omlx-text.svg"
+        }
+      },
+      "name": "oMLX"
     },
     "openai": {
       "artworks": {
@@ -4260,5 +4282,5 @@
     }
   },
   "repository": "https://github.com/lobehub/lobe-icons",
-  "tocSha256": "49a77902c6d60987e8fcfbc96b55ce4aebeda2d8a5227a3a4432a8094ca6215a"
+  "tocSha256": "55d19851984f4cf7f01f0da95eac1b4de102a3bef3b5e53a0ad1b7c2c7b52a31"
 }

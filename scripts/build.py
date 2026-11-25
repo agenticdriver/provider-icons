@@ -12,8 +12,11 @@ ROOT = Path(__file__).resolve().parent.parent
 ET.register_namespace('', 'http://www.w3.org/2000/svg')
 TAGS = set('svg path title stop linearGradient defs g feBlend filter feFlood feGaussianBlur polygon radialGradient circle rect feColorMatrix clipPath feOffset feComposite ellipse mask line'.split())
 ATTRS = set('d fill width height viewBox stop-color fill-rule offset id clip-rule x2 x1 y2 y1 gradientUnits result fill-opacity cx cy x y r in2 transform stroke stop-opacity in stroke-width stroke-dasharray stroke-opacity filter color-interpolation-filters filterUnits flood-opacity stdDeviation gradientTransform points rx stroke-linecap values fx fy vector-effect stroke-linejoin clip-path k2 k3 operator ry maskUnits mask opacity shape-rendering'.split())
-ALIASES = {'chatgpt':'openai', 'openai-api':'openai', 'claude-code':'claudecode', 'gemini-cli':'gemini', 'opencodego':'opencode-go', 'kimi-k2':'kimi', 'jetbrains':'jetbrains-ai-assistant', 'xai-responses':'xai', '5dive':'fivedive'}
-GROUPS = [('openai', 'codex'), ('anthropic', 'claude', 'claudecode'), ('copilot', 'githubcopilot'), ('xai', 'grok'), ('opencode-go', 'opencode')]
+ALIASES = {'chatgpt':'openai', 'openai-api':'openai', 'claude-code':'claudecode', 'gemini-cli':'gemini', 'opencodego':'opencode-go', 'kimi-k2':'kimi', 'jetbrains':'jetbrains-ai-assistant', 'xai-responses':'xai', '5dive':'fivedive',
+           'claudeplatform':'claude', 'googledeveloper':'google', 'siliconflow':'siliconcloud', 'traecn':'trae'}
+GROUPS = [('openai', 'codex'), ('anthropic', 'claude', 'claudecode'), ('copilot', 'githubcopilot'), ('xai', 'grok'), ('opencode-go', 'opencode'),
+          ('google', 'gemini', 'geminicli', 'vertexai', 'googlecloud', 'aistudio', 'gemma', 'colab', 'notebooklm', 'deepmind'),
+          ('muse', 'meta', 'metaai'), ('qwen', 'qwencloud')]
 # Exact rendering declarations only; remove React's layout styles without losing
 # masks, intentional monochrome filters or colour blending in the original art.
 STYLES = {'mask-type': {'alpha', 'luminance'},
@@ -173,6 +176,12 @@ def outputs():
         repository = inspiration['repositories'][entry['repository']]
         discovery[id] = {'searchTerms': [entry['name']],
             'upstreamUrl': f'{repository["url"]}/blob/{repository["commit"]}/{entry["source"]["path"]}'}
+    for id, artworks in inspiration.get('artworks', {}).items():
+        for kind, entry in artworks.items():
+            verified_content(entry['source'])
+            if kind in upstream[id]['artworks']:
+                raise ValueError(f'Duplicate {kind} artwork for {id}; reconcile before importing')
+            upstream[id]['artworks'][kind] = {'color': f'{id}-{kind}-color.svg', 'monochrome': f'{id}-{kind}.svg'}
     extras = {file for entry in upstream.values()
               for artwork, styles in entry['artworks'].items() if artwork != 'icon'
               for file in styles.values()}

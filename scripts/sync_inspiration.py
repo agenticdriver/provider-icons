@@ -21,7 +21,7 @@ def monochrome(source, mode):
             if node.tag in {NS + 'mask', NS + 'clipPath', NS + 'defs'}:
                 return
             for attribute in ('fill', 'stroke'):
-                if node.get(attribute, '').lower() in {'black', 'white', '#000', '#000000', '#fff', '#ffffff'}:
+                if node.get(attribute, '').lower() in {'black', 'white', '#000', '#000000', '#111', '#111111', '#fff', '#ffffff'}:
                     node.set(attribute, 'currentColor')
             for child in node:
                 recolour(child)
@@ -60,6 +60,12 @@ def generate(snapshot):
         assets[f'{id}.svg'] = monochrome(source, entry['monochrome'])
         if entry['monochrome'] == 'luminance':
             assets[f'{id}-color.svg'] = source.encode()
+    # Alternative artwork for an existing mark, such as a full-colour brand version.
+    for id, artworks in snapshot.get('artworks', {}).items():
+        for kind, entry in artworks.items():
+            source = verified_content(entry['source'])
+            assets[f'{id}-{kind}.svg'] = monochrome(source, entry['monochrome'])
+            assets[f'{id}-{kind}-color.svg'] = source.encode()
     for data in assets.values():
         inline(data.decode())
     return assets
